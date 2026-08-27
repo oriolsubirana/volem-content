@@ -19,6 +19,8 @@ Si el manifest no responde, la app degrada sin ruido al seed embebido
 - `{id}-pack-v{N}.json` / `{id}-pack-{lang}-v{N}.json` — packs versionados
   e inmutables (una versión nueva = fichero nuevo, nunca se reescribe uno
   publicado: la caché del cliente ficha por nombre).
+- `privacy.html` — política de privacidad de la app (la URL de la
+  ficha de App Store apunta aquí).
 - `tools/validate_packs.py` — validador (estructura, respuestas, coherencia
   manifest↔packs y paridad semántica entre traducciones). Corre en CI en
   cada push y PR.
