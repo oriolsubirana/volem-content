@@ -1,0 +1,15 @@
+name: Valida el contenido
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    name: Packs y manifests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validador
+        run: python3 tools/validate_packs.py

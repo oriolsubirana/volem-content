@@ -1,0 +1,299 @@
+{
+  "destination": "Roma",
+  "country": "Italia",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 65,
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "GUÍA DE VUELO",
+      "title": "Roma",
+      "sub": "30 cards · ~65 min · listo antes de aterrizar",
+      "id": "rom-000"
+    },
+    {
+      "type": "story",
+      "kicker": "HISTORIA",
+      "title": "La ciudad que empezó con un fratricidio",
+      "body": "La leyenda fija la fecha exacta: 21 de abril del 753 a.C. Rómulo trazó el surco de la ciudad y mató a su gemelo Remo por saltárselo. Los romanos contaron los años desde ese día durante un milenio — «ab urbe condita», desde la fundación de la ciudad. Roma empieza con una advertencia: aquí las murallas van en serio.",
+      "review": false,
+      "id": "rom-001"
+    },
+    {
+      "type": "story",
+      "kicker": "NERÓN",
+      "title": "La casa más grande que ha tenido un emperador",
+      "body": "Tras el gran incendio del 64, Nerón se construyó la Domus Aurea: una villa de unas 50 hectáreas en pleno centro, con lago artificial propio y una estatua suya de 30 metros, el Coloso. Roma entera trabajando para la casa de un solo hombre. Recuerda ese lago y ese Coloso: los dos vuelven en esta guía.",
+      "review": false,
+      "id": "rom-002"
+    },
+    {
+      "type": "story",
+      "kicker": "COLISEO",
+      "title": "El día que el Coliseo fue un mar",
+      "body": "En sus primeros años, el Coliseo podía inundarse para celebrar naumaquias: batallas navales con barcos de verdad dentro del anfiteatro. Luego construyeron los sótanos (el hipogeo) y se acabó el mar. Cuando lo visites, ese laberinto de muros que ves en la arena era la tramoya subterránea: ascensores de fieras y trampillas.",
+      "review": false,
+      "id": "rom-003"
+    },
+    {
+      "type": "quiz",
+      "kicker": "QUIZ",
+      "question": "¿Cada cuánto moría realmente un gladiador en combate?",
+      "options": [
+        "Casi siempre: el público lo exigía",
+        "Pocas veces: eran carísimos",
+        "Solo cuando perdían dos veces seguidas"
+      ],
+      "answer": 1,
+      "explain": "Un gladiador era una inversión enorme: años de entrenamiento, comida y fama. La mayoría de combates acababan sin muerte, con médicos esperando en la puerta. Eran más estrellas del deporte que carne de cañón.",
+      "review": false,
+      "id": "rom-004"
+    },
+    {
+      "type": "story",
+      "kicker": "ARQUITECTURA",
+      "title": "El techo con un agujero a propósito",
+      "body": "El Panteón lleva 19 siglos en pie con la mayor cúpula de hormigón no armado del mundo — y un óculo de 9 metros abierto al cielo. Sí: llueve dentro. El suelo, ligeramente abombado, tiene desagües romanos originales que siguen funcionando. Entra cuando llueva si puedes: la columna de agua cayendo es el mejor espectáculo gratuito de Roma.",
+      "review": false,
+      "id": "rom-005"
+    },
+    {
+      "type": "slider",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántos años lleva la cúpula del Panteón siendo la mayor de hormigón no armado del mundo?",
+      "min": 200,
+      "max": 2500,
+      "answer": 1900,
+      "tolerance": 250,
+      "explain_correct": "Unos 1.900 años. Nadie ha vuelto a hacer algo igual sin acero dentro. La receta exacta del hormigón romano se estudia todavía hoy.",
+      "explain_wrong": "Unos 1.900 años sin que nadie la supere. El hormigón romano, con ceniza volcánica, se autorrepara las grietas — los ingenieros modernos siguen estudiándolo.",
+      "review": false,
+      "id": "rom-006"
+    },
+    {
+      "type": "myth",
+      "kicker": "MITO O REALIDAD",
+      "claim": "«Nerón tocó la lira mientras Roma ardía»",
+      "verdict": "MITO",
+      "body": "Cuando estalló el incendio del 64, Nerón estaba en Anzio, a 50 kilómetros. Volvió, abrió sus jardines a los refugiados y organizó la ayuda. La imagen del emperador cantando entre las llamas la escribieron historiadores que lo odiaban — y funcionó durante veinte siglos.",
+      "review": false,
+      "id": "rom-007"
+    },
+    {
+      "type": "story",
+      "kicker": "RAREZAS",
+      "title": "Los gatos que viven donde murió César",
+      "body": "En Largo di Torre Argentina, entre las ruinas donde apuñalaron a Julio César, vive una colonia de gatos con santuario propio y voluntarias que los cuidan. No es tolerancia: los gatos de Roma están protegidos por ley como «patrimonio biocultural». Pocos imperios caen con tanta elegancia.",
+      "review": false,
+      "id": "rom-008"
+    },
+    {
+      "type": "story",
+      "kicker": "GASTRONOMÍA",
+      "title": "La carbonara es más joven que tu abuela",
+      "body": "El plato más «eterno» de Roma aparece hacia 1944, probablemente del encuentro entre cocina romana y las raciones de los soldados americanos: huevos en polvo y bacon. La primera receta escrita es de los años 50 — y, escándalo, se publicó en Chicago. La tradición, a veces, tiene setenta años.",
+      "review": false,
+      "id": "rom-009"
+    },
+    {
+      "type": "myth",
+      "kicker": "MITO O REALIDAD",
+      "claim": "«La carbonara auténtica lleva nata»",
+      "verdict": "MITO",
+      "body": "Guanciale, huevo, pecorino y pimienta negra. Nada más. La cremosidad sale del huevo templado con la grasa del guanciale, no de la nata. Pedirla con nata en Roma no es un error gastronómico: es un incidente diplomático.",
+      "review": false,
+      "id": "rom-010"
+    },
+    {
+      "type": "tip",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "title": "El cappuccino tiene horario",
+      "body": "Para un italiano, la leche es desayuno: cappuccino después de mediodía marca al turista. Tras la comida, «un caffè» (espresso, sin apellidos). Y tómalo de pie en la barra: sentado en según qué plazas puede costar el triple. Nadie te dirá nada — pero todos se habrán dado cuenta.",
+      "review": true,
+      "id": "rom-011"
+    },
+    {
+      "type": "story",
+      "kicker": "CALLES",
+      "title": "Las siglas que firman las alcantarillas",
+      "body": "SPQR — Senatus PopulusQue Romanus, «el Senado y el Pueblo de Roma» — era la firma oficial de la República hace 2.500 años. Hoy sigue estampada en tapas de alcantarilla, autobuses, farolas y fuentes: el ayuntamiento nunca dejó de usarla. Roma es la única ciudad cuyo logo sobrevivió a su imperio.",
+      "review": false,
+      "id": "rom-012"
+    },
+    {
+      "type": "story",
+      "kicker": "AGUA",
+      "title": "Agua gratis de los Apeninos, cada 100 metros",
+      "body": "Los «nasoni» — narizotas, por su caño curvo — son más de 2.500 fuentes de hierro con agua fría y potable que corre sin parar, herencia directa de los acueductos. El truco local: tapa la salida del caño con el dedo y el agua saldrá en chorro hacia arriba por el agujerito superior, como una fuente para beber. Lleva botella y olvídate de pagar agua.",
+      "review": true,
+      "id": "rom-013"
+    },
+    {
+      "type": "quiz",
+      "kicker": "QUIZ",
+      "question": "¿Dónde hay hoy más obeliscos egipcios antiguos en pie?",
+      "options": [
+        "En Egipto",
+        "En Roma",
+        "En París"
+      ],
+      "answer": 1,
+      "explain": "Roma tiene 13 obeliscos egipcios antiguos, más que ningún otro lugar del mundo, Egipto incluido. Los emperadores los traían en barcos construidos a medida: el souvenir definitivo.",
+      "review": false,
+      "id": "rom-014"
+    },
+    {
+      "type": "story",
+      "kicker": "FONTANA",
+      "title": "El ritual tiene técnica (y las monedas, destino)",
+      "body": "En la Fontana di Trevi la moneda se lanza de espaldas, con la mano derecha por encima del hombro izquierdo: una moneda para volver a Roma, dos para encontrar amor, tres para casarte. Cada noche una cuadrilla municipal recoge la recaudación — y todo el dinero va a Cáritas para comedores sociales.",
+      "review": false,
+      "id": "rom-015"
+    },
+    {
+      "type": "slider",
+      "kicker": "ADIVINA",
+      "question": "¿Cuánto dinero en monedas se saca de la Fontana di Trevi cada año?",
+      "min": 100000,
+      "max": 3000000,
+      "answer": 1500000,
+      "tolerance": 300000,
+      "explain_correct": "Alrededor de 1,5 millones de euros al año, donados íntegramente a obras sociales. El deseo más rentable del mundo.",
+      "explain_wrong": "Alrededor de 1,5 millones de euros al año — todos donados a Cáritas. Robarlas es delito, y sí, lo han intentado con imanes.",
+      "review": false,
+      "id": "rom-016"
+    },
+    {
+      "type": "story",
+      "kicker": "CINE",
+      "title": "La boca que muerde a los mentirosos",
+      "body": "La Bocca della Verità debe su fama mundial a una escena improvisada: en «Vacaciones en Roma», Gregory Peck fingió que la boca le arrancaba la mano y el grito de Audrey Hepburn fue auténtico. La leyenda medieval dice que muerde la mano de quien miente. La cola para la foto es real; el peligro, depende de ti.",
+      "review": false,
+      "id": "rom-017"
+    },
+    {
+      "type": "quiz",
+      "kicker": "QUIZ",
+      "question": "¿Qué era originalmente la Bocca della Verità?",
+      "options": [
+        "Una tapa de desagüe romana",
+        "La máscara de un oráculo",
+        "Un escudo ceremonial etrusco"
+      ],
+      "answer": 0,
+      "explain": "Casi con seguridad una tapa de desagüe o de pozo del siglo I, con la cara de un dios fluvial. De registro de alcantarillado a estrella de Hollywood: muy Roma todo.",
+      "review": false,
+      "id": "rom-018"
+    },
+    {
+      "type": "story",
+      "kicker": "VATICANO",
+      "title": "El país entero que cabe en un parque",
+      "body": "El Vaticano mide 0,44 km² — cabría ocho veces en el Central Park — y tiene menos de mil habitantes. Aun así es un Estado completo: emite sellos y matrículas, tiene farmacia, supermercado y el único cajero automático del mundo con instrucciones en latín. La frontera la cruzas sin darte cuenta: es la línea blanca de la plaza de San Pedro.",
+      "review": false,
+      "id": "rom-019"
+    },
+    {
+      "type": "myth",
+      "kicker": "MITO O REALIDAD",
+      "claim": "«Miguel Ángel pintó la Capilla Sixtina tumbado»",
+      "verdict": "MITO",
+      "body": "La pintó de pie, sobre un andamio que diseñó él mismo, con la cabeza doblada hacia atrás durante cuatro años. Acabó tan destrozado que escribió un soneto quejándose: «me crece una papada de buitre... el pincel me gotea en la cara». El genio también se quejaba del trabajo.",
+      "review": false,
+      "id": "rom-020"
+    },
+    {
+      "type": "story",
+      "kicker": "VATICANO",
+      "title": "La obra que se comió a veinte papas",
+      "body": "La basílica de San Pedro tardó 120 años en construirse: veinte papas y una docena de arquitectos, Rafael y Miguel Ángel incluidos. Miguel Ángel aceptó diseñar la cúpula con 71 años, «por amor a Dios y sin sueldo», y murió sin verla terminada. Para financiar la obra se vendieron tantas indulgencias que provocaron, de paso, la Reforma protestante. Una obra que partió Europa en dos.",
+      "review": false,
+      "id": "rom-021"
+    },
+    {
+      "type": "story",
+      "kicker": "HISTORIA",
+      "title": "El monumento que Roma llama «la máquina de escribir»",
+      "body": "El Vittoriano, ese coloso blanco de Piazza Venezia, es demasiado grande, demasiado blanco y demasiado nuevo para el gusto romano: lo apodan la máquina de escribir, la tarta nupcial o la dentadura postiza. Para construirlo demolieron un barrio medieval entero. Sube igualmente: la terraza tiene la mejor vista de los Foros.",
+      "review": false,
+      "id": "rom-022"
+    },
+    {
+      "type": "tip",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "title": "El pan se cobra y el agua se pide con apellido",
+      "body": "En Italia el «coperto» (pan y cubierto, 1-3€ por persona) es legal y aparece en la cuenta: no es un timo, es la norma. Y si pides agua te traerán botella salvo que digas «acqua del rubinetto» — del grifo. La propina no es obligatoria: redondear ya es un gesto.",
+      "review": false,
+      "id": "rom-023"
+    },
+    {
+      "type": "story",
+      "kicker": "CALLES",
+      "title": "Los adoquines con nombre de santo",
+      "body": "Los «sampietrini» — piedrecitas de San Pedro — son los adoquines de basalto volcánico que pavimentan el centro desde el siglo XVI, colocados a mano uno a uno. Con lluvia resbalan traicioneramente (los romanos lo saben; los turistas lo aprenden). La ciudad los está retirando de las calles con tráfico para salvarlos en las peatonales.",
+      "review": false,
+      "id": "rom-024"
+    },
+    {
+      "type": "story",
+      "kicker": "IMPERIO",
+      "title": "El kilómetro cero de todos los caminos",
+      "body": "«Todos los caminos llevan a Roma» era literal: en el Foro se alzaba el Miliarium Aureum, la columna dorada donde empezaban a contarse las distancias de las 29 calzadas del imperio — unos 80.000 km de vías principales. Cuando pises el Foro, estás en el punto cero del mundo antiguo.",
+      "review": false,
+      "id": "rom-025"
+    },
+    {
+      "type": "story",
+      "kicker": "RAREZAS",
+      "title": "El cañonazo que pone en hora a Roma",
+      "body": "Cada día a las 12:00 en punto, un cañón dispara una salva desde la colina del Gianicolo. Lo instauró el papa Pío IX en 1847 para que todas las iglesias tocaran las campanas a la vez — cada campanario iba a su aire. El reloj más ruidoso del mundo lleva más de 175 años sin fallar (casi): lo oirás si estás en Trastevere a mediodía.",
+      "review": false,
+      "id": "rom-026"
+    },
+    {
+      "type": "story",
+      "kicker": "HISTORIA",
+      "title": "La primera autopista de la historia",
+      "body": "La Via Appia (312 a.C.) unía Roma con el sur en línea recta implacable: la llamaban «regina viarum», la reina de los caminos. Aún puedes caminar sobre sus losas originales a las afueras, entre pinos y mausoleos. Y debajo del paisaje, kilómetros de catacumbas: la Roma subterránea es casi tan grande como la de arriba.",
+      "review": false,
+      "id": "rom-027"
+    },
+    {
+      "type": "story",
+      "kicker": "RAREZAS",
+      "title": "La cúpula que no existe",
+      "body": "A la iglesia de Sant'Ignazio se le acabó el dinero antes de construir la cúpula. ¿Solución barroca? Pintarla: el trampantojo de Andrea Pozzo (1685) engaña perfectamente desde el disco de mármol marcado en el suelo. Da dos pasos hacia un lado y la cúpula se deforma y confiesa. Gratis, y casi sin colas.",
+      "review": false,
+      "id": "rom-028"
+    },
+    {
+      "type": "quiz",
+      "kicker": "ÚLTIMO QUIZ",
+      "question": "Cierre circular: ¿de dónde viene, casi seguro, el nombre del Coliseo?",
+      "options": [
+        "De su tamaño colosal",
+        "Del Coloso de Nerón que tenía al lado",
+        "Del latín «collis», colina"
+      ],
+      "answer": 1,
+      "explain": "El Coloso — la estatua de 30 metros de Nerón que viste al despegar — siguió en pie junto al anfiteatro siglos después de demoler su palacio. El edificio heredó el nombre del vecino. El tirano perdió la casa, el lago y la fama; su estatua bautizó el monumento más famoso del mundo.",
+      "review": false,
+      "id": "rom-029"
+    },
+    {
+      "type": "story",
+      "kicker": "LEYENDA",
+      "title": "La ciudad eterna no exagera",
+      "body": "Roma lleva 28 siglos habitada sin interrupción: ha sido reino, república, imperio, ruina, capital papal y capital de Italia — y en cada capa reutilizó las piedras de la anterior. Llevas 30 cards viendo a una ciudad que convierte alcantarillas en leyendas, incendios en mitos y hasta a sus gatos en patrimonio. Bienvenido a la única ciudad que nunca terminó. Ya aterrizas.",
+      "review": false,
+      "id": "rom-030"
+    },
+    {
+      "type": "final",
+      "id": "rom-031"
+    }
+  ],
+  "schemaVersion": 2,
+  "destinationID": "rom"
+}

@@ -1,0 +1,90 @@
+{
+  "updatedAt": "2026-07-13T12:00:00Z",
+  "destinations": [
+    {
+      "id": "lis",
+      "name": "Lisboa",
+      "country": "Portugal",
+      "latitude": 38.7223,
+      "longitude": -9.1393,
+      "iataCodes": [
+        "LIS"
+      ],
+      "packVersion": 2,
+      "packURL": null,
+      "packSizeBytes": 16475,
+      "cardCount": 36,
+      "estimatedMinutes": 75,
+      "productID": null
+    },
+    {
+      "id": "rom",
+      "name": "Roma",
+      "country": "Italia",
+      "latitude": 41.9028,
+      "longitude": 12.4964,
+      "iataCodes": [
+        "FCO",
+        "CIA"
+      ],
+      "packVersion": 1,
+      "packURL": null,
+      "packSizeBytes": 16089,
+      "cardCount": 32,
+      "estimatedMinutes": 65,
+      "productID": "cat.subi.volem.pack.rom"
+    },
+    {
+      "id": "par",
+      "name": "París",
+      "country": "Francia",
+      "latitude": 48.8566,
+      "longitude": 2.3522,
+      "iataCodes": [
+        "CDG",
+        "ORY"
+      ],
+      "packVersion": 0,
+      "packURL": null,
+      "packSizeBytes": 0,
+      "cardCount": 0,
+      "estimatedMinutes": 0,
+      "productID": null
+    },
+    {
+      "id": "tyo",
+      "name": "Tokio",
+      "country": "Japón",
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "iataCodes": [
+        "HND",
+        "NRT"
+      ],
+      "packVersion": 0,
+      "packURL": null,
+      "packSizeBytes": 0,
+      "cardCount": 0,
+      "estimatedMinutes": 0,
+      "productID": null
+    },
+    {
+      "id": "nyc",
+      "name": "Nueva York",
+      "country": "Estados Unidos",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "iataCodes": [
+        "JFK",
+        "EWR",
+        "LGA"
+      ],
+      "packVersion": 0,
+      "packURL": null,
+      "packSizeBytes": 0,
+      "cardCount": 0,
+      "estimatedMinutes": 0,
+      "productID": null
+    }
+  ]
+}

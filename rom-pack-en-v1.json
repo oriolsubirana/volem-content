@@ -1,0 +1,299 @@
+{
+  "destination": "Rome",
+  "country": "Italy",
+  "language": "en",
+  "version": 1,
+  "estimated_minutes": 65,
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "FLIGHT GUIDE",
+      "title": "Rome",
+      "sub": "30 cards · ~65 min · done before you land",
+      "id": "rom-000"
+    },
+    {
+      "type": "story",
+      "kicker": "HISTORY",
+      "title": "The city that began with a fratricide",
+      "body": "Legend fixes the exact date: April 21st, 753 BC. Romulus traced the city's boundary furrow and killed his twin Remus for jumping over it. The Romans counted their years from that day for a millennium — «ab urbe condita», from the founding of the city. Rome opens with a warning: walls are taken seriously here.",
+      "review": false,
+      "id": "rom-001"
+    },
+    {
+      "type": "story",
+      "kicker": "NERO",
+      "title": "The biggest house an emperor ever had",
+      "body": "After the great fire of 64 AD, Nero built himself the Domus Aurea: a villa of some 50 hectares in the city centre, with its own artificial lake and a 30-metre statue of himself, the Colossus. All of Rome working for one man's house. Remember that lake and that Colossus: both come back in this guide.",
+      "review": false,
+      "id": "rom-002"
+    },
+    {
+      "type": "story",
+      "kicker": "COLOSSEUM",
+      "title": "The day the Colosseum was a sea",
+      "body": "In its early years, the Colosseum could be flooded to stage naumachiae: naval battles with real ships inside the amphitheatre. Then they built the basements (the hypogeum) and the sea was gone. When you visit, that maze of walls you see in the arena was the underground stage machinery: animal lifts and trapdoors.",
+      "review": false,
+      "id": "rom-003"
+    },
+    {
+      "type": "quiz",
+      "kicker": "QUIZ",
+      "question": "How often did a gladiator actually die in combat?",
+      "options": [
+        "Almost always: the crowd demanded it",
+        "Rarely: they were far too expensive",
+        "Only after losing twice in a row"
+      ],
+      "answer": 1,
+      "explain": "A gladiator was a huge investment: years of training, food and fame. Most fights ended without a death, with doctors waiting at the gate. They were more sports stars than cannon fodder.",
+      "review": false,
+      "id": "rom-004"
+    },
+    {
+      "type": "story",
+      "kicker": "ARCHITECTURE",
+      "title": "The roof with a hole on purpose",
+      "body": "The Pantheon has stood for 19 centuries with the world's largest unreinforced concrete dome — and a 9-metre oculus open to the sky. Yes: it rains inside. The floor, slightly convex, has original Roman drains that still work. Go in when it rains if you can: the column of falling water is Rome's best free show.",
+      "review": false,
+      "id": "rom-005"
+    },
+    {
+      "type": "slider",
+      "kicker": "GUESS",
+      "question": "How many years has the Pantheon's dome been the world's largest in unreinforced concrete?",
+      "min": 200,
+      "max": 2500,
+      "answer": 1900,
+      "tolerance": 250,
+      "explain_correct": "About 1,900 years. Nobody has done it again without steel inside. The exact recipe of Roman concrete is still being studied today.",
+      "explain_wrong": "About 1,900 years, and nobody has beaten it. Roman concrete, made with volcanic ash, self-heals its cracks — modern engineers are still studying it.",
+      "review": false,
+      "id": "rom-006"
+    },
+    {
+      "type": "myth",
+      "kicker": "MYTH OR REALITY",
+      "claim": "«Nero played the lyre while Rome burned»",
+      "verdict": "MITO",
+      "body": "When the fire of 64 broke out, Nero was in Antium, 50 kilometres away. He came back, opened his gardens to the refugees and organised the relief. The image of the emperor singing among the flames was written by historians who hated him — and it worked for twenty centuries.",
+      "review": false,
+      "id": "rom-007"
+    },
+    {
+      "type": "story",
+      "kicker": "ODDITIES",
+      "title": "The cats that live where Caesar died",
+      "body": "In Largo di Torre Argentina, among the ruins where Julius Caesar was stabbed, lives a cat colony with its own sanctuary and volunteers who care for them. It's not mere tolerance: Rome's cats are protected by law as «bio-cultural heritage». Few empires fall with such elegance.",
+      "review": false,
+      "id": "rom-008"
+    },
+    {
+      "type": "story",
+      "kicker": "FOOD",
+      "title": "Carbonara is younger than your grandmother",
+      "body": "Rome's most «eternal» dish appears around 1944, probably from the meeting of Roman cooking and American army rations: powdered eggs and bacon. The first written recipe dates from the 1950s — and, scandalously, it was published in Chicago. Tradition, sometimes, is seventy years old.",
+      "review": false,
+      "id": "rom-009"
+    },
+    {
+      "type": "myth",
+      "kicker": "MYTH OR REALITY",
+      "claim": "«Authentic carbonara has cream in it»",
+      "verdict": "MITO",
+      "body": "Guanciale, egg, pecorino and black pepper. Nothing else. The creaminess comes from the egg tempered with the guanciale fat, not from cream. Ordering it with cream in Rome isn't a culinary mistake: it's a diplomatic incident.",
+      "review": false,
+      "id": "rom-010"
+    },
+    {
+      "type": "tip",
+      "kicker": "WHAT LOCALS KNOW",
+      "title": "Cappuccino has a schedule",
+      "body": "For an Italian, milk is breakfast: a cappuccino after midday marks you as a tourist. After lunch, «un caffè» (espresso, no surnames). And drink it standing at the bar: sitting down in certain squares can cost triple. Nobody will say anything — but everyone will have noticed.",
+      "review": true,
+      "id": "rom-011"
+    },
+    {
+      "type": "story",
+      "kicker": "STREETS",
+      "title": "The initials that sign the manholes",
+      "body": "SPQR — Senatus PopulusQue Romanus, «the Senate and the People of Rome» — was the Republic's official signature 2,500 years ago. Today it's still stamped on manhole covers, buses, lampposts and fountains: the city council never stopped using it. Rome is the only city whose logo outlived its empire.",
+      "review": false,
+      "id": "rom-012"
+    },
+    {
+      "type": "story",
+      "kicker": "WATER",
+      "title": "Free Apennine water every 100 metres",
+      "body": "The «nasoni» — big noses, after their curved spouts — are more than 2,500 iron fountains running non-stop with cold, drinkable water, a direct inheritance from the aqueducts. The local trick: block the end of the spout with your finger and the water shoots up through the little top hole, like a drinking fountain. Bring a bottle and forget about paying for water.",
+      "review": true,
+      "id": "rom-013"
+    },
+    {
+      "type": "quiz",
+      "kicker": "QUIZ",
+      "question": "Where are there more ancient Egyptian obelisks standing today?",
+      "options": [
+        "In Egypt",
+        "In Rome",
+        "In Paris"
+      ],
+      "answer": 1,
+      "explain": "Rome has 13 ancient Egyptian obelisks, more than anywhere else in the world, Egypt included. The emperors shipped them over in purpose-built boats: the ultimate souvenir.",
+      "review": false,
+      "id": "rom-014"
+    },
+    {
+      "type": "story",
+      "kicker": "FOUNTAIN",
+      "title": "The ritual has technique (and the coins, a destination)",
+      "body": "At the Trevi Fountain you throw the coin with your back turned, right hand over your left shoulder: one coin to return to Rome, two to find love, three to get married. Every night a municipal crew collects the haul — and all the money goes to Caritas soup kitchens.",
+      "review": false,
+      "id": "rom-015"
+    },
+    {
+      "type": "slider",
+      "kicker": "GUESS",
+      "question": "How much money in coins is pulled out of the Trevi Fountain every year?",
+      "min": 100000,
+      "max": 3000000,
+      "answer": 1500000,
+      "tolerance": 300000,
+      "explain_correct": "Around 1.5 million euros a year, donated in full to social causes. The most profitable wish in the world.",
+      "explain_wrong": "Around 1.5 million euros a year — all donated to Caritas. Stealing them is a crime, and yes, people have tried with magnets.",
+      "review": false,
+      "id": "rom-016"
+    },
+    {
+      "type": "story",
+      "kicker": "CINEMA",
+      "title": "The mouth that bites liars",
+      "body": "The Bocca della Verità owes its world fame to an improvised scene: in «Roman Holiday», Gregory Peck pretended the mouth had bitten his hand off, and Audrey Hepburn's scream was real. The medieval legend says it bites the hand of anyone who lies. The queue for the photo is real; the danger depends on you.",
+      "review": false,
+      "id": "rom-017"
+    },
+    {
+      "type": "quiz",
+      "kicker": "QUIZ",
+      "question": "What was the Bocca della Verità originally?",
+      "options": [
+        "A Roman drain cover",
+        "An oracle's mask",
+        "An Etruscan ceremonial shield"
+      ],
+      "answer": 0,
+      "explain": "Almost certainly a 1st-century drain or well cover, bearing the face of a river god. From sewer fitting to Hollywood star: very Rome, all of it.",
+      "review": false,
+      "id": "rom-018"
+    },
+    {
+      "type": "story",
+      "kicker": "VATICAN",
+      "title": "The whole country that fits in a park",
+      "body": "The Vatican measures 0.44 km² — it would fit eight times inside Central Park — and has fewer than a thousand inhabitants. Yet it's a complete state: it issues stamps and licence plates, has a pharmacy, a supermarket and the world's only cash machine with instructions in Latin. You cross the border without noticing: it's the white line around St. Peter's Square.",
+      "review": false,
+      "id": "rom-019"
+    },
+    {
+      "type": "myth",
+      "kicker": "MYTH OR REALITY",
+      "claim": "«Michelangelo painted the Sistine Chapel lying down»",
+      "verdict": "MITO",
+      "body": "He painted it standing, on scaffolding he designed himself, head bent back for four years. He ended up so wrecked he wrote a sonnet complaining: «I'm growing a goitre like a buzzard's... the brush drips onto my face». Even genius complains about work.",
+      "review": false,
+      "id": "rom-020"
+    },
+    {
+      "type": "story",
+      "kicker": "VATICAN",
+      "title": "The construction site that swallowed twenty popes",
+      "body": "St. Peter's Basilica took 120 years to build: twenty popes and a dozen architects, Raphael and Michelangelo included. Michelangelo agreed to design the dome at 71, «for the love of God and without pay», and died without seeing it finished. To fund the works, so many indulgences were sold that they helped spark the Protestant Reformation. A building that split Europe in two.",
+      "review": false,
+      "id": "rom-021"
+    },
+    {
+      "type": "story",
+      "kicker": "HISTORY",
+      "title": "The monument Rome calls «the typewriter»",
+      "body": "The Vittoriano, that white colossus on Piazza Venezia, is too big, too white and too new for Roman taste: they nickname it the typewriter, the wedding cake or the false teeth. A whole medieval neighbourhood was demolished to build it. Go up anyway: the terrace has the best view of the Forums.",
+      "review": false,
+      "id": "rom-022"
+    },
+    {
+      "type": "tip",
+      "kicker": "WHAT LOCALS KNOW",
+      "title": "Bread is charged, and water needs a surname",
+      "body": "In Italy the «coperto» (bread and cover charge, 1-3€ per person) is legal and shows up on the bill: it's not a scam, it's the norm. And if you order water you'll get a bottle unless you say «acqua del rubinetto» — tap water. Tipping isn't compulsory: rounding up is already a gesture.",
+      "review": false,
+      "id": "rom-023"
+    },
+    {
+      "type": "story",
+      "kicker": "STREETS",
+      "title": "The cobblestones named after a saint",
+      "body": "The «sampietrini» — little stones of St. Peter — are the basalt cobbles that have paved the centre since the 16th century, laid by hand one by one. In the rain they're treacherously slippery (Romans know it; tourists learn it). The city is removing them from trafficked streets to save them for the pedestrian ones.",
+      "review": false,
+      "id": "rom-024"
+    },
+    {
+      "type": "story",
+      "kicker": "EMPIRE",
+      "title": "Kilometre zero of every road",
+      "body": "«All roads lead to Rome» was literal: in the Forum stood the Miliarium Aureum, the golden column where the distances of the empire's 29 highways began to be counted — some 80,000 km of main roads. When you step into the Forum, you're standing at kilometre zero of the ancient world.",
+      "review": false,
+      "id": "rom-025"
+    },
+    {
+      "type": "story",
+      "kicker": "ODDITIES",
+      "title": "The cannon shot that sets Rome's clocks",
+      "body": "Every day at 12:00 sharp, a cannon fires a salvo from the Janiculum hill. Pope Pius IX established it in 1847 so all the churches would ring their bells at the same time — every bell tower had been doing its own thing. The world's loudest clock has been going for over 175 years (almost) without fail: you'll hear it if you're in Trastevere at noon.",
+      "review": false,
+      "id": "rom-026"
+    },
+    {
+      "type": "story",
+      "kicker": "HISTORY",
+      "title": "The first motorway in history",
+      "body": "The Via Appia (312 BC) linked Rome to the south in a relentless straight line: they called it «regina viarum», the queen of roads. You can still walk on its original slabs on the outskirts, among pine trees and mausoleums. And under the landscape, kilometres of catacombs: underground Rome is almost as big as the one above.",
+      "review": false,
+      "id": "rom-027"
+    },
+    {
+      "type": "story",
+      "kicker": "ODDITIES",
+      "title": "The dome that doesn't exist",
+      "body": "The church of Sant'Ignazio ran out of money before building its dome. The Baroque solution? Paint it: Andrea Pozzo's trompe-l'oeil (1685) fools you perfectly from the marble disc marked on the floor. Take two steps to the side and the dome warps and confesses. Free, and almost no queues.",
+      "review": false,
+      "id": "rom-028"
+    },
+    {
+      "type": "quiz",
+      "kicker": "FINAL QUIZ",
+      "question": "Full circle: where does the name «Colosseum» almost certainly come from?",
+      "options": [
+        "From its colossal size",
+        "From Nero's Colossus standing next to it",
+        "From the Latin «collis», hill"
+      ],
+      "answer": 1,
+      "explain": "The Colossus — Nero's 30-metre statue you saw at take-off — kept standing next to the amphitheatre for centuries after his palace was demolished. The building inherited its neighbour's name. The tyrant lost the house, the lake and his reputation; his statue named the most famous monument in the world.",
+      "review": false,
+      "id": "rom-029"
+    },
+    {
+      "type": "story",
+      "kicker": "LEGEND",
+      "title": "The eternal city isn't exaggerating",
+      "body": "Rome has been continuously inhabited for 28 centuries: it has been a kingdom, a republic, an empire, a ruin, a papal capital and the capital of Italy — and each layer reused the stones of the one before. You've spent 30 cards watching a city that turns manholes into legends, fires into myths and even its cats into heritage. Welcome to the only city that never finished. You're landing now.",
+      "review": false,
+      "id": "rom-030"
+    },
+    {
+      "type": "final",
+      "id": "rom-031"
+    }
+  ],
+  "schemaVersion": 2,
+  "destinationID": "rom"
+}
