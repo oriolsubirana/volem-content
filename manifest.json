@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T12:00:00Z",
+  "updatedAt": "2026-08-28T12:46:05Z",
   "destinations": [
     {
       "id": "lis",
@@ -11,7 +11,7 @@
         "LIS"
       ],
       "packVersion": 2,
-      "packURL": null,
+      "packURL": "https://oriolsubirana.github.io/volem-content/lis-pack-v2.json",
       "packSizeBytes": 16475,
       "cardCount": 36,
       "estimatedMinutes": 75,

@@ -1,0 +1,331 @@
+{
+  "destination": "Lisboa",
+  "country": "Portugal",
+  "language": "es",
+  "version": 2,
+  "estimated_minutes": 75,
+  "cards": [
+    {
+      "type": "cover",
+      "kicker": "GUÍA DE VUELO",
+      "title": "Lisboa",
+      "sub": "34 cards · ~75 min · listo antes de aterrizar",
+      "id": "lis-000"
+    },
+    {
+      "type": "story",
+      "kicker": "HISTORIA",
+      "title": "El día que Lisboa desapareció",
+      "body": "El 1 de noviembre de 1755, terremoto, tsunami e incendio destruyeron Lisboa en un solo día. Era el Día de Todos los Santos: las iglesias estaban llenas, y las miles de velas encendidas por los difuntos alimentaron los fuegos que remataron lo que el mar no se llevó.",
+      "review": false,
+      "id": "lis-001"
+    },
+    {
+      "type": "story",
+      "kicker": "HISTORIA",
+      "title": "El terremoto que rompió la filosofía",
+      "body": "El desastre sacudió a toda Europa: ¿cómo podía un Dios justo destruir una ciudad el día de sus santos? Voltaire escribió Cándido como respuesta, demoliendo la idea de que vivimos en «el mejor de los mundos posibles». Lisboa cambió la forma de pensar de un continente.",
+      "review": false,
+      "id": "lis-002"
+    },
+    {
+      "type": "story",
+      "kicker": "RAREZAS",
+      "title": "El rinoceronte que engañó a Durero",
+      "body": "En 1515 llegó a Lisboa Ganda, el primer rinoceronte visto en Europa en mil años. Durero hizo su famosísimo grabado sin haberlo visto jamás, solo por descripciones — y aun así definió cómo Europa imaginó al animal durante siglos. El rey decidió entonces enviárselo de regalo al Papa...",
+      "review": false,
+      "id": "lis-003"
+    },
+    {
+      "type": "quiz",
+      "kicker": "QUIZ",
+      "question": "¿Cómo acabó Ganda, el rinoceronte camino de Roma?",
+      "options": [
+        "Vivió 20 años en los jardines del Vaticano",
+        "Se ahogó en un naufragio",
+        "Se escapó en Marsella"
+      ],
+      "answer": 1,
+      "explain": "El barco naufragó frente a la costa italiana y Ganda, encadenado a cubierta, no pudo nadar. Aún puedes ver su retrato esculpido en piedra en la Torre de Belém.",
+      "review": false,
+      "id": "lis-004"
+    },
+    {
+      "type": "story",
+      "kicker": "ARQUITECTURA",
+      "title": "La jaula que salvó a la Baixa",
+      "body": "Tras el terremoto, el Marqués de Pombal reconstruyó el centro con la «gaiola pombalina»: una jaula de madera flexible dentro de los muros, una de las primeras normas antisísmicas del mundo. Alfama, en cambio, sobrevivió por sí sola: está sobre roca firme, y por eso conserva su laberinto medieval.",
+      "review": false,
+      "id": "lis-005"
+    },
+    {
+      "type": "story",
+      "kicker": "CRIMEN",
+      "title": "La cabeza en el frasco",
+      "body": "Diogo Alves lanzaba a sus víctimas desde los 65 metros del acueducto, haciéndolas pasar por suicidios. Fue de los últimos ejecutados de Portugal — y la frenología de 1841 quiso estudiar su «cerebro criminal»: su cabeza sigue hoy en un frasco de formol en la Facultad de Medicina de Lisboa.",
+      "review": false,
+      "id": "lis-006"
+    },
+    {
+      "type": "myth",
+      "kicker": "MITO O REALIDAD",
+      "claim": "«El Elevador de Santa Justa lo diseñó un discípulo de Eiffel»",
+      "verdict": "MITO",
+      "body": "Lo repiten todas las guías, pero la conexión entre Raoul Mesnier du Ponsard y Eiffel no está documentada: los historiadores la consideran leyenda comercial. El ascensor de hierro neogótico es impresionante igual — y funcionó a vapor hasta 1907.",
+      "review": false,
+      "id": "lis-007"
+    },
+    {
+      "type": "story",
+      "kicker": "GASTRONOMÍA",
+      "title": "La receta que guardan bajo llave",
+      "body": "Los Pastéis de Belém se hacen desde 1837 con una receta secreta heredada de los monjes de los Jerónimos. Solo unos pocos maestros la conocen y la masa se prepara en una sala cerrada: la Oficina do Segredo. Por eso el resto del país solo puede llamarlos «pastéis de nata» — el nombre está registrado.",
+      "review": false,
+      "id": "lis-008"
+    },
+    {
+      "type": "tip",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "title": "El pan de la mesa no es gratis",
+      "body": "El couvert — pan, aceitunas, queso que llegan sin pedirlos — se cobra si lo tocas. Rechazarlo es perfectamente normal y nadie se ofende. Y la cuenta se pide con palabras, no con gestos: «a conta, por favor».",
+      "review": false,
+      "id": "lis-009"
+    },
+    {
+      "type": "story",
+      "kicker": "LITERATURA",
+      "title": "El hombre que fue muchos",
+      "body": "Fernando Pessoa no usaba seudónimos: creaba heterónimos, personalidades completas con biografía, estilo propio y hasta carta astral. Publicó poquísimo en vida. A su muerte apareció un baúl lleno de manuscritos que los editores todavía siguen ordenando, casi un siglo después.",
+      "review": false,
+      "id": "lis-010"
+    },
+    {
+      "type": "slider",
+      "kicker": "ADIVINA",
+      "question": "El Panteón Nacional se empezó en 1682. ¿Cuántos años tardó en terminarse?",
+      "min": 20,
+      "max": 400,
+      "answer": 284,
+      "tolerance": 40,
+      "explain_correct": "284 años: se inauguró en 1966. Por eso «obras de Santa Engrácia» es la expresión portuguesa para algo que no se acaba nunca.",
+      "explain_wrong": "284 años — hasta 1966. De ahí la expresión «obras de Santa Engrácia»: algo que no se acaba nunca.",
+      "review": false,
+      "id": "lis-011"
+    },
+    {
+      "type": "story",
+      "kicker": "FADO",
+      "title": "Nació en el barrio equivocado",
+      "body": "El fado, hoy Patrimonio de la UNESCO, nació en el siglo XIX en la Mouraria, entre tabernas y burdeles. Su primera estrella, A Severa, fue una prostituta cuya voz enamoró a un conde — el escándalo de la época. Su calle todavía se visita.",
+      "review": true,
+      "id": "lis-012"
+    },
+    {
+      "type": "story",
+      "kicker": "LENGUA",
+      "title": "La palabra que no se puede traducir",
+      "body": "«Saudade» no es tristeza ni nostalgia: es añorar algo o a alguien que quizá nunca tuviste. No existe traducción exacta en ningún idioma, y los portugueses lo consideran casi una seña de identidad nacional. Cuando la sientas en Lisboa, ya sabrás cómo se llama.",
+      "review": false,
+      "id": "lis-013"
+    },
+    {
+      "type": "quiz",
+      "kicker": "QUIZ",
+      "question": "Si pides una «bica» en un café de Lisboa, ¿qué te traen?",
+      "options": [
+        "Un espresso",
+        "Una cerveza pequeña",
+        "La cuenta"
+      ],
+      "answer": 0,
+      "explain": "Bica es el espresso lisboeta — en Oporto lo llaman «cimbalino». La leyenda dice que viene de «Beba Isto Com Açúcar», pero los filólogos no se lo creen.",
+      "review": false,
+      "id": "lis-014"
+    },
+    {
+      "type": "story",
+      "kicker": "GASTRONOMÍA",
+      "title": "¿Con ellas o sin ellas?",
+      "body": "La ginjinha es el licor de guinda que los lisboetas toman de pie, en chupito, a cualquier hora decente. Se pide «com elas ou sem elas»: con o sin guindas dentro del vaso. El bar A Ginjinha, junto al Rossio, lleva sirviéndola desde alrededor de 1840 en un local del tamaño de un armario.",
+      "review": false,
+      "id": "lis-015"
+    },
+    {
+      "type": "myth",
+      "kicker": "MITO O REALIDAD",
+      "claim": "«El fado es siempre triste»",
+      "verdict": "MITO",
+      "body": "Existe el fado corrido: rápido, casi festivo, hecho para celebrar. La melancolía es solo una de sus caras — el malentendido es sobre todo extranjero. Eso sí: en una casa de fado se guarda silencio absoluto mientras se canta. Es la regla número uno.",
+      "review": false,
+      "id": "lis-016"
+    },
+    {
+      "type": "story",
+      "kicker": "FADO",
+      "title": "Tres días de luto por una voz",
+      "body": "Cuando Amália Rodrigues murió en 1999, Portugal decretó tres días de luto nacional — por una cantante. En 2001 se convirtió en la primera mujer enterrada en el Panteón Nacional, ese edificio que tardó 284 años en construirse. Su voz sigue siendo la banda sonora oficial del país.",
+      "review": false,
+      "id": "lis-017"
+    },
+    {
+      "type": "story",
+      "kicker": "FÚTBOL",
+      "title": "Un delantero entre reyes",
+      "body": "En el Panteón Nacional, entre presidentes, escritores y la propia Amália, descansa desde 2015 Eusébio, la Pantera Negra del Benfica. Un futbolista con honores de jefe de Estado: en pocos países se entiende mejor lo que el fútbol significa aquí.",
+      "review": false,
+      "id": "lis-018"
+    },
+    {
+      "type": "tip",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "title": "Portugal vive en otra hora",
+      "body": "Si vienes de España: atrasa el reloj. Portugal va una hora por detrás, con la hora de Londres — fue España la que adoptó la hora de Berlín en tiempos de Franco y nunca volvió. Los restaurantes también van «antes»: aquí se cena a las ocho sin que nadie te mire raro.",
+      "review": false,
+      "id": "lis-019"
+    },
+    {
+      "type": "story",
+      "kicker": "CALLES",
+      "title": "El suelo también es artesanía",
+      "body": "La calçada portuguesa — ese adoquín blanco y negro en olas y estrellas — se coloca a mano, piedra a piedra, por los calceteiros: un oficio en extinción con escuela municipal propia. Consejo incluido: mojada resbala de verdad. Los lisboetas evitan ciertas cuestas los días de lluvia.",
+      "review": false,
+      "id": "lis-020"
+    },
+    {
+      "type": "story",
+      "kicker": "ARQUITECTURA",
+      "title": "La torre que estaba en el mar",
+      "body": "La Torre de Belém no siempre estuvo pegada a la orilla: se construyó sobre un islote, rodeada de agua, vigilando la entrada del Tajo. El terremoto y los siglos desplazaron el cauce hasta dejarla donde hoy la ves. En su fachada, busca el rinoceronte: es Ganda, esculpido en piedra.",
+      "review": false,
+      "id": "lis-021"
+    },
+    {
+      "type": "story",
+      "kicker": "CALLES",
+      "title": "El funicular que nadie conoce",
+      "body": "Todo el mundo hace cola en los elevadores de Glória y Bica, pero el más antiguo es el Lavra (1884) — y casi nadie lo conoce. Mismo encanto, cero colas. Los tres siguen trepando cuestas imposibles igual que hace más de un siglo.",
+      "review": false,
+      "id": "lis-022"
+    },
+    {
+      "type": "quiz",
+      "kicker": "QUIZ",
+      "question": "El Tranvía 28 usa vagones de los años 30. ¿Por qué no los modernizan?",
+      "options": [
+        "Por atraer turistas",
+        "Los modernos no caben en las curvas",
+        "Lo prohíbe la UNESCO"
+      ],
+      "answer": 1,
+      "explain": "Las pendientes y curvas cerradas de Alfama y Graça son demasiado estrechas para tranvías modernos. Los «Remodelado» de los años 30 son los únicos que pasan. La necesidad se convirtió en icono.",
+      "review": false,
+      "id": "lis-023"
+    },
+    {
+      "type": "story",
+      "kicker": "HISTORIA",
+      "title": "La camarera que dio nombre a una revolución",
+      "body": "El 25 de abril de 1974, la dictadura cayó en un golpe coordinado por radio con dos canciones como señal. Los claveles en los fusiles no fueron un plan: Celeste Caeiro, camarera de un restaurante, repartió entre los soldados las flores que llevaba encima. Así se bautizó la Revolución de los Claveles.",
+      "review": false,
+      "id": "lis-024"
+    },
+    {
+      "type": "myth",
+      "kicker": "MITO O REALIDAD",
+      "claim": "«El Puente 25 de Abril lo construyó la empresa del Golden Gate»",
+      "verdict": "MITO",
+      "body": "Lo construyó la American Bridge Company — la del Bay Bridge de San Francisco, al que de hecho se parece más. Y hasta 1974 se llamaba Puente Salazar: la revolución le cambió el nombre por su propia fecha.",
+      "review": false,
+      "id": "lis-025"
+    },
+    {
+      "type": "story",
+      "kicker": "GASTRONOMÍA",
+      "title": "El pescado nacional viene de Noruega",
+      "body": "Portugal es de los mayores consumidores de bacalao del mundo — y casi todo llega de Noruega e Islandia. Da igual: aquí es «o fiel amigo», el fiel amigo, y el dicho asegura que hay una receta distinta para cada día del año. Nadie las ha contado todas.",
+      "review": false,
+      "id": "lis-026"
+    },
+    {
+      "type": "story",
+      "kicker": "HISTORIA",
+      "title": "El Cristo que dio las gracias",
+      "body": "El Cristo Rei que abre los brazos al otro lado del Tajo, inspirado en el de Río, se construyó como voto de gratitud: Portugal había quedado fuera de la Segunda Guerra Mundial. Es un monumento a una guerra que no ocurrió — al menos, no aquí.",
+      "review": false,
+      "id": "lis-027"
+    },
+    {
+      "type": "story",
+      "kicker": "LITERATURA",
+      "title": "La librería más antigua del mundo",
+      "body": "La Livraria Bertrand, en el Chiado, abrió en 1732 y no ha cerrado desde entonces: récord Guinness oficial. Si compras un libro, pide que te lo sellen — el sello acredita que lo compraste en la librería en activo más antigua del planeta.",
+      "review": false,
+      "id": "lis-028"
+    },
+    {
+      "type": "story",
+      "kicker": "ARQUITECTURA",
+      "title": "Azulejo no viene de «azul»",
+      "body": "Viene del árabe al-zulayj, «piedra pulida». Y esas fachadas no son solo bonitas: protegen de la humedad y reflejan el calor. Robar azulejos antiguos es delito — existe hasta un proyecto policial, SOS Azulejo, dedicado a perseguir el expolio de fachadas.",
+      "review": false,
+      "id": "lis-029"
+    },
+    {
+      "type": "story",
+      "kicker": "LITERATURA",
+      "title": "El Nobel que se marchó por una novela",
+      "body": "Cuando el gobierno portugués vetó «El Evangelio según Jesucristo» para un premio europeo, José Saramago hizo las maletas y se autoexilió a Lanzarote. Ganó el Nobel en 1998 desde allí. Sus cenizas volvieron a Lisboa: descansan bajo un olivo frente a la Casa dos Bicos.",
+      "review": false,
+      "id": "lis-030"
+    },
+    {
+      "type": "slider",
+      "kicker": "ADIVINA",
+      "question": "¿Te acuerdas del baúl de Pessoa? ¿Cuántos documentos aparecieron dentro?",
+      "min": 1000,
+      "max": 50000,
+      "answer": 25000,
+      "tolerance": 5000,
+      "explain_correct": "Más de 25.000 — poemas, cartas, horóscopos de sus heterónimos. Casi un siglo después, siguen editándolos.",
+      "explain_wrong": "Más de 25.000 documentos. Casi un siglo después de su muerte, los editores siguen ordenando el baúl.",
+      "review": false,
+      "id": "lis-031"
+    },
+    {
+      "type": "story",
+      "kicker": "CALLES",
+      "title": "Las siete colinas son marketing",
+      "body": "Lisboa presume de siete colinas «como Roma» — pero los geógrafos cuentan más. El número viene de un libro del siglo XVII que forzó la comparación con Roma para darle pedigrí a la ciudad. Funcionó: cuatro siglos después, lo sigues leyendo en todas las guías. Tus piernas contarán las de verdad.",
+      "review": true,
+      "id": "lis-032"
+    },
+    {
+      "type": "quiz",
+      "kicker": "ÚLTIMO QUIZ",
+      "question": "Cierre circular: ¿qué obra de la literatura europea nació como respuesta al terremoto de 1755?",
+      "options": [
+        "Cándido, de Voltaire",
+        "Fausto, de Goethe",
+        "Frankenstein, de Mary Shelley"
+      ],
+      "answer": 0,
+      "explain": "Cándido — lo viste al despegar. Una ciudad destruida en un día acabó cambiando la filosofía de un continente. Y luego se reconstruyó con jaulas de madera dentro de los muros.",
+      "review": false,
+      "id": "lis-033"
+    },
+    {
+      "type": "story",
+      "kicker": "LEYENDA",
+      "title": "La ciudad que se inventó a sí misma",
+      "body": "La leyenda dice que Lisboa la fundó Ulises — el nombre romano, Olissipo, alimentó el mito durante siglos. Es mentira, claro. Pero encaja: llevas 34 cards viendo a una ciudad que convierte terremotos en filosofía, camareras en revoluciones y rinocerontes en arte. Bienvenido. Ya aterrizas.",
+      "review": false,
+      "id": "lis-034"
+    },
+    {
+      "type": "final",
+      "id": "lis-035"
+    }
+  ],
+  "schemaVersion": 2,
+  "destinationID": "lis"
+}
