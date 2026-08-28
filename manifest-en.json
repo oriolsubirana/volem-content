@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T12:46:05Z",
+  "updatedAt": "2026-08-28T12:50:25Z",
   "destinations": [
     {
       "id": "lis",
@@ -28,11 +28,11 @@
         "CIA"
       ],
       "packVersion": 1,
-      "packURL": null,
+      "packURL": "https://oriolsubirana.github.io/volem-content/rom-pack-en-v1.json",
       "packSizeBytes": 15727,
       "cardCount": 32,
       "estimatedMinutes": 65,
-      "productID": "cat.subi.volem.pack.rom"
+      "productID": null
     },
     {
       "id": "par",
