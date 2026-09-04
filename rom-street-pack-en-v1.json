@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "rom",
+  "packID": "street",
+  "destination": "Rome",
+  "country": "Italy",
+  "language": "en",
+  "version": 1,
+  "estimated_minutes": 22,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "rom-street-00",
+      "kicker": "STREET LEVEL",
+      "title": "Rome",
+      "sub": "10 cards · ~22 min · the part the monument guides skip"
+    },
+    {
+      "type": "tip",
+      "id": "rom-street-01",
+      "kicker": "WHEN YOU LAND",
+      "review": true,
+      "title": "Fiumicino to the centre, no thinking required",
+      "body": "The Leonardo Express runs straight to Termini in a little over half an hour, every fifteen minutes. The bus costs considerably less and takes twice as long, or more in traffic. And if someone offers you a taxi inside the terminal, decline: the official ones are white, they wait outside, and from the airport to the historic centre they charge a fixed fare — no haggling, no meter."
+    },
+    {
+      "type": "quiz",
+      "id": "rom-street-02",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You buy a single transport ticket at a tobacconist. How far does it get you?",
+      "options": [
+        "100 minutes of bus and tram, but only one metro ride",
+        "One journey, no transfers",
+        "The whole day on everything"
+      ],
+      "explain": "A hundred minutes from the moment you validate it: as many buses and trams as you like, but the metro only once — once you exit, it won't let you back in. And you must validate it as you board: inspectors are thin on the ground, the fine is very real."
+    },
+    {
+      "type": "story",
+      "id": "rom-street-03",
+      "kicker": "METRO",
+      "title": "The metro that can't grow",
+      "body": "Rome has three metro lines. London has eleven. It isn't the money: it's that you can't dig here without hitting something. Line C has been under construction since 2007 and every shaft has turned up a second-century barracks, a frescoed house, a reservoir. Each find stops the work and calls in the archaeologists. The city defends itself against its own metro."
+    },
+    {
+      "type": "slider",
+      "id": "rom-street-04",
+      "kicker": "GUESS",
+      "question": "Colosseum to St Peter's Square, on foot. How many minutes?",
+      "min": 10,
+      "max": 120,
+      "answer": 45,
+      "tolerance": 12,
+      "explain_correct": "About 45 minutes, three and a half kilometres. Central Rome is smaller than the map suggests: nearly everything you came to see fits inside one long walk.",
+      "explain_wrong": "About 45 minutes: three and a half kilometres. It sounds like a lot and it isn't — central Rome fits into a couple of walks, and walking is how you see it."
+    },
+    {
+      "type": "story",
+      "id": "rom-street-05",
+      "kicker": "NEIGHBOURHOODS",
+      "title": "The hill that is Roman rubbish",
+      "body": "Testaccio has a 35-metre hill that isn't a hill: it's a landfill. For three centuries the empire's olive oil reached Rome in clay amphorae that couldn't be reused — the oil turned them rancid — so they were smashed and stacked here, tidily. Around 53 million of them. It's the only mountain in Rome built by civil servants keeping the paperwork straight."
+    },
+    {
+      "type": "myth",
+      "id": "rom-street-06",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«If it's hot enough, you can dip your feet in a fountain»",
+      "body": "Not your feet, not sitting on the rim, not drinking from the monumental spouts. Rome has urban decorum rules that fine all of it, and in summer there are wardens beside the Barcaccia and the Trevi Fountain for exactly this reason. To drink, there are the nasoni — free, and everywhere."
+    },
+    {
+      "type": "tip",
+      "id": "rom-street-07",
+      "kicker": "WHAT LOCALS KNOW",
+      "review": true,
+      "title": "Places you're not allowed to sit",
+      "body": "Sitting on the Spanish Steps has been banned since 2019, and the fine runs into three figures. Eating on monuments or at fountains is out too. It isn't hostility to tourists: it's millions of people a year on eighteenth-century marble. To rest, find a bench, an ordinary step, or a café table."
+    },
+    {
+      "type": "quiz",
+      "id": "rom-street-08",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Someone suggests meeting in Trastevere. What is it, exactly?",
+      "options": [
+        "The neighbourhood on the far side of the Tiber",
+        "The southern railway station",
+        "The district around the Vatican"
+      ],
+      "explain": "«Trans Tiberim»: across the Tiber. Outside ancient Rome, which began on the other bank — which is why for centuries it was the quarter of dockworkers and outsiders. Today it's where you go for dinner, and the name still says exactly what it said two thousand years ago."
+    },
+    {
+      "type": "quiz",
+      "id": "rom-street-09",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "«Ferragosto» empties Rome on 15 August. Where does it come from?",
+      "options": [
+        "A rest period the emperor Augustus established",
+        "A medieval religious feast",
+        "The day the city market used to close"
+      ],
+      "explain": "«Feriae Augusti», the holiday Augustus established in 18 BC so the empire could rest after the harvest. The Church later laid the Assumption on top of it, but the name held. Practical consequence: half of Rome closes in August, trattorias included. If you're going, check first."
+    },
+    {
+      "type": "tip",
+      "id": "rom-street-10",
+      "kicker": "WHAT LOCALS KNOW",
+      "title": "How a tourist trap smells",
+      "body": "Photos of the dishes on the menu. A menu in six languages. Someone at the door inviting you in. And being less than two minutes' walk from a famous monument. With two of those four signs, keep walking: three or four streets further on you'll eat better and cheaper, and that's the whole distance."
+    },
+    {
+      "type": "final",
+      "id": "rom-street-11"
+    }
+  ]
+}

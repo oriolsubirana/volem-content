@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "rom",
+  "packID": "food",
+  "destination": "Roma",
+  "country": "Italia",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 25,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "rom-food-00",
+      "kicker": "COMER EN ROMA",
+      "title": "Roma",
+      "sub": "11 cards · ~25 min · para sentarte a la mesa sabiendo"
+    },
+    {
+      "type": "story",
+      "id": "rom-food-01",
+      "kicker": "COCINA ROMANA",
+      "title": "Cuatro pastas y una sola idea",
+      "body": "Cacio e pepe, gricia, carbonara y amatriciana no son cuatro recetas: son la misma creciendo. Cacio e pepe es pecorino y pimienta. Añade guanciale y tienes gricia. Añade huevo a la gricia y es carbonara. Pon tomate en vez de huevo y es amatriciana. Entendido eso, entiendes media carta de cualquier trattoria."
+    },
+    {
+      "type": "story",
+      "id": "rom-food-02",
+      "kicker": "GUANCIALE",
+      "title": "El cerdo que no es panceta",
+      "review": true,
+      "body": "El guanciale es carrillada curada, no panceta y desde luego no bacon. Más graso, más denso, y se funde de otra manera: esa grasa derretida es literalmente la salsa. Cambiarlo cambia el plato entero — por eso una carbonara hecha fuera de Italia rara vez sabe igual aunque siga la receta al pie de la letra."
+    },
+    {
+      "type": "quiz",
+      "id": "rom-food-03",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "La gricia es la madre de las pastas romanas. ¿Qué lleva?",
+      "options": [
+        "Guanciale y pecorino",
+        "Tomate y guanciale",
+        "Huevo y pecorino"
+      ],
+      "explain": "Guanciale, pecorino y pimienta. Sin huevo y sin tomate. La llaman «amatriciana blanca», aunque en realidad es al revés: la gricia es anterior — el tomate tardó siglos en llegar a las cocinas europeas."
+    },
+    {
+      "type": "myth",
+      "id": "rom-food-04",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«El fettuccine Alfredo es un clásico de las trattorias romanas»",
+      "body": "Se inventó en Roma, eso sí: Alfredo di Lelio, a principios del siglo XX, mantequilla y parmigiano para su mujer recién parida. Pero se hizo famoso en Estados Unidos y allí se quedó. Pídelo hoy en una trattoria de barrio y lo más probable es que no sepan de qué les hablas. Aquí eso se llama, sin más, pasta al burro."
+    },
+    {
+      "type": "story",
+      "id": "rom-food-05",
+      "kicker": "EL QUINTO CUARTO",
+      "title": "La cocina de lo que sobraba",
+      "body": "Del matadero de Testaccio, el primer cuarto de la res iba a la nobleza; el segundo, al clero; el tercero, a la burguesía; el cuarto, a la tropa. Lo que quedaba —el «quinto quarto»: rabo, callos, corazón— se lo llevaban los matarifes como parte del sueldo. De ahí salen la coda alla vaccinara y la trippa alla romana. La cocina más celebrada de la ciudad nació de lo que nadie quería."
+    },
+    {
+      "type": "slider",
+      "id": "rom-food-06",
+      "kicker": "ADIVINA",
+      "question": "Ese matadero de Testaccio ya no existe. ¿En qué año cerró?",
+      "min": 1900,
+      "max": 2000,
+      "answer": 1975,
+      "tolerance": 10,
+      "explain_correct": "En 1975, después de 85 años matando reses. El edificio sigue en pie: hoy es un centro de arte contemporáneo. Los platos, en cambio, se quedaron en las cartas del barrio.",
+      "explain_wrong": "En 1975, después de 85 años. El edificio sigue en pie —hoy es un centro de arte contemporáneo—, pero lo que de verdad sobrevivió al matadero fueron sus platos."
+    },
+    {
+      "type": "myth",
+      "id": "rom-food-07",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«La pizza romana y la napolitana son la misma pizza»",
+      "body": "Son opuestas. La napolitana es gruesa por el borde, blanda, y se dobla; la romana se estira fina hasta que cruje — «scrocchiarella», la llaman, por el ruido. Distinta masa, distinto horno, distinto tiempo. Pedir una en la ciudad de la otra es la manera más rápida de llevarte un chasco que no es culpa de nadie."
+    },
+    {
+      "type": "tip",
+      "id": "rom-food-08",
+      "kicker": "PIZZA AL TAGLIO",
+      "review": true,
+      "title": "Se pide a peso, no a trozos",
+      "body": "La pizza al taglio es un invento romano: bandejas rectangulares, se señala el trozo que quieres, te lo cortan con tijeras y te lo cobran por peso. «Un etto» son cien gramos; para una persona con hambre, dos etti. No pidas «una porción»: señala y di hasta dónde."
+    },
+    {
+      "type": "quiz",
+      "id": "rom-food-09",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Pides un supplì en una pizzería de Roma. ¿Qué te dan?",
+      "options": [
+        "Una croqueta de arroz frita con mozzarella dentro",
+        "Una bola de masa frita con azúcar",
+        "Un panecillo relleno de embutido"
+      ],
+      "explain": "Arroz con ragú, rebozado y frito, con un corazón de mozzarella que se estira al partirlo. Por ese hilo lo llaman «supplì al telefono», como el cable de los teléfonos de antes. Es el aperitivo de pizzería de toda la vida."
+    },
+    {
+      "type": "quiz",
+      "id": "rom-food-10",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Estás en una trattoria y quieres pedir sin cantar. ¿Qué haces?",
+      "options": [
+        "Pasta primero, carne después",
+        "Pides la pasta como segundo plato",
+        "Pides la pasta con guarnición de verduras"
+      ],
+      "explain": "La pasta es «primo» y va delante; la carne o el pescado son «secondo» y llegan solos — la guarnición se pide aparte, como «contorno». Nadie te obliga a pedir los dos platos: quedarte en el primo es de lo más normal. Pero el orden no se negocia."
+    },
+    {
+      "type": "tip",
+      "id": "rom-food-11",
+      "kicker": "HORARIOS",
+      "review": true,
+      "title": "Si tienes hambre a las siete, tienes un problema",
+      "body": "En Roma se cena a partir de las ocho y media, y a las nueve es lo normal. Lo que abre mucho antes suele estar pensado para turistas. La salida es el aperitivo: entre las seis y las ocho, una copa con algo de picar incluido. Es media cena, cuesta poco y es donde está la gente."
+    },
+    {
+      "type": "final",
+      "id": "rom-food-12"
+    }
+  ]
+}

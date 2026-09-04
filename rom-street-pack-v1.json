@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "rom",
+  "packID": "street",
+  "destination": "Roma",
+  "country": "Italia",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 22,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "rom-street-00",
+      "kicker": "A PIE DE CALLE",
+      "title": "Roma",
+      "sub": "10 cards · ~22 min · lo que no sale en las guías de monumentos"
+    },
+    {
+      "type": "tip",
+      "id": "rom-street-01",
+      "kicker": "AL ATERRIZAR",
+      "review": true,
+      "title": "De Fiumicino al centro sin pensar",
+      "body": "El Leonardo Express va directo a Termini en poco más de media hora y sale cada cuarto de hora. El bus cuesta bastante menos y tarda el doble, o más con tráfico. Y si alguien te ofrece un taxi dentro de la terminal, no: los oficiales son blancos, están fuera, y del aeropuerto al centro histórico tienen tarifa fija — no se negocia ni se pone el taxímetro."
+    },
+    {
+      "type": "quiz",
+      "id": "rom-street-02",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Compras el billete sencillo de transporte en un estanco. ¿Hasta dónde te llega?",
+      "options": [
+        "100 minutos de bus y tranvía, pero un solo viaje en metro",
+        "Un solo trayecto, sin transbordos",
+        "Todo el día en todo"
+      ],
+      "explain": "Cien minutos desde que lo validas: los buses y tranvías que quieras, pero el metro solo una vez —al salir, el billete ya no vale para volver a entrar—. Y hay que validarlo al subir: pasan pocos revisores, pero la multa es muy real."
+    },
+    {
+      "type": "story",
+      "id": "rom-street-03",
+      "kicker": "METRO",
+      "title": "El metro que no puede crecer",
+      "body": "Roma tiene tres líneas de metro. Londres tiene once. No es por dinero: es que aquí no se puede excavar sin encontrar algo. La línea C lleva en obras desde 2007 y cada pozo ha sacado a la luz un cuartel del siglo II, una casa con frescos, un estanque. Cada hallazgo detiene la obra y llama a los arqueólogos. La ciudad se defiende de su propio metro."
+    },
+    {
+      "type": "slider",
+      "id": "rom-street-04",
+      "kicker": "ADIVINA",
+      "question": "Del Coliseo a la plaza de San Pedro, andando. ¿Cuántos minutos?",
+      "min": 10,
+      "max": 120,
+      "answer": 45,
+      "tolerance": 12,
+      "explain_correct": "Unos 45 minutos, tres kilómetros y medio. El centro de Roma es más pequeño de lo que parece en el mapa: casi todo lo que vas a ver cabe en una caminata larga.",
+      "explain_wrong": "Unos 45 minutos: tres kilómetros y medio. Suena a mucho y no lo es — el centro de Roma cabe entero en un par de caminatas, y andando es como se ve."
+    },
+    {
+      "type": "story",
+      "id": "rom-street-05",
+      "kicker": "BARRIOS",
+      "title": "La montaña que es basura romana",
+      "body": "En Testaccio hay una colina de 35 metros que no es una colina: es un vertedero. Durante tres siglos, el aceite del imperio llegó a Roma en ánforas de barro que no se podían reutilizar —el aceite las dejaba rancias—, así que se rompían y se apilaban aquí, ordenadamente. Unos 53 millones de ánforas. Es el único monte de Roma construido por funcionarios llevando la contabilidad."
+    },
+    {
+      "type": "myth",
+      "id": "rom-street-06",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«Si aprieta el calor, puedes meter los pies en una fuente»",
+      "body": "Ni los pies, ni sentarte en el borde, ni beber de los surtidores monumentales. Roma tiene un reglamento de decoro urbano que lo multa, y en verano hay vigilantes junto a la Barcaccia y la Fontana di Trevi precisamente para eso. Para beber están los nasoni, que son gratis y están en todas partes."
+    },
+    {
+      "type": "tip",
+      "id": "rom-street-07",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "review": true,
+      "title": "Sitios donde no te puedes sentar",
+      "body": "En la escalinata de la Plaza de España está prohibido sentarse desde 2019, y la multa llega a tres cifras. Tampoco se come sobre monumentos ni en las fuentes. No es antipatía hacia el turista: son millones de personas al año sobre mármol del siglo XVIII. Para descansar, un banco, un escalón cualquiera o una mesa de bar."
+    },
+    {
+      "type": "quiz",
+      "id": "rom-street-08",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Te citan en Trastevere. ¿Qué es exactamente?",
+      "options": [
+        "El barrio del otro lado del Tíber",
+        "La estación de trenes del sur",
+        "El barrio que rodea el Vaticano"
+      ],
+      "explain": "«Trans Tiberim»: al otro lado del Tíber. Fuera de la Roma antigua, que empezaba en la otra orilla — por eso durante siglos fue barrio de estibadores y de gente de fuera. Hoy es donde se sale a cenar, y el nombre sigue diciendo exactamente lo que decía hace dos mil años."
+    },
+    {
+      "type": "quiz",
+      "id": "rom-street-09",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "El «ferragosto» vacía Roma el 15 de agosto. ¿De dónde viene?",
+      "options": [
+        "De un descanso que instauró el emperador Augusto",
+        "De una fiesta religiosa medieval",
+        "Del día que cerraba el mercado de la ciudad"
+      ],
+      "explain": "«Feriae Augusti», las vacaciones que Augusto instauró en el año 18 a. C. para que el imperio descansara después de la cosecha. La Iglesia le puso encima la Asunción, pero el nombre aguantó. Consecuencia práctica: media Roma cierra en agosto, trattorias incluidas. Si vas, comprueba antes."
+    },
+    {
+      "type": "tip",
+      "id": "rom-street-10",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "title": "Cómo huele una trampa para turistas",
+      "body": "Fotos de los platos en la carta. Carta en seis idiomas. Alguien en la puerta invitándote a entrar. Y estar a menos de dos minutos andando de un monumento famoso. Con dos de esas cuatro señales, sigue caminando: tres o cuatro calles más allá se come mejor y más barato, y esa es la distancia entera."
+    },
+    {
+      "type": "final",
+      "id": "rom-street-11"
+    }
+  ]
+}

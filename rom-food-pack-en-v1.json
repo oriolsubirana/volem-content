@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "rom",
+  "packID": "food",
+  "destination": "Rome",
+  "country": "Italy",
+  "language": "en",
+  "version": 1,
+  "estimated_minutes": 25,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "rom-food-00",
+      "kicker": "EATING IN ROME",
+      "title": "Rome",
+      "sub": "11 cards · ~25 min · sit down knowing what you're doing"
+    },
+    {
+      "type": "story",
+      "id": "rom-food-01",
+      "kicker": "ROMAN COOKING",
+      "title": "Four pastas and a single idea",
+      "body": "Cacio e pepe, gricia, carbonara and amatriciana aren't four recipes: they're the same one growing. Cacio e pepe is pecorino and pepper. Add guanciale and you have gricia. Add egg to gricia and it's carbonara. Swap the egg for tomato and it's amatriciana. Understand that and you understand half the menu in any trattoria."
+    },
+    {
+      "type": "story",
+      "id": "rom-food-02",
+      "kicker": "GUANCIALE",
+      "title": "The pork that isn't pancetta",
+      "review": true,
+      "body": "Guanciale is cured pig's cheek — not pancetta, and certainly not bacon. Fattier, denser, and it melts differently: that rendered fat is literally the sauce. Swap it and you change the whole dish — which is why carbonara made outside Italy rarely tastes the same even when the recipe is followed to the letter."
+    },
+    {
+      "type": "quiz",
+      "id": "rom-food-03",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Gricia is the mother of Roman pastas. What's in it?",
+      "options": [
+        "Guanciale and pecorino",
+        "Tomato and guanciale",
+        "Egg and pecorino"
+      ],
+      "explain": "Guanciale, pecorino and pepper. No egg, no tomato. People call it «white amatriciana», though it's really the other way round: gricia came first — tomatoes took centuries to reach European kitchens."
+    },
+    {
+      "type": "myth",
+      "id": "rom-food-04",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«Fettuccine Alfredo is a Roman trattoria classic»",
+      "body": "It was invented in Rome, that much is true: Alfredo di Lelio, early last century, butter and parmigiano for his wife after childbirth. But it got famous in the United States and stayed there. Order it in a neighbourhood trattoria today and they probably won't know what you mean. Here it's simply called pasta al burro."
+    },
+    {
+      "type": "story",
+      "id": "rom-food-05",
+      "kicker": "THE FIFTH QUARTER",
+      "title": "The cuisine of what was left over",
+      "body": "At the Testaccio slaughterhouse the first quarter of the animal went to the nobility, the second to the clergy, the third to the middle classes, the fourth to the soldiers. What remained — the «quinto quarto»: tail, tripe, heart — went home with the butchers as part of their pay. That's where coda alla vaccinara and trippa alla romana come from. The city's most celebrated cooking was born from what nobody wanted."
+    },
+    {
+      "type": "slider",
+      "id": "rom-food-06",
+      "kicker": "GUESS",
+      "question": "That Testaccio slaughterhouse is long gone. What year did it close?",
+      "min": 1900,
+      "max": 2000,
+      "answer": 1975,
+      "tolerance": 10,
+      "explain_correct": "In 1975, after 85 years. The building is still standing — it's a contemporary art centre now. The dishes, on the other hand, stayed on the neighbourhood's menus.",
+      "explain_wrong": "In 1975, after 85 years. The building is still standing — a contemporary art centre today — but what really outlived the slaughterhouse was its cooking."
+    },
+    {
+      "type": "myth",
+      "id": "rom-food-07",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«Roman pizza and Neapolitan pizza are the same pizza»",
+      "body": "They're opposites. Neapolitan has a thick, soft rim and folds; Roman is stretched thin until it cracks — «scrocchiarella», they call it, after the sound. Different dough, different oven, different time. Ordering one in the other's city is the fastest way to a disappointment that's nobody's fault."
+    },
+    {
+      "type": "tip",
+      "id": "rom-food-08",
+      "kicker": "PIZZA AL TAGLIO",
+      "review": true,
+      "title": "You order it by weight, not by the slice",
+      "body": "Pizza al taglio is a Roman invention: rectangular trays, you point at the piece you want, they cut it with scissors and charge by weight. «Un etto» is a hundred grams; two etti for one hungry person. Don't ask for «a slice»: point, and say where to cut."
+    },
+    {
+      "type": "quiz",
+      "id": "rom-food-09",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You order a supplì in a Roman pizzeria. What arrives?",
+      "options": [
+        "A fried rice croquette with mozzarella inside",
+        "A ball of fried dough with sugar",
+        "A small roll stuffed with cured meat"
+      ],
+      "explain": "Rice with ragù, breaded and fried, with a mozzarella heart that stretches when you pull it apart. That thread is why it's called «supplì al telefono», like the cord on an old phone. It's the classic pizzeria starter."
+    },
+    {
+      "type": "quiz",
+      "id": "rom-food-10",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You're in a trattoria and want to order without giving yourself away. What do you do?",
+      "options": [
+        "Pasta first, meat after",
+        "Order the pasta as a second course",
+        "Order the pasta with a side of vegetables"
+      ],
+      "explain": "Pasta is the «primo» and comes first; meat or fish is the «secondo» and arrives on its own — vegetables are ordered separately, as a «contorno». Nobody makes you order both courses: stopping at the primo is perfectly normal. But the order isn't up for negotiation."
+    },
+    {
+      "type": "tip",
+      "id": "rom-food-11",
+      "kicker": "TIMING",
+      "review": true,
+      "title": "Hungry at seven? You have a problem",
+      "body": "Romans eat dinner from half past eight, and nine is the norm. Anything opening much earlier is aimed at tourists. The way out is the aperitivo: between six and eight, a drink with something to eat included. It's half a dinner, it costs little, and it's where everyone is."
+    },
+    {
+      "type": "final",
+      "id": "rom-food-12"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T12:50:25Z",
+  "updatedAt": "2026-09-04T12:53:17Z",
   "destinations": [
     {
       "id": "lis",
@@ -32,7 +32,39 @@
       "packSizeBytes": 16089,
       "cardCount": 32,
       "estimatedMinutes": 65,
-      "productID": null
+      "productID": null,
+      "packs": [
+        {
+          "id": "main",
+          "title": "Guía de vuelo",
+          "version": 1,
+          "url": "https://oriolsubirana.github.io/volem-content/rom-pack-v1.json",
+          "sizeBytes": 16089,
+          "cardCount": 32,
+          "estimatedMinutes": 65,
+          "productID": null
+        },
+        {
+          "id": "food",
+          "title": "Comer en Roma",
+          "version": 1,
+          "url": "https://oriolsubirana.github.io/volem-content/rom-food-pack-v1.json",
+          "sizeBytes": 6387,
+          "cardCount": 13,
+          "estimatedMinutes": 25,
+          "productID": null
+        },
+        {
+          "id": "street",
+          "title": "A pie de calle",
+          "version": 1,
+          "url": "https://oriolsubirana.github.io/volem-content/rom-street-pack-v1.json",
+          "sizeBytes": 6190,
+          "cardCount": 12,
+          "estimatedMinutes": 22,
+          "productID": null
+        }
+      ]
     },
     {
       "id": "par",
