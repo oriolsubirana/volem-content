@@ -12,6 +12,7 @@ Sale con código != 0 si hay violaciones.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -27,6 +28,11 @@ MANIFEST_DIR = REPO
 
 CARD_TYPES = {"cover", "story", "tip", "myth", "quiz", "slider", "final"}
 VERDICTS = {"MITO", "REALIDAD"}
+
+# El pack general de una ciudad. Los ficheros anteriores a la ficha por ciudad
+# no llevan packID: son el general por definición.
+MAIN_PACK_ID = "main"
+PACK_ID_RE = re.compile(r"^[a-z][a-z0-9]{1,15}$")
 
 errors: list[str] = []
 
@@ -106,6 +112,10 @@ def validate_pack(path: Path) -> dict | None:
     if "destinationID" in missing or "cards" in missing:
         return None
 
+    pack_id = pack.get("packID", MAIN_PACK_ID)
+    if not PACK_ID_RE.match(str(pack_id)):
+        err(path, f"packID '{pack_id}' inválido: minúsculas y dígitos, 2-16 caracteres")
+
     destination_id = pack.get("destinationID", "")
     cards = pack.get("cards", [])
     if not isinstance(cards, list) or len(cards) < 3:
@@ -165,8 +175,10 @@ def validate_manifest(path: Path, language: str,
 
         # Si el pack del destino (en el idioma del manifest) vive en el repo,
         # el manifest debe cuadrar con él.
-        if (did, language) in packs:
-            pack_path, pack = packs[(did, language)]
+        validate_destination_packs(dest, path, language, packs)
+
+        if (did, MAIN_PACK_ID, language) in packs:
+            pack_path, pack = packs[(did, MAIN_PACK_ID, language)]
             if dest.get("cardCount") != len(pack["cards"]):
                 err(path, f"destino {did}: cardCount {dest.get('cardCount')} "
                           f"!= {len(pack['cards'])} cards reales en {pack_path.name}")
@@ -185,6 +197,71 @@ def validate_manifest(path: Path, language: str,
             if pack_url and not str(pack_url).endswith(pack_path.name):
                 err(path, f"destino {did}: packURL '{pack_url}' no apunta al "
                           f"fichero del pack en este idioma ({pack_path.name})")
+
+
+def validate_destination_packs(dest: dict, path: Path, language: str,
+                               packs: dict) -> None:
+    """La lista `packs` de un destino, si la trae.
+
+    La invariante que protege a las versiones ya instaladas: los campos sueltos
+    del destino (packVersion, packURL, cardCount...) tienen que seguir
+    describiendo EXACTAMENTE el pack general. Una app de la 1.0 no conoce
+    `packs` y lee esos campos; si dejan de cuadrar, le servimos otro contenido
+    del que cree estar leyendo.
+    """
+    did = dest.get("id", "<sin id>")
+    declared = dest.get("packs")
+    if declared is None:
+        return
+    if not isinstance(declared, list) or not declared:
+        err(path, f"destino {did}: 'packs' tiene que ser una lista no vacía")
+        return
+
+    seen: set[str] = set()
+    for entry in declared:
+        pid = entry.get("id", "<sin id>")
+        if not PACK_ID_RE.match(str(pid)):
+            err(path, f"destino {did}: packID '{pid}' inválido")
+        if pid in seen:
+            err(path, f"destino {did}: pack duplicado '{pid}'")
+        seen.add(pid)
+        for field in ("title", "version", "sizeBytes", "cardCount", "estimatedMinutes"):
+            if field not in entry:
+                err(path, f"destino {did}, pack {pid}: falta '{field}'")
+
+        # Si el fichero de ese pack vive en el repo, tiene que cuadrar.
+        key = (did, pid, language)
+        if key in packs:
+            pack_path, pack = packs[key]
+            if entry.get("cardCount") != len(pack["cards"]):
+                err(path, f"destino {did}, pack {pid}: cardCount "
+                          f"{entry.get('cardCount')} != {len(pack['cards'])} en {pack_path.name}")
+            if entry.get("version") != pack.get("version"):
+                err(path, f"destino {did}, pack {pid}: version {entry.get('version')} "
+                          f"!= {pack.get('version')} en {pack_path.name}")
+            actual = pack_path.stat().st_size
+            if abs(entry.get("sizeBytes", 0) - actual) > actual * 0.25:
+                err(path, f"destino {did}, pack {pid}: sizeBytes "
+                          f"{entry.get('sizeBytes')} lejos del real {actual}")
+            url = entry.get("url")
+            if url and not str(url).endswith(pack_path.name):
+                err(path, f"destino {did}, pack {pid}: url '{url}' no apunta a {pack_path.name}")
+
+    if MAIN_PACK_ID not in seen:
+        err(path, f"destino {did}: falta el pack '{MAIN_PACK_ID}' — "
+                  f"toda ciudad jugable necesita su pack general")
+        return
+
+    main = next(e for e in declared if e.get("id") == MAIN_PACK_ID)
+    for entry_field, dest_field in (("version", "packVersion"), ("url", "packURL"),
+                                    ("sizeBytes", "packSizeBytes"),
+                                    ("cardCount", "cardCount"),
+                                    ("estimatedMinutes", "estimatedMinutes"),
+                                    ("productID", "productID")):
+        if main.get(entry_field) != dest.get(dest_field):
+            err(path, f"destino {did}: '{dest_field}' ({dest.get(dest_field)!r}) no coincide "
+                      f"con '{entry_field}' del pack general ({main.get(entry_field)!r}) — "
+                      f"las versiones instaladas leen los campos sueltos y verían otro pack")
 
 
 def card_signature(card: dict) -> tuple:
@@ -208,10 +285,10 @@ def validate_translations(packs: dict[tuple[str, str], tuple[Path, dict]]) -> No
     respuesta, rango del slider, verdict): traducir no puede cambiar qué
     respuesta es la correcta."""
     by_destination: dict[str, list[tuple[str, Path, dict]]] = {}
-    for (did, language), (path, pack) in packs.items():
-        by_destination.setdefault(did, []).append((language, path, pack))
+    for (did, pack_id, language), (path, pack) in packs.items():
+        by_destination.setdefault((did, pack_id), []).append((language, path, pack))
 
-    for did, variants in by_destination.items():
+    for (did, pack_id), variants in by_destination.items():
         if len(variants) < 2:
             continue
         reference_lang, reference_path, reference = sorted(variants)[0]
@@ -220,11 +297,11 @@ def validate_translations(packs: dict[tuple[str, str], tuple[Path, dict]]) -> No
             shape = [card_signature(c) for c in pack["cards"]]
             for ref_sig, sig in zip(ref_shape, shape):
                 if ref_sig != sig:
-                    err(path, f"pack {did}/{language}: la card {sig[0]} no coincide con "
+                    err(path, f"pack {did}/{pack_id}/{language}: la card {sig[0]} no coincide con "
                               f"{reference_path.name} ({ref_sig} != {sig}) — "
                               f"traducir no puede cambiar IDs, tipos ni respuestas")
             if len(shape) != len(ref_shape):
-                err(path, f"pack {did}/{language}: {len(shape)} cards != "
+                err(path, f"pack {did}/{pack_id}/{language}: {len(shape)} cards != "
                           f"{len(ref_shape)} en {reference_path.name}")
 
 
@@ -241,7 +318,8 @@ def main() -> int:
     for path in pack_files:
         pack = validate_pack(path)
         if pack and pack.get("destinationID"):
-            key = (pack["destinationID"], pack.get("language", "es"))
+            key = (pack["destinationID"], pack.get("packID", MAIN_PACK_ID),
+                   pack.get("language", "es"))
             if key in packs:
                 err(path, f"pack duplicado para {key}")
             packs[key] = (path, pack)
