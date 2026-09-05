@@ -60,6 +60,10 @@ del repo de la app.
 
 ## Ojo
 
+- En los quizzes, **escribe la respuesta correcta la primera** (`answer: 0`)
+  si te resulta más cómodo: la app baraja las opciones al enseñarlas, con un
+  orden fijo por card, así que en pantalla la correcta cae en cualquier
+  posición. No hace falta esconderla al redactar.
 - Los textos de un pack se traducen; **las respuestas, rangos y verdicts no**
   (el validador lo exige entre idiomas).
 - El repo es público: no metas nada que no deba serlo.
