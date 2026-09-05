@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T12:53:17Z",
+  "updatedAt": "2026-09-05T12:54:26Z",
   "destinations": [
     {
       "id": "lis",
@@ -15,7 +15,39 @@
       "packSizeBytes": 16475,
       "cardCount": 36,
       "estimatedMinutes": 75,
-      "productID": null
+      "productID": null,
+      "packs": [
+        {
+          "id": "main",
+          "title": "Guía de vuelo",
+          "version": 2,
+          "url": "https://oriolsubirana.github.io/volem-content/lis-pack-v2.json",
+          "sizeBytes": 16475,
+          "cardCount": 36,
+          "estimatedMinutes": 75,
+          "productID": null
+        },
+        {
+          "id": "food",
+          "title": "Comer en Lisboa",
+          "version": 1,
+          "url": "https://oriolsubirana.github.io/volem-content/lis-food-pack-v1.json",
+          "sizeBytes": 6690,
+          "cardCount": 13,
+          "estimatedMinutes": 25,
+          "productID": null
+        },
+        {
+          "id": "street",
+          "title": "A pie de calle",
+          "version": 1,
+          "url": "https://oriolsubirana.github.io/volem-content/lis-street-pack-v1.json",
+          "sizeBytes": 5953,
+          "cardCount": 11,
+          "estimatedMinutes": 20,
+          "productID": null
+        }
+      ]
     },
     {
       "id": "rom",

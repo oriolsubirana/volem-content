@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "lis",
+  "packID": "food",
+  "destination": "Lisboa",
+  "country": "Portugal",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 25,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "lis-food-00",
+      "kicker": "COMER EN LISBOA",
+      "title": "Lisboa",
+      "sub": "11 cards · ~25 min · para sentarte a la mesa sabiendo"
+    },
+    {
+      "type": "story",
+      "id": "lis-food-01",
+      "kicker": "PETISCOS",
+      "title": "No son tapas, aunque lo parezcan",
+      "body": "Los petiscos se piden para la mesa y se comparten, pero no llegan gratis con la bebida ni se comen de pie: son una comida entera hecha de platos pequeños. Y uno de ellos cambió la historia de otra cocina: los «peixinhos da horta» —judías verdes rebozadas y fritas— viajaron con los misioneros portugueses al Japón del siglo XVI. Los japoneses les cambiaron el nombre. Hoy lo llaman tempura."
+    },
+    {
+      "type": "quiz",
+      "id": "lis-food-02",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Pides «uma imperial» en un bar de Lisboa. ¿Qué te traen?",
+      "options": [
+        "Una cerveza de barril pequeña",
+        "Una cerveza de litro",
+        "Un vino de Oporto"
+      ],
+      "explain": "Un vaso pequeño de cerveza de barril, unos 20 centilitros, muy fría. Es la medida por defecto: pedir «una cerveza» a secas te la trae igual. En Oporto lo mismo se llama «fino», y llamarlo imperial allí es la forma de decir de dónde vienes."
+    },
+    {
+      "type": "story",
+      "id": "lis-food-03",
+      "kicker": "BOCADILLOS",
+      "title": "Dos bocadillos y una regla",
+      "body": "La bifana es cerdo marinado en ajo y vino blanco, cortado fino, en pan blando: el bocadillo de la calle. El prego es un filete de ternera en el mismo pan, y tiene una regla que nadie te explica: en las cervejarias se pide al final, después del marisco, como quien pide el postre. Ver a una mesa entera rematar las gambas con un prego es la escena más lisboeta que hay."
+    },
+    {
+      "type": "myth",
+      "id": "lis-food-04",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«El pastel de nata se come frío, como un pastel»",
+      "body": "Se come tibio, recién salido, con la crema todavía temblando. Frío es otro dulce — peor. Y la canela y el azúcar glas no vienen puestos: están en la barra, en dos botes, y cada uno se pone lo que quiere. Los lisboetas discuten de eso con la misma seriedad con la que otros discuten de fútbol."
+    },
+    {
+      "type": "story",
+      "id": "lis-food-05",
+      "kicker": "SANTO ANTÓNIO",
+      "title": "La noche en que la ciudad huele a sardina",
+      "body": "El 12 de junio Lisboa saca las parrillas a la calle. Sardinas enteras, sin limpiar, sobre una rebanada de pan que hace de plato y se empapa de la grasa: el pan se come al final, y es la mejor parte. Se regala un «manjerico», una maceta de albahaca con un clavel de papel y un verso, y se baila en la calle hasta que amanece. Es la fiesta mayor, y no aparece en casi ninguna guía."
+    },
+    {
+      "type": "slider",
+      "id": "lis-food-06",
+      "kicker": "ADIVINA",
+      "question": "Portugal es el país de Europa que más pescado come. ¿Cuántos kilos por persona al año?",
+      "min": 10,
+      "max": 100,
+      "answer": 57,
+      "tolerance": 12,
+      "explain_correct": "Unos 57 kilos por persona y año, el triple que la media europea y entre los tres primeros del mundo. Cuando aquí te dicen «hoy hay pescado», no es una sugerencia: es la norma.",
+      "explain_wrong": "Unos 57 kilos por persona y año — el triple que la media europea y entre los tres primeros del mundo. Aquí «hoy hay pescado» no es una sugerencia: es la norma."
+    },
+    {
+      "type": "tip",
+      "id": "lis-food-07",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "review": true,
+      "title": "Si ves un cartel de «Há caracóis», entra",
+      "body": "De mayo a septiembre, los bares lo anuncian con un papel escrito a mano. Son caracoles pequeños, cocidos con orégano y ajo, servidos en un plato hondo con una imperial al lado. Se sacan con un palillo, uno a uno, sin prisa: es una manera de pasar la tarde, no un plato. Está donde hay lisboetas y falta donde hay turistas."
+    },
+    {
+      "type": "quiz",
+      "id": "lis-food-08",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Te recomiendan «una tasca» para comer. ¿Qué es?",
+      "options": [
+        "Una taberna de barrio con plato del día",
+        "Un puesto de mercado",
+        "Un estanco donde también sirven café"
+      ],
+      "explain": "Una taberna pequeña, de barrio, con el «prato do dia» escrito en un papel en la puerta y el vino de la casa en jarra. Se come bien, rápido y barato, en mesa compartida si hace falta. Es donde comen los que trabajan cerca, y por eso a las dos ya no hay sitio."
+    },
+    {
+      "type": "story",
+      "id": "lis-food-09",
+      "kicker": "VINO",
+      "title": "El vinho verde no es verde",
+      "body": "Es joven: «verde» quiere decir sin madurar, no de color. Viene del Minho, en el norte húmedo, y sale ligero, ácido y con un punto de aguja natural que no tiene ningún otro vino. Se bebe muy frío, con pescado, y se pide sin miedo a quedar mal: aquí lo toma todo el mundo. Es el vino de verano de un país que no lo exporta apenas — de ahí que fuera casi no se conozca."
+    },
+    {
+      "type": "quiz",
+      "id": "lis-food-10",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Pides «um galão» en un café. ¿Qué llega?",
+      "options": [
+        "Café con mucha leche, en vaso alto",
+        "Un espresso doble",
+        "Un chupito de aguardiente"
+      ],
+      "explain": "Un vaso de cristal alto, tres cuartos de leche y un cuarto de café: el desayuno lisboeta. «Meia de leite» es mitad y mitad, en taza. «Abatanado» es un café largo, y «pingado» un espresso con una gota de leche. El café aquí tiene más nombres que tamaños, y saberse tres ya te cambia la cara del camarero."
+    },
+    {
+      "type": "story",
+      "id": "lis-food-11",
+      "kicker": "ARROZ",
+      "title": "El arroz que tiene que estar mojado",
+      "body": "Si vienes de España, olvida la paella. El arroz portugués se llama «malandro» —golfo— cuando está como debe: caldoso, casi sopa, servido en cazuela y comido con cuchara. El de marisco, el de tamboril (rape), el de pato al horno. Un arroz seco aquí es un arroz mal hecho. Es la única regla, y la contraria a la que traes."
+    },
+    {
+      "type": "final",
+      "id": "lis-food-12"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "lis",
+  "packID": "food",
+  "destination": "Lisbon",
+  "country": "Portugal",
+  "language": "en",
+  "version": 1,
+  "estimated_minutes": 25,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "lis-food-00",
+      "kicker": "EATING IN LISBON",
+      "title": "Lisbon",
+      "sub": "11 cards · ~25 min · sit down knowing what you're doing"
+    },
+    {
+      "type": "story",
+      "id": "lis-food-01",
+      "kicker": "PETISCOS",
+      "title": "Not tapas, however much they look like it",
+      "body": "Petiscos are ordered for the table and shared, but they don't come free with a drink and you don't eat them standing up: they're a whole meal made of small plates. And one of them changed the history of another cuisine: «peixinhos da horta» — green beans in batter, fried — travelled with Portuguese missionaries to sixteenth-century Japan. The Japanese changed the name. Today they call it tempura."
+    },
+    {
+      "type": "quiz",
+      "id": "lis-food-02",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You order «uma imperial» in a Lisbon bar. What arrives?",
+      "options": [
+        "A small draught beer",
+        "A litre of beer",
+        "A glass of port"
+      ],
+      "explain": "A small glass of draught beer, around 20 centilitres, very cold. It's the default measure: ask for «a beer» and this is what you get. In Porto the same thing is called a «fino», and calling it an imperial there is how you tell them where you're from."
+    },
+    {
+      "type": "story",
+      "id": "lis-food-03",
+      "kicker": "SANDWICHES",
+      "title": "Two sandwiches and one rule",
+      "body": "The bifana is pork marinated in garlic and white wine, sliced thin, in a soft roll: the street sandwich. The prego is a beef steak in the same roll, and it comes with a rule nobody explains: in the cervejarias you order it at the end, after the seafood, the way you'd order dessert. Watching a whole table finish off the prawns with a prego is the most Lisbon scene there is."
+    },
+    {
+      "type": "myth",
+      "id": "lis-food-04",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«A pastel de nata is eaten cold, like a cake»",
+      "body": "It's eaten warm, fresh out, with the custard still trembling. Cold it's a different pastry — a worse one. And the cinnamon and icing sugar don't come on it: they're on the counter, in two shakers, and everyone adds their own. Lisboetas argue about this with the seriousness other people reserve for football."
+    },
+    {
+      "type": "story",
+      "id": "lis-food-05",
+      "kicker": "SANTO ANTÓNIO",
+      "title": "The night the whole city smells of sardines",
+      "body": "On 12 June Lisbon drags the grills out into the street. Whole sardines, ungutted, laid on a slice of bread that acts as the plate and soaks up the fat: you eat the bread last, and it's the best part. People give each other a «manjerico», a pot of basil with a paper carnation and a verse, and dance in the street until dawn. It's the city's biggest party, and it's in almost no guidebook."
+    },
+    {
+      "type": "slider",
+      "id": "lis-food-06",
+      "kicker": "GUESS",
+      "question": "Portugal eats more fish than any other country in Europe. How many kilos per person a year?",
+      "min": 10,
+      "max": 100,
+      "answer": 57,
+      "tolerance": 12,
+      "explain_correct": "About 57 kilos per person per year, three times the European average and among the top three in the world. When someone here says «there's fish today», it isn't a suggestion: it's the norm.",
+      "explain_wrong": "About 57 kilos per person per year — three times the European average and among the top three in the world. Here «there's fish today» isn't a suggestion: it's the norm."
+    },
+    {
+      "type": "tip",
+      "id": "lis-food-07",
+      "kicker": "WHAT LOCALS KNOW",
+      "review": true,
+      "title": "If you see a sign saying «Há caracóis», go in",
+      "body": "From May to September, bars announce it on a handwritten sheet of paper. They're small snails, boiled with oregano and garlic, served in a deep plate with an imperial alongside. You pick them out with a toothpick, one by one, no hurry: it's a way to spend an afternoon, not a dish. It's wherever the Lisboetas are and missing wherever the tourists are."
+    },
+    {
+      "type": "quiz",
+      "id": "lis-food-08",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Someone recommends «a tasca» for lunch. What is it?",
+      "options": [
+        "A neighbourhood tavern with a dish of the day",
+        "A market stall",
+        "A tobacconist that also serves coffee"
+      ],
+      "explain": "A small neighbourhood tavern, with the «prato do dia» written on a sheet of paper by the door and the house wine in a jug. You eat well, fast and cheap, at a shared table if need be. It's where people who work nearby eat, which is why by two o'clock there's no room left."
+    },
+    {
+      "type": "story",
+      "id": "lis-food-09",
+      "kicker": "WINE",
+      "title": "Vinho verde isn't green",
+      "body": "It's young: «verde» means unaged, not the colour. It comes from the Minho, in the wet north, and it turns out light, sharp, with a natural touch of fizz no other wine has. You drink it very cold, with fish, and you order it without fear of looking wrong: everyone here drinks it. It's the summer wine of a country that barely exports it — which is why hardly anyone abroad knows it."
+    },
+    {
+      "type": "quiz",
+      "id": "lis-food-10",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You order «um galão» in a café. What arrives?",
+      "options": [
+        "Coffee with lots of milk, in a tall glass",
+        "A double espresso",
+        "A shot of brandy"
+      ],
+      "explain": "A tall glass, three-quarters milk and a quarter coffee: the Lisbon breakfast. «Meia de leite» is half and half, in a cup. «Abatanado» is a long black, and «pingado» an espresso with a drop of milk. Coffee here has more names than sizes, and knowing three of them changes the look on the waiter's face."
+    },
+    {
+      "type": "story",
+      "id": "lis-food-11",
+      "kicker": "RICE",
+      "title": "The rice that has to be wet",
+      "body": "If you're coming from Spain, forget paella. Portuguese rice is called «malandro» — a rascal — when it's the way it should be: soupy, almost a broth, served in a pot and eaten with a spoon. Seafood rice, monkfish rice, roast duck rice. Dry rice here is rice done badly. It's the only rule, and it's the opposite of the one you brought with you."
+    },
+    {
+      "type": "final",
+      "id": "lis-food-12"
+    }
+  ]
+}

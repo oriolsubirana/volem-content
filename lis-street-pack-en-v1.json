@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "lis",
+  "packID": "street",
+  "destination": "Lisbon",
+  "country": "Portugal",
+  "language": "en",
+  "version": 1,
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "lis-street-00",
+      "kicker": "STREET LEVEL",
+      "title": "Lisbon",
+      "sub": "9 cards · ~20 min · the part the monument guides skip"
+    },
+    {
+      "type": "quiz",
+      "id": "lis-street-01",
+      "kicker": "WHEN YOU LAND",
+      "answer": 0,
+      "question": "You land in Lisbon. How far is the airport from the centre?",
+      "options": [
+        "Seven kilometres, inside the city, with a direct metro",
+        "Forty kilometres, like Rome",
+        "On the other bank of the Tagus"
+      ],
+      "explain": "The airport is inside the city: the red metro line leaves from the terminal itself and you're in the centre in twenty minutes. A taxi takes barely longer and adds a luggage surcharge that's legal, not a scam. It's one of the few European capitals where getting in isn't a journey in itself."
+    },
+    {
+      "type": "quiz",
+      "id": "lis-street-02",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "In the metro they sell you a card and ask if you want it in «zapping». What is that?",
+      "options": [
+        "Credit that works on metro, bus, tram, ferry and the lifts",
+        "A one-day pass",
+        "The residents' card"
+      ],
+      "explain": "Credit deducted per ride, and a ride costs less this way than with a single ticket. It works on everything that moves in Lisbon: metro, buses, trams — the 28 included — the street lifts and the ferry. The card costs half a euro, it's made of cardboard, and you top it up at any machine. It's the first thing to buy."
+    },
+    {
+      "type": "story",
+      "id": "lis-street-03",
+      "kicker": "TRAM",
+      "review": true,
+      "title": "Use the 28 for what it is: a bus",
+      "body": "The 28 is a public transport route that tourists have turned into an attraction: an hour's queue at Martim Moniz to ride standing, squashed, wallet on display. Lisboetas heading for the same neighbourhoods take the 12, which does the short loop through Alfama and Graça with no queue, or board the 28 at eight in the morning, when it's a tram and not a line. The scenery is the same. So is the wallet: keep it in front."
+    },
+    {
+      "type": "story",
+      "id": "lis-street-04",
+      "kicker": "THE OTHER BANK",
+      "title": "The best view of Lisbon isn't in Lisbon",
+      "body": "It's in Cacilhas, across the river, where the whole city faces you at once. You get there by ferry from Cais do Sodré, on the transport card, and when you step off there's a street of fish restaurants at neighbourhood prices and a walk along the bank to a few places only the locals know. Half of Lisbon crosses on Sundays. Tourists almost never do."
+    },
+    {
+      "type": "slider",
+      "id": "lis-street-05",
+      "kicker": "GUESS",
+      "question": "That ferry to Cacilhas — how many minutes does it take?",
+      "min": 2,
+      "max": 60,
+      "answer": 10,
+      "tolerance": 4,
+      "explain_correct": "Ten minutes. It leaves every few minutes, costs less than a coffee, and is by far the best boat trip in the city: the one people take to get to work.",
+      "explain_wrong": "Ten minutes. It leaves every few minutes and costs less than a coffee — it's the best boat trip in the city, and people take it to get to work."
+    },
+    {
+      "type": "tip",
+      "id": "lis-street-06",
+      "kicker": "MIRADOUROS",
+      "review": true,
+      "title": "You look at the city from above, and it's free",
+      "body": "Lisbon has public viewpoints on nearly every hill and none of them charge. Santa Catarina for sunset with a crowd; Graça for sunset with Lisboetas; Senhora do Monte, the highest, for nobody beside you. Many have a kiosk serving drinks at normal prices. There's one time to go: the last hour of sun. The whole city turns orange."
+    },
+    {
+      "type": "quiz",
+      "id": "lis-street-07",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Someone suggests meeting «at the quiosque» in a square. What is it?",
+      "options": [
+        "An iron kiosk serving drinks, with tables outside",
+        "A tram stop",
+        "A newspaper stand"
+      ],
+      "explain": "Nineteenth-century iron kiosks, most of them shut for decades and brought back from 2009 on as open-air bars. An imperial, a glass of wine, a coffee, a few metal tables in the square. They're where the city sits down, and they cost the same as a neighbourhood bar: the view comes free."
+    },
+    {
+      "type": "story",
+      "id": "lis-street-08",
+      "kicker": "ALFAMA",
+      "title": "The neighbourhood with no streets",
+      "body": "Alfama is older than everything else: the layout is Moorish, and it survived the 1755 earthquake because it sits on rock while the rest of the city sank into mud. That's why it has no streets but «becos» — alleys that end in stairways, stairways that end in courtyards — and GPS gives up. The only way to do it is to get lost on purpose and head downhill whenever in doubt: the river is at the bottom."
+    },
+    {
+      "type": "tip",
+      "id": "lis-street-09",
+      "kicker": "BELÉM",
+      "title": "You go to Belém before it wakes up",
+      "body": "Tram 15 takes half an hour and runs full; the train from Cais do Sodré takes seven minutes, runs half empty, and stops at Belém. Arrive at nine: by eleven the queue for the pastéis is round the corner and the monastery has an hour's wait. By then you've seen the tower, the monastery and the river in low light, and you're having breakfast while everyone else queues."
+    },
+    {
+      "type": "final",
+      "id": "lis-street-10"
+    }
+  ]
+}

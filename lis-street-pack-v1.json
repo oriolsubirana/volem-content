@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "lis",
+  "packID": "street",
+  "destination": "Lisboa",
+  "country": "Portugal",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "lis-street-00",
+      "kicker": "A PIE DE CALLE",
+      "title": "Lisboa",
+      "sub": "9 cards · ~20 min · lo que no sale en las guías de monumentos"
+    },
+    {
+      "type": "quiz",
+      "id": "lis-street-01",
+      "kicker": "AL ATERRIZAR",
+      "answer": 0,
+      "question": "Aterrizas en Lisboa. ¿A cuánto está el aeropuerto del centro?",
+      "options": [
+        "A siete kilómetros, dentro de la ciudad, con metro directo",
+        "A cuarenta kilómetros, como en Roma",
+        "En la otra orilla del Tajo"
+      ],
+      "explain": "El aeropuerto está dentro de la ciudad: la línea roja del metro sale de la propia terminal y en veinte minutos estás en el centro. El taxi tarda poco más y tiene un suplemento por maleta que es legal, no un timo. Es de las pocas capitales de Europa donde llegar no es un viaje en sí mismo."
+    },
+    {
+      "type": "quiz",
+      "id": "lis-street-02",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "En el metro te venden una tarjeta y te preguntan si la quieres en «zapping». ¿Qué es?",
+      "options": [
+        "Saldo que vale en metro, bus, tranvía, ferry y elevadores",
+        "Un abono de un día",
+        "La tarjeta de los residentes"
+      ],
+      "explain": "Saldo a descontar por viaje, y un viaje sale más barato así que con billete suelto. Vale para todo lo que se mueve en Lisboa: metro, autobuses, tranvías —el 28 incluido—, los elevadores y el ferry. La tarjeta cuesta medio euro, es de cartón, y se recarga en cualquier máquina. Es lo primero que hay que comprar."
+    },
+    {
+      "type": "story",
+      "id": "lis-street-03",
+      "kicker": "TRANVÍA",
+      "review": true,
+      "title": "Usa el 28 como lo que es: un autobús",
+      "body": "El 28 es una línea de transporte público que los turistas han convertido en atracción: cola de una hora en Martim Moniz para ir de pie, apretado, con la cartera a la vista. Los lisboetas que van a los mismos barrios cogen el 12, que hace la vuelta corta por Alfama y Graça sin cola, o suben al 28 a las ocho de la mañana, cuando es un tranvía y no una fila. El paisaje es el mismo. La cartera, también: llévala delante."
+    },
+    {
+      "type": "story",
+      "id": "lis-street-04",
+      "kicker": "LA OTRA ORILLA",
+      "title": "La mejor vista de Lisboa no está en Lisboa",
+      "body": "Está en Cacilhas, al otro lado del río, donde la ciudad entera se ve de frente y de golpe. Se llega en ferry desde Cais do Sodré, con la tarjeta de transporte, y al bajar hay una calle de restaurantes de pescado a precio de barrio y un paseo por la orilla hasta unos cuantos sitios que solo conocen los de allí. Media Lisboa cruza los domingos. Los turistas, casi nunca."
+    },
+    {
+      "type": "slider",
+      "id": "lis-street-05",
+      "kicker": "ADIVINA",
+      "question": "Ese ferry a Cacilhas, ¿cuántos minutos tarda?",
+      "min": 2,
+      "max": 60,
+      "answer": 10,
+      "tolerance": 4,
+      "explain_correct": "Diez minutos. Sale cada poco, cuesta menos que un café, y es de largo la mejor excursión en barco de la ciudad: la que hace la gente para ir a trabajar.",
+      "explain_wrong": "Diez minutos. Sale cada poco y cuesta menos que un café — es la mejor excursión en barco de la ciudad, y la hace la gente para ir a trabajar."
+    },
+    {
+      "type": "tip",
+      "id": "lis-street-06",
+      "kicker": "MIRADOUROS",
+      "review": true,
+      "title": "La ciudad se mira desde arriba, y es gratis",
+      "body": "Lisboa tiene miradores públicos en casi cada colina y ninguno cobra entrada. Santa Catarina para el atardecer con gente; Graça para el atardecer con lisboetas; Senhora do Monte, el más alto, para no tener a nadie al lado. En muchos hay un quiosco que sirve bebidas a precio normal. La hora es una: la última de sol. La ciudad entera se pone naranja."
+    },
+    {
+      "type": "quiz",
+      "id": "lis-street-07",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Te citan «en el quiosque» de una plaza. ¿Qué es?",
+      "options": [
+        "Un kiosco de hierro que sirve bebidas, con mesas fuera",
+        "Una parada de tranvía",
+        "Un puesto de periódicos"
+      ],
+      "explain": "Kioscos de hierro del siglo XIX, casi todos cerrados durante décadas y recuperados a partir de 2009 como bares al aire libre. Una imperial, un vino, un café, unas mesas de metal en la plaza. Son el sitio donde la ciudad se sienta, y cuestan lo mismo que un bar de barrio: la vista sale gratis."
+    },
+    {
+      "type": "story",
+      "id": "lis-street-08",
+      "kicker": "ALFAMA",
+      "title": "El barrio que no tiene calles",
+      "body": "Alfama es anterior a todo lo demás: el trazado es árabe, y sobrevivió al terremoto de 1755 porque está sobre roca mientras el resto de la ciudad se hundía en el barro. Por eso no tiene calles sino «becos» —callejones que acaban en escaleras, escaleras que acaban en patios— y el GPS se rinde. La única manera de recorrerlo es perderse a propósito y bajar siempre que dudes: abajo está el río."
+    },
+    {
+      "type": "tip",
+      "id": "lis-street-09",
+      "kicker": "BELÉM",
+      "title": "A Belém se va antes de que se despierte",
+      "body": "El tranvía 15 tarda media hora y va lleno; el tren desde Cais do Sodré tarda siete minutos y va medio vacío, y para en Belém. Llega a las nueve: a las once la cola de los pastéis dobla la esquina y el monasterio tiene hora de espera. A esa hora ya has visto la torre, el monasterio y el río con la luz baja, y estás desayunando mientras el resto hace cola."
+    },
+    {
+      "type": "final",
+      "id": "lis-street-10"
+    }
+  ]
+}
