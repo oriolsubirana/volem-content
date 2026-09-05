@@ -42,6 +42,22 @@ Sube `{id}-pack-v{N+1}.json` (+ variante en), apunta los `packURL` al fichero
 nuevo y sube `packVersion`. La app mostrará "NUEVA VERSIÓN" y ofrecerá
 rehacer el pack. El progreso del usuario sobrevive (IDs de card estables).
 
+## Avisos push
+
+Publicar = avisar. En cada push a `main`, `.github/workflows/notify.yml`
+compara el manifest con el anterior (`tools/new_packs.py`) y, si hay
+destinos jugables o packs temáticos nuevos, `tools/send_push.py` manda un
+push a los móviles registrados en Supabase, en su idioma, hablando con APNs
+directamente. Sin los secrets configurados el workflow avisa y no hace nada.
+
+Para un aviso a mano (p. ej. una corrección), lánzalo desde Actions → *Avisa
+de packs nuevos* → *Run workflow* con los cuatro textos.
+
+Secrets que necesita (Settings → Secrets → Actions): `SUPABASE_URL`,
+`SUPABASE_SERVICE_ROLE_KEY`, `APNS_KEY_P8`, `APNS_KEY_ID`, `APNS_TEAM_ID`.
+El detalle —tabla, RLS, de dónde sale cada uno— está en `content/SUPABASE.md`
+del repo de la app.
+
 ## Ojo
 
 - Los textos de un pack se traducen; **las respuestas, rangos y verdicts no**

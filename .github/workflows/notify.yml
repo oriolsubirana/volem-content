@@ -1,0 +1,70 @@
+name: Avisa de packs nuevos
+
+# Publicar = avisar. En cada push a main se compara el manifest con el de
+# antes; si hay destinos o packs nuevos, se manda un push a los móviles
+# registrados en Supabase. Sin secrets configurados no falla: avisa y calla.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      title_es: { description: "Título (es)", required: true }
+      body_es:  { description: "Texto (es)", required: true }
+      title_en: { description: "Título (en)", required: true }
+      body_en:  { description: "Texto (en)", required: true }
+      destination: { description: "id del destino que abre el aviso (opcional)", required: false, default: "" }
+
+permissions:
+  contents: read
+
+concurrency:
+  group: notify
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    name: Push a los móviles
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      APNS_KEY_P8: ${{ secrets.APNS_KEY_P8 }}
+      APNS_KEY_ID: ${{ secrets.APNS_KEY_ID }}
+      APNS_TEAM_ID: ${{ secrets.APNS_TEAM_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: ¿Qué hay nuevo?
+        if: github.event_name == 'push'
+        run: |
+          python3 tools/new_packs.py "${{ github.event.before }}" "${{ github.sha }}" > novedades.json
+          cat novedades.json
+
+      - name: ¿Está configurado?
+        id: config
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$APNS_KEY_P8" ]; then
+            echo "::warning::Sin secrets de push (SUPABASE_URL / APNS_KEY_P8): no se avisa a nadie"
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Dependencias
+        if: steps.config.outputs.ok == 'true'
+        run: pip install -q 'httpx[http2]' cryptography
+
+      - name: Avisa de lo publicado
+        if: github.event_name == 'push' && steps.config.outputs.ok == 'true'
+        run: python3 tools/send_push.py --from-json novedades.json
+
+      - name: Avisa (manual)
+        if: github.event_name == 'workflow_dispatch' && steps.config.outputs.ok == 'true'
+        run: |
+          python3 tools/send_push.py \
+            --title-es "${{ inputs.title_es }}" --body-es "${{ inputs.body_es }}" \
+            --title-en "${{ inputs.title_en }}" --body-en "${{ inputs.body_en }}" \
+            ${{ inputs.destination != '' && format('--destination {0}', inputs.destination) || '' }}
