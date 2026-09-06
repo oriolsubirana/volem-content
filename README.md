@@ -15,7 +15,9 @@ Si el manifest no responde, la app degrada sin ruido al seed embebido
 
 - `manifest.json` / `manifest-en.json` — catálogo de destinos por idioma.
   Un destino es jugable si su `packURL` no es `null`; con `null` aparece
-  como "próximamente".
+  como "próximamente". Cada destino lleva `region` (Europa, Asia, América…)
+  en el idioma del manifest: la app lo usa para agrupar la lista cuando haya
+  ciudades de sobra.
 - `{id}-pack-v{N}.json` / `{id}-pack-{lang}-v{N}.json` — packs versionados
   e inmutables (una versión nueva = fichero nuevo, nunca se reescribe uno
   publicado: la caché del cliente ficha por nombre).

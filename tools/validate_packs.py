@@ -168,7 +168,7 @@ def validate_manifest(path: Path, language: str,
             err(path, f"destino duplicado '{did}'")
         seen.add(did)
 
-        for field in ("name", "country", "latitude", "longitude", "iataCodes",
+        for field in ("name", "country", "region", "latitude", "longitude", "iataCodes",
                       "packVersion", "packSizeBytes", "cardCount", "estimatedMinutes"):
             if field not in dest:
                 err(path, f"destino {did}: falta '{field}'")

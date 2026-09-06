@@ -5,6 +5,7 @@
       "id": "lis",
       "name": "Lisboa",
       "country": "Portugal",
+      "region": "Europa",
       "latitude": 38.7223,
       "longitude": -9.1393,
       "iataCodes": [
@@ -53,6 +54,7 @@
       "id": "rom",
       "name": "Roma",
       "country": "Italia",
+      "region": "Europa",
       "latitude": 41.9028,
       "longitude": 12.4964,
       "iataCodes": [
@@ -102,6 +104,7 @@
       "id": "par",
       "name": "París",
       "country": "Francia",
+      "region": "Europa",
       "latitude": 48.8566,
       "longitude": 2.3522,
       "iataCodes": [
@@ -119,6 +122,7 @@
       "id": "tyo",
       "name": "Tokio",
       "country": "Japón",
+      "region": "Asia",
       "latitude": 35.6762,
       "longitude": 139.6503,
       "iataCodes": [
@@ -136,6 +140,7 @@
       "id": "nyc",
       "name": "Nueva York",
       "country": "Estados Unidos",
+      "region": "América",
       "latitude": 40.7128,
       "longitude": -74.006,
       "iataCodes": [
