@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T12:54:26Z",
+  "updatedAt": "2026-09-06T11:11:47Z",
   "destinations": [
     {
       "id": "lis",
@@ -111,11 +111,11 @@
         "CDG",
         "ORY"
       ],
-      "packVersion": 0,
-      "packURL": null,
-      "packSizeBytes": 0,
-      "cardCount": 0,
-      "estimatedMinutes": 0,
+      "packVersion": 1,
+      "packURL": "https://oriolsubirana.github.io/volem-content/par-pack-v1.json",
+      "packSizeBytes": 16813,
+      "cardCount": 32,
+      "estimatedMinutes": 65,
       "productID": null
     },
     {

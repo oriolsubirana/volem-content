@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "par",
+  "destination": "París",
+  "country": "Francia",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 65,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "par-000",
+      "kicker": "GUÍA DE VUELO",
+      "title": "París",
+      "sub": "30 cards · ~65 min · listo antes de aterrizar"
+    },
+    {
+      "type": "story",
+      "id": "par-001",
+      "kicker": "HISTORIA",
+      "title": "La ciudad que empezó en una isla",
+      "body": "Antes de París hubo Lutecia: un poblado de los parisios, una tribu celta, en la isla que hoy es la Île de la Cité. Los romanos la tomaron en el 52 a.C. y la llamaron con el nombre de la tribu — por eso París no debe su nombre al príncipe troyano, aunque lo parezca. Todo lo que verás creció desde esa isla hacia las dos orillas. Empieza por ahí."
+    },
+    {
+      "type": "story",
+      "id": "par-002",
+      "kicker": "TORRE EIFFEL",
+      "title": "El monumento que iba a durar veinte años",
+      "body": "Se levantó en dos años para la Exposición de 1889 con permiso de derribo para 1909: era una atracción temporal. Medio centenar de artistas y escritores —Maupassant y Dumas hijo entre ellos— firmaron una protesta contra «la inútil y monstruosa torre». Fue la estructura más alta del mundo hasta 1930. Y Eiffel, que sabía lo que era un permiso, tenía un plan para que nadie la tocara: guárdalo, vuelve al final."
+    },
+    {
+      "type": "myth",
+      "id": "par-003",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«La Torre Eiffel mide lo mismo en verano que en invierno»",
+      "body": "Es hierro, y el hierro se dilata: en un día de calor la torre crece hasta 15 centímetros y se inclina unos pocos hacia el lado contrario al sol, porque la cara caliente se estira más que la fría. Cada noche vuelve a su sitio. Tiene 300 metros, sí — pero depende de cuándo lo preguntes."
+    },
+    {
+      "type": "quiz",
+      "id": "par-004",
+      "kicker": "QUIZ",
+      "answer": 1,
+      "question": "¿Cada cuánto se repinta la Torre Eiffel entera?",
+      "options": [
+        "Cada año",
+        "Cada siete años",
+        "No se ha repintado desde 1889"
+      ],
+      "explain": "Cada siete años, a mano, con unas 60 toneladas de pintura y un equipo que tarda año y medio. Sin eso el hierro se comería la torre. El color, un marrón que se aclara hacia arriba para que parezca uniforme contra el cielo, tiene nombre propio: «marrón Eiffel»."
+    },
+    {
+      "type": "story",
+      "id": "par-005",
+      "kicker": "ARQUITECTURA",
+      "title": "La ciudad que se reconstruyó con una regla",
+      "body": "El París de los bulevares anchos y las fachadas iguales tiene fecha: entre 1853 y 1870 el barón Haussmann derribó más de la mitad de la ciudad medieval y la rehízo con normas fijas — altura, línea de balcones, piedra clara. Luz, alcantarillas y calles rectas por las que, de paso, cabía un ejército. Lo que te parece eterno tiene siglo y medio."
+    },
+    {
+      "type": "slider",
+      "id": "par-006",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántos kilómetros de alcantarillas hay debajo de París?",
+      "min": 100,
+      "max": 5000,
+      "answer": 2600,
+      "tolerance": 500,
+      "explain_correct": "Unos 2.600 kilómetros, cada tramo con el nombre de la calle que tiene encima. Se pueden visitar: hay un museo dentro, y huele exactamente como imaginas.",
+      "explain_wrong": "Unos 2.600 kilómetros — casi la distancia de París a Moscú —, y cada tramo lleva el nombre de la calle de arriba. Hay un museo dentro. Huele exactamente como imaginas."
+    },
+    {
+      "type": "story",
+      "id": "par-007",
+      "kicker": "RAREZAS",
+      "title": "Seis millones de vecinos bajo tus pies",
+      "body": "A finales del siglo XVIII los cementerios del centro reventaban — literalmente: un muro del de los Inocentes cedió sobre un sótano. La solución fue vaciar todos en las antiguas canteras de piedra: los huesos de unos seis millones de parisinos, apilados con orden en kilómetros de galerías. Las Catacumbas se visitan. Son más gente que la que vive hoy arriba."
+    },
+    {
+      "type": "story",
+      "id": "par-008",
+      "kicker": "CONCORDIA",
+      "title": "El regalo de 3.300 años",
+      "body": "El obelisco de la plaza de la Concordia estuvo en la puerta del templo de Luxor durante treinta y tres siglos hasta que Egipto lo regaló a Francia. Llegó en 1833 en un barco construido a medida y tardaron tres años en ponerlo de pie. Le faltaba la punta desde la antigüedad: se la doraron en 1998. Es lo más viejo que vas a ver en París, y no es parisino."
+    },
+    {
+      "type": "quiz",
+      "id": "par-009",
+      "kicker": "QUIZ",
+      "answer": 2,
+      "question": "¿Qué había en la plaza de la Concordia antes del obelisco?",
+      "options": [
+        "Un mercado de flores",
+        "Una estatua de Napoleón",
+        "La guillotina"
+      ],
+      "explain": "Se llamó plaza de la Revolución, y ahí cayeron Luis XVI y María Antonieta en 1793, entre más de mil ejecuciones. Se rebautizó «Concordia» para pasar página. El obelisco ocupa el sitio con una ventaja: no tiene bando."
+    },
+    {
+      "type": "story",
+      "id": "par-010",
+      "kicker": "LOUVRE",
+      "title": "Fortaleza, palacio, museo",
+      "body": "El Louvre empezó como castillo en 1190 —los cimientos se ven en el sótano—, fue palacio de reyes y abrió como museo en 1793, en plena Revolución, con las colecciones reales confiscadas. Hoy expone unas 35.000 obras. A treinta segundos por obra, sin comer ni dormir, tardarías doce días. Elige tres y míralas de verdad."
+    },
+    {
+      "type": "myth",
+      "id": "par-011",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«La Gioconda es famosa desde que Leonardo la pintó»",
+      "body": "Fue un cuadro respetado y poco más hasta 1911, cuando un cristalero italiano se la llevó bajo el abrigo y el Louvre tardó un día en notarlo. Dos años desaparecida, portadas en todo el mundo, Picasso interrogado por la policía. Cuando volvió, ya era la obra más famosa de la Tierra. La hizo célebre el ladrón, no el pintor."
+    },
+    {
+      "type": "tip",
+      "id": "par-012",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "review": true,
+      "title": "El «bonjour» no es opcional",
+      "body": "Antes de preguntar, pedir o pagar: «bonjour, madame» o «bonjour, monsieur». Saltárselo es entrar en casa de alguien sin llamar, y buena parte de la fama de antipáticos de los parisinos es solo eso — gente que respondió al tono con el que le hablaron. Con el bonjour delante, la ciudad cambia de cara."
+    },
+    {
+      "type": "story",
+      "id": "par-013",
+      "kicker": "CALLES",
+      "review": true,
+      "title": "Los números siguen al río",
+      "body": "En París la numeración tiene lógica desde 1805: en las calles perpendiculares al Sena, el 1 está en el lado del río y los números crecen al alejarse; en las paralelas, crecen en el sentido de la corriente, de este a oeste. Y los pares van siempre a la derecha según suben. Con eso y una placa azul sabes dónde está el agua sin verla."
+    },
+    {
+      "type": "story",
+      "id": "par-014",
+      "kicker": "SENA",
+      "title": "La librería más larga del mundo",
+      "body": "Las cajas verdes de los muelles son los «bouquinistes»: unos 230 libreros con casi 900 cajas a lo largo de tres kilómetros de río, vendiendo libros de segunda mano desde el siglo XVI. Pagan alquiler simbólico y tienen prohibido vender solo souvenirs. Es la mayor librería al aire libre que existe, y cierra cuando llueve."
+    },
+    {
+      "type": "slider",
+      "id": "par-015",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántos puentes cruzan el Sena dentro de París?",
+      "min": 5,
+      "max": 80,
+      "answer": 37,
+      "tolerance": 6,
+      "explain_correct": "Treinta y siete, y ninguno se parece a otro. El más viejo es del siglo XVII y se llama Puente Nuevo; el más joven es una pasarela de 2006.",
+      "explain_wrong": "Treinta y siete, cada uno de su época. El más viejo, del siglo XVII, se llama Puente Nuevo; el más joven es una pasarela peatonal de 2006."
+    },
+    {
+      "type": "story",
+      "id": "par-016",
+      "kicker": "PUENTES",
+      "title": "El puente «nuevo» es el más viejo",
+      "body": "El Pont Neuf se terminó en 1607 y hoy es el más antiguo de la ciudad. Lo de nuevo lo era entonces por dos cosas que nadie había hecho: no llevaba casas encima —todos los puentes medievales eran calles con edificios— y tenía aceras. Por primera vez se podía cruzar el río mirando el río."
+    },
+    {
+      "type": "quiz",
+      "id": "par-017",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Los candados del amor del Pont des Arts, ¿dónde están hoy?",
+      "options": [
+        "Se retiraron: pesaban 45 toneladas",
+        "Siguen ahí, ya son patrimonio",
+        "Se fundieron para una estatua"
+      ],
+      "explain": "En 2014 un tramo de barandilla cedió por el peso. En 2015 el ayuntamiento los quitó todos —unas 45 toneladas de hierro— y puso paneles de cristal donde no se puede enganchar nada. La costumbre se ha mudado a otros puentes. La ciudad va detrás con unas cizallas."
+    },
+    {
+      "type": "story",
+      "id": "par-018",
+      "kicker": "METRO",
+      "title": "Las bocas de metro que son arte",
+      "body": "El metro abrió en 1900 para la Exposición Universal, y sus entradas las diseñó Hector Guimard en hierro verde con formas de planta: el Art Nouveau más fotografiado del mundo. Quedan 86 de las 167 originales. Y una regla que ayuda a moverse: dentro de París nunca estás a más de 500 metros de una estación. Si te pierdes, camina en cualquier dirección."
+    },
+    {
+      "type": "myth",
+      "id": "par-019",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«El Arco de Triunfo es el arco de triunfo más grande del mundo»",
+      "body": "Mide 50 metros y lo superan al menos dos: el de Pyongyang, en Corea del Norte, construido en 1982 con diez metros más a propósito, y el Monumento a la Revolución de Ciudad de México, con 67. París tiene el más famoso y el más copiado. El más grande, no — y a nadie aquí le importa."
+    },
+    {
+      "type": "story",
+      "id": "par-020",
+      "kicker": "ARCO",
+      "title": "La llama que se enciende cada tarde",
+      "body": "Bajo el Arco descansa desde 1921 un soldado sin nombre de la Primera Guerra Mundial, y desde 1923 una llama arde encima sin haberse apagado nunca: cada tarde a las seis y media, una asociación de veteranos la reaviva en una ceremonia breve que casi nadie sabe que existe. Para llegar al arco no cruces la rotonda —doce avenidas, sin carriles—: hay un túnel desde los Campos Elíseos."
+    },
+    {
+      "type": "story",
+      "id": "par-021",
+      "kicker": "TEJADOS",
+      "title": "Por qué París es gris desde arriba",
+      "body": "Sube a cualquier terraza y verás una ciudad de tejados grises, todos iguales, con chimeneas de barro asomando. Son de zinc: barato, ligero y fácil de doblar, lo que permitió a Haussmann poner buhardillas habitables donde antes había desvanes. Cuatro de cada cinco tejados de París son de zinc, y desde 2024 el oficio de quienes los colocan, los zingueros, es patrimonio de la UNESCO."
+    },
+    {
+      "type": "tip",
+      "id": "par-022",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "review": true,
+      "title": "El agua es gratis y el servicio va incluido",
+      "body": "«Une carafe d'eau, s'il vous plaît»: el agua del grifo en jarra es gratis por ley con la comida, y nadie te mirará raro. En la cuenta, «service compris» significa que la propina ya está dentro — dejar unas monedas es un gesto, no una obligación. Y la cuenta no viene sola: se pide, «l'addition», o te quedas allí hasta que cierren."
+    },
+    {
+      "type": "story",
+      "id": "par-023",
+      "kicker": "GASTRONOMÍA",
+      "title": "El croissant es vienés",
+      "body": "Viene del «kipferl» austríaco, y llegó a París en 1839 con un panadero de Viena que abrió tienda en la rue de Richelieu. La versión de hojaldre con mantequilla, la que conoces, es parisina y de principios del siglo XX. Lo de María Antonieta trayéndolo en el equipaje es leyenda. La leyenda, eso sí, es muy buena para vender croissants."
+    },
+    {
+      "type": "story",
+      "id": "par-024",
+      "kicker": "MONTMARTRE",
+      "title": "La basílica que se lava sola",
+      "body": "El Sacré-Cœur está hecho con una piedra de Château-Landon que, cuando llueve, exuda un mineral blanco: la basílica se blanquea con cada tormenta y lleva un siglo sin ensuciarse. Detrás, en la misma colina, queda una viña de verdad —el Clos Montmartre— con vendimia en octubre y un vino que nadie compra por el sabor. Montmartre fue un pueblo con molinos hasta 1860, y todavía se le nota."
+    },
+    {
+      "type": "story",
+      "id": "par-025",
+      "kicker": "NOTRE-DAME",
+      "title": "El kilómetro cero de Francia",
+      "body": "En el suelo de la explanada de Notre-Dame hay una placa de bronce con una estrella: el «point zéro», desde donde se miden las distancias por carretera a París en toda Francia. El 15 de abril de 2019 la catedral ardió con medio mundo mirando la aguja caer en directo; reabrió en diciembre de 2024, más clara de lo que nadie la había visto. Pisa la estrella: dicen que da suerte, y no cuesta nada."
+    },
+    {
+      "type": "slider",
+      "id": "par-026",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántos años tardó en construirse Notre-Dame la primera vez?",
+      "min": 20,
+      "max": 400,
+      "answer": 180,
+      "tolerance": 40,
+      "explain_correct": "Unos 180 años, de 1163 a 1345: seis generaciones de canteros que sabían que no la verían terminada. La reconstrucción tras el incendio tardó cinco.",
+      "explain_wrong": "Unos 180 años, de 1163 a 1345 — seis generaciones de canteros. Reconstruirla tras el incendio de 2019 llevó cinco. Las prisas son un invento reciente."
+    },
+    {
+      "type": "story",
+      "id": "par-027",
+      "kicker": "PANTEÓN",
+      "title": "El péndulo que demostró que la Tierra gira",
+      "body": "En 1851 Léon Foucault colgó una bola de 28 kilos de la cúpula del Panteón con un hilo de 67 metros y la dejó oscilar. El plano del péndulo iba girando lentamente: no era el péndulo, era el suelo — la Tierra, rotando bajo él. Fue la primera vez que alguien lo vio con sus ojos. Debajo, en la cripta, están Voltaire, Hugo, Zola y Marie Curie, la primera mujer enterrada allí por sus propios méritos."
+    },
+    {
+      "type": "story",
+      "id": "par-028",
+      "kicker": "HISTORIA",
+      "title": "La ciudad que no ardió",
+      "body": "En agosto de 1944, con los aliados a las puertas, la orden de Berlín fue destruir París: puentes minados, monumentos con explosivos. El general al mando, Dietrich von Choltitz, no la ejecutó y entregó la ciudad intacta. Los historiadores discuten si fue conciencia, cálculo o falta de medios. Da igual: todo lo que has visto en estas cards existe porque un hombre no hizo una llamada."
+    },
+    {
+      "type": "quiz",
+      "id": "par-029",
+      "kicker": "ÚLTIMO QUIZ",
+      "answer": 2,
+      "question": "Cierre circular: ¿qué salvó a la Torre Eiffel de que la desmontaran en 1909?",
+      "options": [
+        "Una petición firmada por los artistas",
+        "Su tamaño colosal",
+        "Las antenas de radio"
+      ],
+      "explain": "El plan de Eiffel era hacerla útil. Cedió la punta a la ciencia y desde 1903 el ejército hacía pruebas de telegrafía sin hilos desde arriba: una antena de 300 metros no tenía rival. Cuando venció el permiso, la torre ya era estratégica y nadie se atrevió. Los artistas que la odiaban acabaron pintándola. La chatarra temporal es hoy el monumento de pago más visitado del mundo."
+    },
+    {
+      "type": "story",
+      "id": "par-030",
+      "kicker": "LEYENDA",
+      "title": "La ciudad de la luz se lo ganó dos veces",
+      "body": "«Ville Lumière» viene de la Ilustración, que se escribió aquí, y de algo más literal: París fue de las primeras ciudades del mundo en iluminar sus calles, primero con farolas de aceite y luego con gas, cuando el resto de Europa se acostaba a oscuras. Llevas 30 cards viendo a una ciudad que convierte huesos en museo, ladrones en publicidad y chatarra en símbolo. Bienvenido. Ya aterrizas."
+    },
+    {
+      "type": "final",
+      "id": "par-031"
+    }
+  ]
+}
