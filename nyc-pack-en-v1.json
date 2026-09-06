@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "nyc",
+  "destination": "New York",
+  "country": "United States",
+  "language": "en",
+  "version": 1,
+  "estimated_minutes": 65,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "nyc-000",
+      "kicker": "FLIGHT GUIDE",
+      "title": "New York",
+      "sub": "30 cards · ~65 min · done before you land"
+    },
+    {
+      "type": "story",
+      "id": "nyc-001",
+      "kicker": "HISTORY",
+      "title": "The city that changed its name without a shot",
+      "body": "The Dutch founded New Amsterdam on the southern tip of Manhattan in 1624, on Lenape land. Forty years later four English frigates arrived, the governor surrendered without firing, and they renamed it after the Duke of York. The Lenape already had a trail crossing the island diagonally, end to end, long before anyone else: hold on to that, because it's still there and it comes back at the end."
+    },
+    {
+      "type": "story",
+      "id": "nyc-002",
+      "kicker": "MANHATTAN",
+      "title": "The 24-dollar purchase",
+      "body": "In 1626 Peter Minuit «bought» Manhattan from the Lenape for goods valued at 60 guilders. A nineteenth-century historian converted that to 24 dollars and the figure stuck forever. The detail usually missing: the Lenape didn't think of land as something you sell, and most likely signed over the right to share it. Both sides walked away convinced they'd made the deal of the century. Only one was right."
+    },
+    {
+      "type": "myth",
+      "id": "nyc-003",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«The Statue of Liberty was always green»",
+      "body": "It's copper, and when it was unveiled in 1886 it was the colour of a new coin: shiny brown. It took about thirty years to turn green from the patina copper grows in open air, and when the government proposed repainting it, people protested. The green isn't paint: it's the statue ageing in front of everyone, and nobody can picture it any other colour now."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-004",
+      "kicker": "QUIZ",
+      "answer": 1,
+      "question": "France gave the statue. Who paid for the pedestal?",
+      "options": [
+        "The French government, too",
+        "A newspaper's readers, in pennies",
+        "A banker: J. P. Morgan"
+      ],
+      "explain": "Nobody wanted to pay for it, and the statue sat in crates for a year. Joseph Pulitzer promised in his newspaper to print the name of everyone who donated, and 120,000 people sent money — most of them less than a dollar, many of them children with their coins. Liberty was paid for by the people who came looking for it."
+    },
+    {
+      "type": "story",
+      "id": "nyc-005",
+      "kicker": "THE GRID",
+      "title": "The city drawn before it existed",
+      "body": "In 1811 three commissioners laid a perfect grid over an island of farms and hills: twelve avenues running north–south, 155 streets east–west, no squares and no monuments, «because straight-sided houses are the cheapest». They levelled hills and filled streams so the paper would beat the terrain. What looks cold has one advantage: you never get lost. If you can count, you know where you are."
+    },
+    {
+      "type": "slider",
+      "id": "nyc-006",
+      "kicker": "GUESS",
+      "question": "Walking north to south, how many streets make a mile, 1.6 km?",
+      "min": 5,
+      "max": 60,
+      "answer": 20,
+      "tolerance": 4,
+      "explain_correct": "Twenty streets to the mile: it's the rule every New Yorker uses to work out how long a walk takes. Avenues, running east–west, are three or four times longer.",
+      "explain_wrong": "Twenty streets to the mile, and New Yorkers calculate everything with it: 14th to 34th is a twenty-minute walk. Avenues, on the other hand, are long: count three to the mile."
+    },
+    {
+      "type": "story",
+      "id": "nyc-007",
+      "kicker": "CENTRAL PARK",
+      "title": "The forest that is a stage set",
+      "body": "Nothing in Central Park is natural: every lake, hill and visible rock was designed or placed between 1857 and 1876, on swampy ground that had to be blasted with more gunpowder than was used at the Battle of Gettysburg. It's bigger than the principality of Monaco. And the paths curve on purpose: so you never see the city in a straight line."
+    },
+    {
+      "type": "story",
+      "id": "nyc-008",
+      "kicker": "SUBWAY",
+      "title": "The subway that never closes",
+      "body": "It opened in 1904, has 472 stations — more than any other in the world — and runs 24 hours a day, 365 days a year: there's no hour when you can't cross the city. The trap for the newcomer is the «express» trains, which skip stations: check the map before boarding — a white circle is a station where the express stops; a black dot, local only — or you'll end up thirty streets past where you wanted."
+    },
+    {
+      "type": "tip",
+      "id": "nyc-009",
+      "kicker": "WHAT LOCALS KNOW",
+      "review": true,
+      "title": "The tip is the wage",
+      "body": "Here, yes: 18 to 20% in restaurants and bars, a dollar a drink at the counter, and in taxis whichever percentage the screen suggests. It isn't generosity, it's how the person serving you gets paid. And the prices you see don't include tax, which is added at the till: nearly 9%. «How are you» on the way in isn't a question; «good, you?» and move on."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-010",
+      "kicker": "QUIZ",
+      "answer": 2,
+      "question": "What was Wall Street before it was Wall Street?",
+      "options": [
+        "The street of the first banks",
+        "The cattle market",
+        "An actual wall"
+      ],
+      "explain": "A wooden palisade the Dutch built in 1653 across the island, to defend against the English and the natives. The English tore it down in 1699, the street kept the name, and under a plane tree on that street twenty-four brokers signed the agreement that founded the Stock Exchange in 1792. From wall to money, two hundred metres."
+    },
+    {
+      "type": "story",
+      "id": "nyc-011",
+      "kicker": "SKYSCRAPERS",
+      "title": "The giant nobody wanted to rent",
+      "body": "The Empire State went up in 410 days — sometimes four and a half floors a week — and opened in 1931 in the depths of the Depression. It took twenty years to fill; New Yorkers called it the «Empty State Building». The mast on top was designed as a mooring for airships, an idea that lasted one attempt: the wind at 380 metres doesn't listen to reason."
+    },
+    {
+      "type": "myth",
+      "id": "nyc-012",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«A coin dropped from the Empire State could kill someone»",
+      "body": "A coin is flat and light: the air slows it almost at once and it lands at about 50 kilometres an hour, enough to sting and nothing more. It's been tested. What would be dangerous is anything dense with a point — but nobody drops that from the 86th floor, because the terrace is fenced to the top precisely because of people who wanted to test the legend."
+    },
+    {
+      "type": "story",
+      "id": "nyc-013",
+      "kicker": "CHRYSLER",
+      "title": "The spire that hid to win",
+      "body": "In 1929 two skyscrapers were racing to be the tallest in the world: the Chrysler and the Bank of Manhattan building, on Wall Street. When the bank topped out two metres ahead, the Chrysler's architect produced a 56-metre steel spire he had assembled in secret inside the building and hoisted it in an hour and a half. He won — for eleven months, until the Empire State opened. It's still the most beautiful skyscraper in the city, and there's little argument about that."
+    },
+    {
+      "type": "slider",
+      "id": "nyc-014",
+      "kicker": "GUESS",
+      "question": "How many languages are spoken in New York?",
+      "min": 50,
+      "max": 1500,
+      "answer": 800,
+      "tolerance": 200,
+      "explain_correct": "About 800: the most multilingual city on the planet. In Queens, within a few blocks, more languages are spoken than in many entire countries — including several no longer spoken in their homelands.",
+      "explain_wrong": "About 800, the densest concentration of languages on the planet. Queens alone keeps languages that have already vanished from their countries of origin. Listen on the subway: you'll hear it."
+    },
+    {
+      "type": "story",
+      "id": "nyc-015",
+      "kicker": "BOROUGHS",
+      "title": "The great mistake of 1898",
+      "body": "New York is five boroughs — Manhattan, Brooklyn, Queens, the Bronx and Staten Island — and each is also a county of the state. Until 1898 Brooklyn was a separate city, the fourth largest in the country, with its own mayor and its own pride; it voted to merge by a handful of votes and some people there still call it «the great mistake». Manhattan is the island, not the city: eight out of ten New Yorkers live off it."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-016",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Which of the five boroughs has the most people?",
+      "options": [
+        "Brooklyn",
+        "Manhattan",
+        "Queens"
+      ],
+      "explain": "Brooklyn, with more than two and a half million: if it were an independent city it would be among the four largest in the United States. Queens is right behind and is the largest by area. Manhattan, the one in the films, is third — and the smallest."
+    },
+    {
+      "type": "story",
+      "id": "nyc-017",
+      "kicker": "BRIDGE",
+      "title": "The bridge a woman finished",
+      "body": "The Brooklyn Bridge (1883) cost its designer his life before work began and left his son paralysed, directing the job from his bed through a telescope. The person who actually ran the site for eleven years was Emily Roebling, the daughter-in-law, who learned engineering to do it and was the first person to cross. A year later, to calm fears it would fall, a circus walked 21 elephants across. It held. It still holds."
+    },
+    {
+      "type": "story",
+      "id": "nyc-018",
+      "kicker": "STREETS",
+      "title": "Where the steam comes from",
+      "body": "The orange-and-white stacks venting steam in the middle of the street aren't a breakdown: beneath Manhattan there's a network of steam pipes dating from 1882 — the largest in the world — heating thousands of buildings, from the Empire State to the UN. What you see rising is a leak or a vent. It's the most photographed smoke in cinema, and it's central heating."
+    },
+    {
+      "type": "tip",
+      "id": "nyc-019",
+      "kicker": "BODEGA",
+      "review": true,
+      "title": "The corner shop with a cat",
+      "body": "The «bodega» is the neighbourhood corner store, open at almost any hour: dollar coffee, a fried-egg sandwich for breakfast, whatever you're missing at three in the morning, and a cat asleep on the tins — that's the norm, not an accident. There are thousands. It's where New York has breakfast, and where you trust the owner over any review."
+    },
+    {
+      "type": "story",
+      "id": "nyc-020",
+      "kicker": "GRAND CENTRAL",
+      "title": "The sky painted backwards",
+      "body": "Grand Central has 44 platforms, more than any station in the world, and a ceiling with the constellations painted in 1913 — backwards: as they'd look from outside the heavens, the Vanderbilts said afterwards, to save face. Next to the oyster restaurant in the basement there's a vault where, if you whisper into one corner, you're heard in the opposite one. Go with someone and try it."
+    },
+    {
+      "type": "myth",
+      "id": "nyc-021",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "REALIDAD",
+      "claim": "«Times Square is named after a newspaper»",
+      "body": "The New York Times moved there in 1904 and persuaded the city to rename the square, which had been Longacre. To celebrate the new building it put on fireworks on New Year's Eve, and when those were banned as a fire risk, in 1907, it lowered a lit ball from the mast instead. The newspaper left a century ago. The ball still drops every year."
+    },
+    {
+      "type": "story",
+      "id": "nyc-022",
+      "kicker": "HIGH LINE",
+      "title": "The tracks nobody would tear down",
+      "body": "Along Manhattan's west side runs a park nine metres above the ground, on a freight railway abandoned in 1980. It was going to be demolished; two neighbours set out to save it, and in 2009 it opened as an elevated walk between buildings, with the wild plants that had already colonised the tracks. It's been the most imitated park in the world ever since. Walk it at sunset, south to north."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-023",
+      "kicker": "QUIZ",
+      "answer": 1,
+      "question": "Why are the taxis yellow?",
+      "options": [
+        "A 1930 law requires it",
+        "A businessman found it's the colour that's easiest to see",
+        "To tell them apart from hearses"
+      ],
+      "explain": "John Hertz, who founded the company in 1915, commissioned a study on which colour was easiest to spot at a distance: yellow. Decades later the city made it compulsory for licensed cabs, and that's how you know which one you can hail. The green ones are for outside Manhattan; the black ones, by booking."
+    },
+    {
+      "type": "story",
+      "id": "nyc-024",
+      "kicker": "MEMORIAL",
+      "title": "The two voids",
+      "body": "Where the Twin Towers stood there are now two square pools the exact size of their footprints, water falling towards the centre and the names of the nearly three thousand victims engraved around the rim. In the middle of the plaza is a pear tree rescued from the rubble, half burned, that flowered again: they call it the Survivor Tree. It's a place to go in silence."
+    },
+    {
+      "type": "story",
+      "id": "nyc-025",
+      "kicker": "ELLIS ISLAND",
+      "title": "The door half a country came through",
+      "body": "Between 1892 and 1954, twelve million people entered the United States through Ellis Island, in the bay, after a six-second medical exam and a two-minute interrogation. It's estimated that four in ten Americans have an ancestor who passed through. The register is digitised: look up your surname. You might find someone."
+    },
+    {
+      "type": "story",
+      "id": "nyc-026",
+      "kicker": "ODDITIES",
+      "title": "The day the sun fits in the street",
+      "body": "Twice a year — in late May and mid-July — the sun sets exactly in line with the streets of the grid, and for a few minutes it sinks between the skyscrapers all the way to the ground, from one pavement to the other. They call it «Manhattanhenge», after Stonehenge. People stand in the middle of 42nd Street taking photos and the taxis, for once, wait."
+    },
+    {
+      "type": "slider",
+      "id": "nyc-027",
+      "kicker": "GUESS",
+      "question": "How many million people live in New York City, all five boroughs?",
+      "min": 1,
+      "max": 20,
+      "answer": 8,
+      "tolerance": 2,
+      "explain_correct": "About eight and a half million, by far the most populous city in the United States. But by day Manhattan nearly doubles: a million and a half people come in to work every morning.",
+      "explain_wrong": "About eight and a half million across the five boroughs, by far the most populous city in the country. And by day Manhattan nearly doubles: more than a million people come in to work every morning."
+    },
+    {
+      "type": "story",
+      "id": "nyc-028",
+      "kicker": "BROADWAY",
+      "title": "What makes a theatre «Broadway»",
+      "body": "It isn't the street: it's the size. A theatre is «Broadway» if it has 500 seats or more, and there are 41, almost all on the side streets around Times Square, not on Broadway itself. Under 500 is «Off-Broadway», and under 100, «Off-Off». The longest-running musical, «The Phantom of the Opera», closed in 2023 after 35 years and nearly 14,000 performances. Half-price tickets are sold on the day at the booth in the square."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-029",
+      "kicker": "FINAL QUIZ",
+      "answer": 2,
+      "question": "Full circle: why does Broadway cut diagonally across the grid, when everything else runs straight?",
+      "options": [
+        "To join the two rivers by the shortest route",
+        "A surveyors' error in 1811",
+        "Because it follows a Lenape trail older than the city"
+      ],
+      "explain": "It's the trail from the first card. The Lenape already used it to cross the island along the driest ridge; the Dutch widened it, the English called it Broadway, and when the grid was drawn in 1811 they let it through because it was already too important to erase. Every time it cuts an avenue it leaves a triangle: Times Square, Union Square, Madison Square, the Flatiron. New York's squares exist because a native trail refused to go straight."
+    },
+    {
+      "type": "story",
+      "id": "nyc-030",
+      "kicker": "LEGEND",
+      "title": "The city that invents itself every morning",
+      "body": "New York has never had a past to preserve: it demolishes, fills, levels and starts again, and the people arriving today are as New York as the ones who came through Ellis Island. You've spent 30 cards watching a city turn a wall into a stock exchange, dead tracks into a park and a native trail into the centre of the world. Welcome to the city that makes itself. You're landing."
+    },
+    {
+      "type": "final",
+      "id": "nyc-031"
+    }
+  ]
+}

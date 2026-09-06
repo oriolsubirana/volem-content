@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "nyc",
+  "destination": "Nueva York",
+  "country": "Estados Unidos",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 65,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "nyc-000",
+      "kicker": "GUÍA DE VUELO",
+      "title": "Nueva York",
+      "sub": "30 cards · ~65 min · listo antes de aterrizar"
+    },
+    {
+      "type": "story",
+      "id": "nyc-001",
+      "kicker": "HISTORIA",
+      "title": "La ciudad que cambió de nombre sin un disparo",
+      "body": "Los holandeses fundaron Nueva Ámsterdam en la punta sur de Manhattan en 1624, en tierra de los lenape. Cuarenta años después llegaron cuatro fragatas inglesas, el gobernador se rindió sin disparar y la rebautizaron por el duque de York. Los lenape ya tenían un sendero que cruzaba la isla en diagonal, de punta a punta, mucho antes que nadie: guárdalo, porque sigue ahí y vuelve al final."
+    },
+    {
+      "type": "story",
+      "id": "nyc-002",
+      "kicker": "MANHATTAN",
+      "title": "La compra de los 24 dólares",
+      "body": "En 1626 Peter Minuit «compró» Manhattan a los lenape por mercancías valoradas en 60 florines. Un historiador del siglo XIX lo convirtió en 24 dólares y la cifra se quedó para siempre. El detalle que suele faltar: los lenape no entendían la tierra como algo que se vende, y probablemente firmaron el derecho a compartirla. Ambas partes salieron convencidas de haber hecho el trato del siglo. Solo una tenía razón."
+    },
+    {
+      "type": "myth",
+      "id": "nyc-003",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«La Estatua de la Libertad siempre fue verde»",
+      "body": "Es de cobre, y cuando se inauguró en 1886 tenía el color de una moneda nueva: marrón brillante. Tardó unos treinta años en volverse verde por la pátina que el cobre cría al aire, y cuando el gobierno propuso repintarla, la gente protestó. El verde no es pintura: es la estatua envejeciendo a la vista de todos, y ya nadie la imagina de otro color."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-004",
+      "kicker": "QUIZ",
+      "answer": 1,
+      "question": "Francia regaló la estatua. ¿Quién pagó el pedestal?",
+      "options": [
+        "El gobierno francés, también",
+        "Los lectores de un periódico, a céntimos",
+        "Un banquero: J. P. Morgan"
+      ],
+      "explain": "Nadie quería pagarlo, y la estatua estuvo un año en cajas. Joseph Pulitzer prometió en su periódico publicar el nombre de todo el que donara, y 120.000 personas mandaron dinero — la mayoría menos de un dólar, muchos niños con sus monedas. La libertad la pagó la gente que venía a buscarla."
+    },
+    {
+      "type": "story",
+      "id": "nyc-005",
+      "kicker": "CUADRÍCULA",
+      "title": "La ciudad que se dibujó antes de existir",
+      "body": "En 1811 tres comisionados trazaron sobre una isla de granjas y colinas una cuadrícula perfecta: doce avenidas de sur a norte, 155 calles de este a oeste, sin plazas ni monumentos, «porque las casas rectas son las más baratas». Allanaron cerros y rellenaron arroyos para que el papel ganara al terreno. Lo que parece frío tiene una ventaja: nunca te pierdes. Si sabes contar, sabes dónde estás."
+    },
+    {
+      "type": "slider",
+      "id": "nyc-006",
+      "kicker": "ADIVINA",
+      "question": "Andando de norte a sur, ¿cuántas calles son una milla, 1,6 km?",
+      "min": 5,
+      "max": 60,
+      "answer": 20,
+      "tolerance": 4,
+      "explain_correct": "Veinte calles por milla: es la regla que usa todo neoyorquino para calcular cuánto tarda a pie. Las avenidas, de este a oeste, son tres o cuatro veces más largas.",
+      "explain_wrong": "Veinte calles por milla, y con eso los neoyorquinos calculan todo: de la 14 a la 34 son veinte minutos andando. Las avenidas, en cambio, son largas: cuenta tres por milla."
+    },
+    {
+      "type": "story",
+      "id": "nyc-007",
+      "kicker": "CENTRAL PARK",
+      "title": "El bosque que es un decorado",
+      "body": "No hay nada natural en Central Park: cada lago, cada colina y cada roca a la vista se diseñó o se colocó entre 1857 y 1876, sobre un terreno pantanoso que hubo que volar con más pólvora de la que se gastó en la batalla de Gettysburg. Es más grande que el principado de Mónaco. Y los senderos se curvan a propósito: para que nunca veas la ciudad en línea recta."
+    },
+    {
+      "type": "story",
+      "id": "nyc-008",
+      "kicker": "METRO",
+      "title": "El metro que no cierra nunca",
+      "body": "Abrió en 1904 y tiene 472 estaciones, más que ningún otro del mundo, y funciona las 24 horas los 365 días: no hay hora en la que no puedas cruzar la ciudad. La trampa para el recién llegado son los trenes «express», que se saltan estaciones: mira el mapa antes de subir —un círculo blanco es una estación donde para el express; un punto negro, solo el local—, o acabarás treinta calles más allá de donde querías."
+    },
+    {
+      "type": "tip",
+      "id": "nyc-009",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "review": true,
+      "title": "La propina es el sueldo",
+      "body": "Aquí sí: un 18 o 20 % en restaurantes y bares, un dólar por bebida en la barra, y en el taxi el porcentaje que te propone la pantalla. No es generosidad, es cómo se paga a quien te sirve. Y los precios que ves no incluyen el impuesto, que se suma en caja: casi un 9 %. Lo de «how are you» al entrar no es una pregunta; «good, you?» y a otra cosa."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-010",
+      "kicker": "QUIZ",
+      "answer": 2,
+      "question": "¿Qué era Wall Street antes de ser Wall Street?",
+      "options": [
+        "La calle de los primeros bancos",
+        "El mercado de ganado",
+        "Un muro de verdad"
+      ],
+      "explain": "Una empalizada de madera que los holandeses levantaron en 1653 a lo ancho de la isla, para defenderse de ingleses e indígenas. Los ingleses la derribaron en 1699, la calle se quedó con el nombre, y bajo un plátano de esa calle veinticuatro corredores firmaron en 1792 el acuerdo que fundó la Bolsa. Del muro al dinero, doscientos metros."
+    },
+    {
+      "type": "story",
+      "id": "nyc-011",
+      "kicker": "RASCACIELOS",
+      "title": "El gigante que nadie quería alquilar",
+      "body": "El Empire State se levantó en 410 días —a veces cuatro plantas y media por semana— y abrió en 1931 en plena Depresión. Tardó veinte años en llenarse; los neoyorquinos lo llamaban el «Empty State Building», el edificio vacío. La aguja de arriba se diseñó como amarre para dirigibles, idea que duró un intento: el viento a 380 metros no atiende a razones."
+    },
+    {
+      "type": "myth",
+      "id": "nyc-012",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«Una moneda tirada desde el Empire State puede matar a alguien»",
+      "body": "Una moneda es plana y ligera: el aire la frena enseguida y cae a unos 50 kilómetros por hora, lo bastante para doler y no para nada más. Se ha probado. Lo que sí sería peligroso es cualquier cosa densa y con punta — pero eso no lo tira nadie desde la 86, porque la terraza tiene reja hasta arriba precisamente por gente que quiso comprobar la leyenda."
+    },
+    {
+      "type": "story",
+      "id": "nyc-013",
+      "kicker": "CHRYSLER",
+      "title": "La aguja que se escondió para ganar",
+      "body": "En 1929 dos rascacielos competían por ser el más alto del mundo: el Chrysler y el del Banco de Manhattan, en Wall Street. Cuando el banco remató el suyo con dos metros de ventaja, el arquitecto del Chrysler sacó una aguja de acero de 56 metros que había montado en secreto dentro del edificio y la izó en hora y media. Ganó — durante once meses, hasta que abrió el Empire State. Sigue siendo el rascacielos más bonito de la ciudad, y en eso hay poca discusión."
+    },
+    {
+      "type": "slider",
+      "id": "nyc-014",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántos idiomas se hablan en Nueva York?",
+      "min": 50,
+      "max": 1500,
+      "answer": 800,
+      "tolerance": 200,
+      "explain_correct": "Unos 800: la ciudad con más idiomas del planeta. En Queens, en unas pocas manzanas, se hablan más lenguas que en muchos países enteros — y varias que ya no se hablan en su tierra de origen.",
+      "explain_wrong": "Unos 800, la mayor concentración de idiomas del planeta. Queens, sola, guarda lenguas que ya han desaparecido de sus países de origen. Escucha en el metro: lo oirás."
+    },
+    {
+      "type": "story",
+      "id": "nyc-015",
+      "kicker": "DISTRITOS",
+      "title": "El gran error de 1898",
+      "body": "Nueva York son cinco distritos —Manhattan, Brooklyn, Queens, el Bronx y Staten Island— y cada uno es además un condado del estado. Hasta 1898 Brooklyn era una ciudad aparte, la cuarta del país, con alcalde y orgullo propios; votó fusionarse por un puñado de votos y algunos allí lo siguen llamando «el gran error». Manhattan es la isla, no la ciudad: ocho de cada diez neoyorquinos viven fuera de ella."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-016",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "¿Cuál de los cinco distritos tiene más habitantes?",
+      "options": [
+        "Brooklyn",
+        "Manhattan",
+        "Queens"
+      ],
+      "explain": "Brooklyn, con más de dos millones y medio: si fuera una ciudad independiente estaría entre las cuatro mayores de Estados Unidos. Queens va justo detrás y es el más grande en superficie. Manhattan, la que sale en las películas, es la tercera — y la más pequeña."
+    },
+    {
+      "type": "story",
+      "id": "nyc-017",
+      "kicker": "PUENTE",
+      "title": "El puente que terminó una mujer",
+      "body": "El puente de Brooklyn (1883) costó la vida de su diseñador antes de empezar y dejó paralítico a su hijo, que lo dirigió desde la cama mirando por un catalejo. Quien de verdad llevó la obra once años fue Emily Roebling, la nuera, que aprendió ingeniería para hacerlo y fue la primera persona en cruzarlo. Un año después, para calmar el miedo a que se cayera, un circo lo cruzó con 21 elefantes. Aguantó. Sigue aguantando."
+    },
+    {
+      "type": "story",
+      "id": "nyc-018",
+      "kicker": "CALLES",
+      "title": "De dónde sale el vapor",
+      "body": "Las chimeneas naranjas y blancas que echan vapor en mitad de la calle no son una avería: debajo de Manhattan hay una red de tuberías de vapor desde 1882 —la mayor del mundo— que calienta miles de edificios, del Empire State a la ONU. Lo que ves salir es una fuga o un respiradero. Es el humo más fotografiado del cine, y es calefacción."
+    },
+    {
+      "type": "tip",
+      "id": "nyc-019",
+      "kicker": "BODEGA",
+      "review": true,
+      "title": "La tienda de la esquina con gato",
+      "body": "La «bodega» es el colmado de barrio, abierto casi siempre a cualquier hora: café de un dólar, sándwich de huevo a la plancha para desayunar, lo que te falte a las tres de la mañana, y un gato durmiendo encima de las latas — es la norma, no un accidente. Hay miles. Es donde desayuna Nueva York y donde te fías del dueño antes que de cualquier reseña."
+    },
+    {
+      "type": "story",
+      "id": "nyc-020",
+      "kicker": "GRAND CENTRAL",
+      "title": "El cielo pintado al revés",
+      "body": "Grand Central tiene 44 andenes, más que ninguna estación del mundo, y un techo con las constelaciones pintadas en 1913 — al revés: como se verían desde fuera del cielo, dijeron después los Vanderbilt para salvar la cara. Junto al restaurante de ostras del sótano hay una bóveda donde, si susurras en una esquina, te oyen en la contraria. Ve con alguien y compruébalo."
+    },
+    {
+      "type": "myth",
+      "id": "nyc-021",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "REALIDAD",
+      "claim": "«Times Square se llama así por un periódico»",
+      "body": "El New York Times se mudó allí en 1904 y convenció al ayuntamiento de rebautizar la plaza, que se llamaba Longacre. Para celebrar el edificio nuevo montó fuegos artificiales en Nochevieja, y cuando los prohibieron por el riesgo de incendio, en 1907, bajó una bola iluminada desde el mástil. El periódico se fue hace un siglo. La bola sigue bajando cada año."
+    },
+    {
+      "type": "story",
+      "id": "nyc-022",
+      "kicker": "HIGH LINE",
+      "title": "Las vías que nadie quiso tirar",
+      "body": "Por el oeste de Manhattan corre un parque a nueve metros del suelo sobre una vía de tren de mercancías abandonada en 1980. Iban a demolerla; dos vecinos se empeñaron en salvarla, y en 2009 abrió como paseo elevado entre edificios, con las plantas silvestres que ya habían colonizado las vías. Es el parque más imitado del mundo desde entonces. Recórrelo al atardecer, de sur a norte."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-023",
+      "kicker": "QUIZ",
+      "answer": 1,
+      "question": "¿Por qué los taxis son amarillos?",
+      "options": [
+        "Lo impone una ley de 1930",
+        "Un empresario descubrió que es el color que mejor se ve",
+        "Para distinguirlos de los coches fúnebres"
+      ],
+      "explain": "John Hertz, que fundó la compañía en 1915, encargó un estudio sobre qué color se distinguía mejor a distancia: amarillo. Décadas después la ciudad lo hizo obligatorio para los taxis con licencia, y así es como sabes cuál puedes parar con la mano. Los verdes son los de fuera de Manhattan; los negros, con reserva."
+    },
+    {
+      "type": "story",
+      "id": "nyc-024",
+      "kicker": "MEMORIAL",
+      "title": "Los dos huecos",
+      "body": "Donde estaban las Torres Gemelas hay hoy dos estanques cuadrados del tamaño exacto de sus plantas, con el agua cayendo hacia el centro y los nombres de las casi tres mil víctimas grabados en el borde. En el centro de la plaza hay un peral que se rescató de los escombros, medio quemado, y volvió a florecer: le llaman el Árbol Superviviente. Es un sitio para ir en silencio."
+    },
+    {
+      "type": "story",
+      "id": "nyc-025",
+      "kicker": "ELLIS ISLAND",
+      "title": "La puerta por la que pasó medio país",
+      "body": "Entre 1892 y 1954, doce millones de personas entraron en Estados Unidos por la isla de Ellis, en la bahía, tras un examen médico de seis segundos y un interrogatorio de dos minutos. Se calcula que cuatro de cada diez estadounidenses tienen un antepasado que pasó por allí. El registro está digitalizado: busca tu apellido. Puede que encuentres a alguien."
+    },
+    {
+      "type": "story",
+      "id": "nyc-026",
+      "kicker": "RAREZAS",
+      "title": "El día en que el sol cabe en la calle",
+      "body": "Dos veces al año —a finales de mayo y a mediados de julio— el sol se pone exactamente alineado con las calles de la cuadrícula, y durante unos minutos baja entre los rascacielos hasta el suelo, de una acera a la otra. Lo llaman «Manhattanhenge», como Stonehenge. La gente se planta en mitad de la calle 42 a hacer fotos y los taxis, por una vez, esperan."
+    },
+    {
+      "type": "slider",
+      "id": "nyc-027",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántos millones de personas viven en la ciudad de Nueva York, los cinco distritos?",
+      "min": 1,
+      "max": 20,
+      "answer": 8,
+      "tolerance": 2,
+      "explain_correct": "Unos ocho millones y medio, la ciudad más poblada de Estados Unidos con diferencia. Pero de día Manhattan casi dobla su población: un millón y medio de personas entran a trabajar cada mañana.",
+      "explain_wrong": "Unos ocho millones y medio en los cinco distritos, la ciudad más poblada del país con diferencia. Y de día Manhattan casi se dobla: más de un millón de personas entran cada mañana a trabajar."
+    },
+    {
+      "type": "story",
+      "id": "nyc-028",
+      "kicker": "BROADWAY",
+      "title": "Lo que hace que un teatro sea «de Broadway»",
+      "body": "No es la calle: es el tamaño. Un teatro es «de Broadway» si tiene 500 butacas o más, y hay 41, casi todos en las calles laterales de Times Square, no en Broadway. Los de menos de 500 son «Off-Broadway», y los de menos de 100, «Off-Off». El musical más longevo, «El fantasma de la ópera», cerró en 2023 tras 35 años y casi 14.000 funciones. Las entradas a mitad de precio se venden el mismo día en la caseta de la plaza."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-029",
+      "kicker": "ÚLTIMO QUIZ",
+      "answer": 2,
+      "question": "Cierre circular: ¿por qué Broadway cruza la cuadrícula en diagonal, cuando todo lo demás va recto?",
+      "options": [
+        "Para unir los dos ríos por el camino más corto",
+        "Un error de los agrimensores de 1811",
+        "Porque sigue un sendero lenape anterior a la ciudad"
+      ],
+      "explain": "Es el sendero de la primera card. Los lenape ya lo usaban para cruzar la isla siguiendo la cresta más seca; los holandeses lo ensancharon, los ingleses lo llamaron Broadway, y cuando en 1811 dibujaron la cuadrícula lo dejaron pasar porque ya era demasiado importante para borrarlo. Cada vez que corta una avenida deja un triángulo: Times Square, Union Square, Madison Square, el Flatiron. Las plazas de Nueva York existen porque un camino indígena se negó a ir recto."
+    },
+    {
+      "type": "story",
+      "id": "nyc-030",
+      "kicker": "LEYENDA",
+      "title": "La ciudad que se inventa cada mañana",
+      "body": "Nueva York nunca ha tenido pasado que conservar: derriba, rellena, allana y vuelve a empezar, y la gente que llega hoy es tan neoyorquina como la que llegó por Ellis Island. Llevas 30 cards viendo a una ciudad que convierte un muro en Bolsa, unas vías muertas en parque y un sendero indígena en el centro del mundo. Bienvenido a la ciudad que se hace sola. Ya aterrizas."
+    },
+    {
+      "type": "final",
+      "id": "nyc-031"
+    }
+  ]
+}

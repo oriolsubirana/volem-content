@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T12:54:26Z",
+  "updatedAt": "2026-09-06T11:11:51Z",
   "destinations": [
     {
       "id": "lis",
@@ -148,11 +148,11 @@
         "EWR",
         "LGA"
       ],
-      "packVersion": 0,
-      "packURL": null,
-      "packSizeBytes": 0,
-      "cardCount": 0,
-      "estimatedMinutes": 0,
+      "packVersion": 1,
+      "packURL": "https://oriolsubirana.github.io/volem-content/nyc-pack-en-v1.json",
+      "packSizeBytes": 17674,
+      "cardCount": 32,
+      "estimatedMinutes": 65,
       "productID": null
     }
   ]
