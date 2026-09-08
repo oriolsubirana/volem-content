@@ -110,7 +110,7 @@
         "Order the pasta as a second course",
         "Order the pasta with a side of vegetables"
       ],
-      "explain": "Pasta is the «primo» and comes first; meat or fish is the «secondo» and arrives on its own — vegetables are ordered separately, as a «contorno». Nobody makes you order both courses: stopping at the primo is perfectly normal. But the order isn't up for negotiation."
+      "explain": "Pasta is the «primo» and comes first; meat or fish is the «secondo» and arrives alone: vegetables are ordered separately, as a «contorno». Nobody makes you order both; stopping at the primo is normal. But the order isn't up for negotiation."
     },
     {
       "type": "tip",

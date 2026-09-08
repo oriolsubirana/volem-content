@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T08:27:50Z",
+  "updatedAt": "2026-09-08T09:18:10Z",
   "destinations": [
     {
       "id": "lis",
@@ -33,7 +33,7 @@
           "title": "Eating in Lisbon",
           "version": 1,
           "url": "https://oriolsubirana.github.io/volem-content/lis-food-pack-en-v1.json",
-          "sizeBytes": 6775,
+          "sizeBytes": 6643,
           "cardCount": 13,
           "estimatedMinutes": 25,
           "productID": null
@@ -43,7 +43,7 @@
           "title": "Street level",
           "version": 1,
           "url": "https://oriolsubirana.github.io/volem-content/lis-street-pack-en-v1.json",
-          "sizeBytes": 5833,
+          "sizeBytes": 5643,
           "cardCount": 11,
           "estimatedMinutes": 20,
           "productID": null
@@ -63,7 +63,7 @@
       ],
       "packVersion": 1,
       "packURL": "https://oriolsubirana.github.io/volem-content/rom-pack-en-v1.json",
-      "packSizeBytes": 15727,
+      "packSizeBytes": 15659,
       "cardCount": 32,
       "estimatedMinutes": 65,
       "productID": null,
@@ -73,7 +73,7 @@
           "title": "Flight guide",
           "version": 1,
           "url": "https://oriolsubirana.github.io/volem-content/rom-pack-en-v1.json",
-          "sizeBytes": 15727,
+          "sizeBytes": 15659,
           "cardCount": 32,
           "estimatedMinutes": 65,
           "productID": null
@@ -83,7 +83,7 @@
           "title": "Eating in Rome",
           "version": 1,
           "url": "https://oriolsubirana.github.io/volem-content/rom-food-pack-en-v1.json",
-          "sizeBytes": 6379,
+          "sizeBytes": 6353,
           "cardCount": 13,
           "estimatedMinutes": 25,
           "productID": null
@@ -93,7 +93,7 @@
           "title": "Street level",
           "version": 1,
           "url": "https://oriolsubirana.github.io/volem-content/rom-street-pack-en-v1.json",
-          "sizeBytes": 6095,
+          "sizeBytes": 5999,
           "cardCount": 12,
           "estimatedMinutes": 22,
           "productID": null
@@ -113,7 +113,7 @@
       ],
       "packVersion": 1,
       "packURL": "https://oriolsubirana.github.io/volem-content/par-pack-en-v1.json",
-      "packSizeBytes": 16569,
+      "packSizeBytes": 16390,
       "cardCount": 32,
       "estimatedMinutes": 65,
       "productID": null
@@ -131,7 +131,7 @@
       ],
       "packVersion": 1,
       "packURL": "https://oriolsubirana.github.io/volem-content/tyo-pack-en-v1.json",
-      "packSizeBytes": 17297,
+      "packSizeBytes": 16990,
       "cardCount": 32,
       "estimatedMinutes": 65,
       "productID": null

@@ -26,7 +26,7 @@
         "A cuarenta kilómetros, como en Roma",
         "En la otra orilla del Tajo"
       ],
-      "explain": "El aeropuerto está dentro de la ciudad: la línea roja del metro sale de la propia terminal y en veinte minutos estás en el centro. El taxi tarda poco más y tiene un suplemento por maleta que es legal, no un timo. Es de las pocas capitales de Europa donde llegar no es un viaje en sí mismo."
+      "explain": "El aeropuerto está dentro de la ciudad: la línea roja del metro sale de la terminal y en veinte minutos estás en el centro. El taxi tarda poco más, con un suplemento por maleta que es legal, no un timo. Llegar aquí no es un viaje en sí."
     },
     {
       "type": "quiz",
@@ -39,7 +39,7 @@
         "Un abono de un día",
         "La tarjeta de los residentes"
       ],
-      "explain": "Saldo a descontar por viaje, y un viaje sale más barato así que con billete suelto. Vale para todo lo que se mueve en Lisboa: metro, autobuses, tranvías —el 28 incluido—, los elevadores y el ferry. La tarjeta cuesta medio euro, es de cartón, y se recarga en cualquier máquina. Es lo primero que hay que comprar."
+      "explain": "Saldo que se descuenta por viaje, más barato que el billete suelto. Vale para todo lo que se mueve en Lisboa: metro, autobuses, tranvías —el 28 incluido—, elevadores y ferry. La tarjeta cuesta medio euro y se recarga en cualquier máquina."
     },
     {
       "type": "story",
@@ -87,7 +87,7 @@
         "Una parada de tranvía",
         "Un puesto de periódicos"
       ],
-      "explain": "Kioscos de hierro del siglo XIX, casi todos cerrados durante décadas y recuperados a partir de 2009 como bares al aire libre. Una imperial, un vino, un café, unas mesas de metal en la plaza. Son el sitio donde la ciudad se sienta, y cuestan lo mismo que un bar de barrio: la vista sale gratis."
+      "explain": "Kioscos de hierro del XIX, cerrados décadas y recuperados desde 2009 como bares al aire libre. Una imperial, un vino, unas mesas de metal en la plaza. Es donde la ciudad se sienta, a precio de bar de barrio: la vista sale gratis."
     },
     {
       "type": "story",

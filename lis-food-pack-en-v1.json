@@ -33,7 +33,7 @@
         "A litre of beer",
         "A glass of port"
       ],
-      "explain": "A small glass of draught beer, around 20 centilitres, very cold. It's the default measure: ask for «a beer» and this is what you get. In Porto the same thing is called a «fino», and calling it an imperial there is how you tell them where you're from."
+      "explain": "A small glass of draught beer, about 20 cl, very cold. It's the default: ask for «a beer» and this is what you get. In Porto the same thing is a «fino», and calling it an imperial there tells them where you're from."
     },
     {
       "type": "story",
@@ -88,7 +88,7 @@
         "A market stall",
         "A tobacconist that also serves coffee"
       ],
-      "explain": "A small neighbourhood tavern, with the «prato do dia» written on a sheet of paper by the door and the house wine in a jug. You eat well, fast and cheap, at a shared table if need be. It's where people who work nearby eat, which is why by two o'clock there's no room left."
+      "explain": "A small neighbourhood tavern, with the «prato do dia» on a sheet of paper by the door and the house wine in a jug. You eat well, fast and cheap, at a shared table if need be. Locals who work nearby eat here: by two there's no room left."
     },
     {
       "type": "story",
@@ -108,7 +108,7 @@
         "A double espresso",
         "A shot of brandy"
       ],
-      "explain": "A tall glass, three-quarters milk and a quarter coffee: the Lisbon breakfast. «Meia de leite» is half and half, in a cup. «Abatanado» is a long black, and «pingado» an espresso with a drop of milk. Coffee here has more names than sizes, and knowing three of them changes the look on the waiter's face."
+      "explain": "A tall glass, three-quarters milk and a quarter coffee: the Lisbon breakfast. «Meia de leite» is half and half, in a cup; «abatanado» a long black; «pingado» an espresso with a drop of milk. Knowing three of them changes the waiter's face."
     },
     {
       "type": "story",

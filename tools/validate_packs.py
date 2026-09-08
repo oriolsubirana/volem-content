@@ -37,6 +37,9 @@ PACK_ID_RE = re.compile(r"^[a-z][a-z0-9]{1,15}$")
 errors: list[str] = []
 
 
+QUIZ_EXPLAIN_MAX = 240
+
+
 def err(path: Path, message: str) -> None:
     errors.append(f"{path.relative_to(REPO)}: {message}")
 
@@ -73,6 +76,11 @@ def validate_card(card: dict, path: Path, destination_id: str) -> None:
         if require(card, path, cid, "kicker", "question", "explain"):
             options = card.get("options")
             answer = card.get("answer")
+            # La explicación sale debajo de la pregunta y las opciones: más
+            # de esto no cabe en pantalla de un vistazo y obliga a scroll.
+            if len(card["explain"]) > QUIZ_EXPLAIN_MAX:
+                err(path, f"card {cid}: explain de {len(card['explain'])} caracteres "
+                          f"(máximo {QUIZ_EXPLAIN_MAX})")
             if not isinstance(options, list) or len(options) < 2:
                 err(path, f"card {cid}: quiz necesita al menos 2 opciones")
             elif not isinstance(answer, int) or not 0 <= answer < len(options):

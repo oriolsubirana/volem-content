@@ -34,7 +34,7 @@
         "One journey, no transfers",
         "The whole day on everything"
       ],
-      "explain": "A hundred minutes from the moment you validate it: as many buses and trams as you like, but the metro only once — once you exit, it won't let you back in. And you must validate it as you board: inspectors are thin on the ground, the fine is very real."
+      "explain": "A hundred minutes from validation: as many buses and trams as you like, but the metro only once — exit and it won't let you back in. And you must validate as you board: inspectors are thin on the ground, the fine is very real."
     },
     {
       "type": "story",
@@ -89,7 +89,7 @@
         "The southern railway station",
         "The district around the Vatican"
       ],
-      "explain": "«Trans Tiberim»: across the Tiber. Outside ancient Rome, which began on the other bank — which is why for centuries it was the quarter of dockworkers and outsiders. Today it's where you go for dinner, and the name still says exactly what it said two thousand years ago."
+      "explain": "«Trans Tiberim»: across the Tiber. Outside ancient Rome, which began on the other bank, so for centuries it housed dockworkers and outsiders. Today it's where you go for dinner, and the name still means what it did two thousand years ago."
     },
     {
       "type": "quiz",
@@ -102,7 +102,7 @@
         "A medieval religious feast",
         "The day the city market used to close"
       ],
-      "explain": "«Feriae Augusti», the holiday Augustus established in 18 BC so the empire could rest after the harvest. The Church later laid the Assumption on top of it, but the name held. Practical consequence: half of Rome closes in August, trattorias included. If you're going, check first."
+      "explain": "«Feriae Augusti», the holiday Augustus established in 18 BC so the empire could rest after the harvest. The Church laid the Assumption on top of it, but the name held. Half of Rome closes in August, trattorias included: check before you go."
     },
     {
       "type": "tip",
