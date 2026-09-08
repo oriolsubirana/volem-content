@@ -25,7 +25,7 @@ jobs:
   notify:
     name: Push a los móviles
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     env:
       SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
       SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -56,6 +56,24 @@ jobs:
       - name: Dependencias
         if: steps.config.outputs.ok == 'true'
         run: pip install -q 'httpx[http2]' cryptography
+
+      # El despliegue de Pages corre en paralelo: sin esto el aviso puede
+      # llegar al móvil antes de que el CDN sirva el manifest nuevo, y al
+      # tocarlo la app no encontraría el destino todavía.
+      - name: Espera a que el CDN sirva el manifest nuevo
+        if: github.event_name == 'push' && steps.config.outputs.ok == 'true'
+        run: |
+          local_stamp=$(python3 -c 'import json;print(json.load(open("manifest.json"))["updatedAt"])')
+          for i in $(seq 1 24); do
+            remote_stamp=$(curl -fsS -H 'Cache-Control: no-cache' \
+              "https://oriolsubirana.github.io/volem-content/manifest.json?t=$(date +%s)" \
+              | python3 -c 'import json,sys;print(json.load(sys.stdin).get("updatedAt",""))' || true)
+            if [ "$remote_stamp" = "$local_stamp" ]; then
+              echo "CDN al día ($remote_stamp)"; exit 0
+            fi
+            echo "CDN sirve $remote_stamp, esperando $local_stamp…"; sleep 10
+          done
+          echo "::warning::El CDN no se ha puesto al día en 4 min; se avisa igualmente"
 
       - name: Avisa de lo publicado
         if: github.event_name == 'push' && steps.config.outputs.ok == 'true'
