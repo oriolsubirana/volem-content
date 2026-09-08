@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T11:11:47Z",
+  "updatedAt": "2026-09-08T08:27:50Z",
   "destinations": [
     {
       "id": "lis",
@@ -129,11 +129,11 @@
         "HND",
         "NRT"
       ],
-      "packVersion": 0,
-      "packURL": null,
-      "packSizeBytes": 0,
-      "cardCount": 0,
-      "estimatedMinutes": 0,
+      "packVersion": 1,
+      "packURL": "https://oriolsubirana.github.io/volem-content/tyo-pack-en-v1.json",
+      "packSizeBytes": 17297,
+      "cardCount": 32,
+      "estimatedMinutes": 65,
       "productID": null
     },
     {

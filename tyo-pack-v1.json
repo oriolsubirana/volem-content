@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "tyo",
+  "destination": "Tokio",
+  "country": "Japón",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 65,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "tyo-000",
+      "kicker": "GUÍA DE VUELO",
+      "title": "Tokio",
+      "sub": "30 cards · ~65 min · listo antes de aterrizar"
+    },
+    {
+      "type": "story",
+      "id": "tyo-001",
+      "kicker": "HISTORIA",
+      "title": "El pueblo de pescadores que se comió al mundo",
+      "body": "En 1603 el shogun Tokugawa eligió un pueblo pantanoso llamado Edo para gobernar Japón desde allí. Cien años después era la ciudad más grande del planeta, con un millón de habitantes, el doble que Londres. En 1868 el emperador se mudó desde Kioto y la rebautizaron: Tokio, «la capital del este». Y una cosa rara que conviene guardar para el final: legalmente, Tokio no es una ciudad."
+    },
+    {
+      "type": "story",
+      "id": "tyo-002",
+      "kicker": "TERREMOTOS",
+      "title": "La ciudad que se reconstruyó dos veces en veinticinco años",
+      "body": "El terremoto de 1923 y los incendios que lo siguieron mataron a más de cien mil personas y arrasaron media ciudad. Veintidós años después, los bombardeos de 1945 la volvieron a arrasar. Por eso en Tokio casi nada tiene más de ochenta años, y por eso a nadie le da pena tirar un edificio: aquí lo permanente es la ciudad, no las casas."
+    },
+    {
+      "type": "myth",
+      "id": "tyo-003",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "REALIDAD",
+      "claim": "«Ninguna ley dice que Tokio sea la capital de Japón»",
+      "body": "Es verdad. Japón no tiene una ley que designe capital: Tokio lo es porque ahí están el emperador, el gobierno y el parlamento, y a nadie le ha parecido necesario ponerlo por escrito. Hubo una ley de «construcción de la capital» en 1950 y se derogó seis años después. La ciudad más importante del país lo es por costumbre."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-004",
+      "kicker": "QUIZ",
+      "answer": 1,
+      "question": "¿Cuántas personas pasan cada día por la estación de Shinjuku?",
+      "options": [
+        "Unas 350.000",
+        "Unos 3,5 millones",
+        "Unos 35 millones"
+      ],
+      "explain": "Tres millones y medio al día, la estación más transitada del mundo con récord Guinness: más que toda la población de Madrid entrando y saliendo cada jornada por más de 200 salidas. Perderse dentro no es un fallo tuyo: es la experiencia estándar."
+    },
+    {
+      "type": "story",
+      "id": "tyo-005",
+      "kicker": "TRENES",
+      "title": "El retraso que necesita certificado",
+      "body": "El retraso medio del tren bala entre Tokio y Osaka es inferior a un minuto, contando terremotos y tifones. Y cuando un tren de cercanías llega cinco minutos tarde, la compañía reparte «certificados de retraso» para que puedas justificarlo en el trabajo: nadie te creería sin papel. Un tren que sale antes de hora sí es noticia — ha pasado, y la empresa pidió perdón públicamente."
+    },
+    {
+      "type": "story",
+      "id": "tyo-006",
+      "kicker": "RAREZAS",
+      "title": "Las máquinas que venden de todo",
+      "body": "Café caliente en lata en invierno, sopa, paraguas, plátanos, flores: en Japón hay una máquina expendedora por cada treinta personas, y funcionan a cualquier hora en cualquier callejón porque nadie las rompe ni las roba. Son el termómetro de un país donde puedes dejar el portátil en la mesa del café e ir al baño. Hazlo: nadie lo tocará."
+    },
+    {
+      "type": "slider",
+      "id": "tyo-007",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántas máquinas expendedoras hay en todo Japón?",
+      "min": 100000,
+      "max": 10000000,
+      "answer": 4000000,
+      "tolerance": 1000000,
+      "explain_correct": "Unos cuatro millones, la mayor densidad del mundo. Solo en bebidas mueven más de dos billones de yenes al año, sin un solo dependiente.",
+      "explain_wrong": "Unos cuatro millones — una por cada treinta habitantes, la mayor densidad del mundo. Las de bebidas, solas, facturan más de dos billones de yenes al año."
+    },
+    {
+      "type": "tip",
+      "id": "tyo-008",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "review": true,
+      "title": "Aquí no se da propina, y no es tacañería",
+      "body": "Dejar dinero en la mesa se considera raro y hasta ofensivo: el buen servicio es lo normal, no un extra que se paga. El camarero saldrá corriendo a devolverte lo que «te has dejado». Lo mismo con el taxi. Lo que sí importa: descálzate donde veas un escalón con zapatillas, no comas andando por la calle, y ponte en la cola pintada en el andén. Con eso ya no eres el turista."
+    },
+    {
+      "type": "story",
+      "id": "tyo-009",
+      "kicker": "CALLES",
+      "review": true,
+      "title": "Las calles no tienen nombre",
+      "body": "En Tokio las direcciones no se escriben por calle sino por manzana: barrio, número de manzana y número de edificio — y los edificios se numeraron por orden de construcción, no por posición. El 3 puede estar entre el 14 y el 27. Por eso el mapa del móvil aquí es una necesidad y no una comodidad, y por eso existe la card siguiente."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-010",
+      "kicker": "QUIZ",
+      "answer": 2,
+      "question": "¿Qué es un «kōban», esa caseta con un policía en la esquina?",
+      "options": [
+        "Un templo de barrio en miniatura",
+        "Un puesto de ramen de madrugada",
+        "Una comisaría de barrio"
+      ],
+      "explain": "Tokio tiene cientos de estas mini comisarías de dos agentes, y buena parte de su trabajo es dar indicaciones: llevan mapas del barrio y saben dónde está el 3 entre el 14 y el 27. También son donde acaban los paraguas y carteras perdidos — y donde de verdad se devuelven."
+    },
+    {
+      "type": "story",
+      "id": "tyo-011",
+      "kicker": "SHIBUYA",
+      "title": "El cruce y el perro",
+      "body": "En el cruce de Shibuya los semáforos paran todos los coches a la vez y hasta tres mil personas cruzan en diagonal en un mismo verde: el paso de peatones más concurrido del mundo, y mucho más ordenado de lo que parece desde arriba. A la salida de la estación te espera Hachikō, el perro que fue cada tarde a buscar a su dueño durante casi diez años después de que el dueño muriera. Los tokiotas quedan «en Hachikō». Tú también puedes."
+    },
+    {
+      "type": "myth",
+      "id": "tyo-012",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«En Tokio se puede fumar andando por la calle»",
+      "body": "Al revés de lo que esperarías: la calle es el sitio donde no. Muchos distritos lo prohíben desde 2002, con multa, y solo se fuma en zonas marcadas. En cambio hasta hace poco se fumaba dentro de bares y restaurantes sin problema. Cada cultura elige dónde molesta el humo; esta eligió que fuera en casa ajena y no en la acera."
+    },
+    {
+      "type": "story",
+      "id": "tyo-013",
+      "kicker": "TEMPLOS",
+      "title": "El humo que cura y la mala suerte que se ata",
+      "body": "Sensō-ji, en Asakusa, es el templo más antiguo de Tokio: la leyenda lo fecha en el año 645, cuando dos pescadores sacaron del río una estatua diminuta. Delante hay un caldero de incienso: la gente se echa el humo por encima con las manos hacia la parte del cuerpo que le duele. Y por cien yenes sacas un «omikuji», tu suerte en un papel. Si sale mala, se ata a un bastidor y se deja allí: la mala suerte no viaja."
+    },
+    {
+      "type": "story",
+      "id": "tyo-014",
+      "kicker": "RAREZAS",
+      "title": "El bosque que se diseñó para parecer salvaje",
+      "body": "El bosque que rodea el santuario Meiji, en pleno centro, no existía hace un siglo. En 1920 lo plantaron con cien mil árboles donados desde todo Japón, siguiendo un plan a 150 años: qué especies crecerían primero, cuáles las sustituirían, cómo acabaría pareciendo que nadie lo había tocado. Va por la mitad del plan y ya engaña a cualquiera. Es el silencio más grande de Tokio."
+    },
+    {
+      "type": "slider",
+      "id": "tyo-015",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántos millones de personas viven en el Gran Tokio, ciudad y área metropolitana?",
+      "min": 5,
+      "max": 60,
+      "answer": 37,
+      "tolerance": 5,
+      "explain_correct": "Unos 37 millones: la mayor área metropolitana del mundo, tanta gente como toda Polonia. Y funciona.",
+      "explain_wrong": "Unos 37 millones — la mayor área metropolitana del planeta, tantos habitantes como Polonia entera. Y los trenes llegan a su hora."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-016",
+      "kicker": "QUIZ",
+      "answer": 1,
+      "question": "¿Qué era el sushi originalmente?",
+      "options": [
+        "Un plato de la corte imperial",
+        "Una forma de conservar pescado",
+        "La comida de los samuráis"
+      ],
+      "explain": "Pescado enterrado en arroz fermentado durante meses para que no se pudriera; el arroz se tiraba. El nigiri que conoces —arroz avinagrado con pescado crudo encima— lo inventaron en Edo hacia 1820 como comida rápida de puesto callejero, para comer de pie y con la mano. Sigue siendo la forma correcta de comerlo."
+    },
+    {
+      "type": "story",
+      "id": "tyo-017",
+      "kicker": "KONBINI",
+      "title": "La tienda de la esquina que lo resuelve todo",
+      "body": "Un «konbini» —7-Eleven, Lawson, FamilyMart— abre las 24 horas y vende comida de verdad: onigiri recién hechos, ensaladas, café decente, y puedes sacar dinero, pagar facturas, imprimir y recoger paquetes. Japón tiene más 7-Eleven que Estados Unidos, el país que los inventó. Si no sabes dónde cenar, la respuesta es peor de lo que suena: en un konbini se cena bien."
+    },
+    {
+      "type": "story",
+      "id": "tyo-018",
+      "kicker": "MERCADO",
+      "title": "El atún de tres millones de dólares",
+      "body": "En la subasta de año nuevo del mercado de pescado de Tokio, un atún rojo de 278 kilos se vendió en 2019 por 333 millones de yenes, unos tres millones de dólares: el pescado más caro de la historia, comprado por un empresario de sushi que sabía que la foto valía más que el pescado. El mercado se mudó en 2018 de Tsukiji a Toyosu; los puestos de comida se quedaron en Tsukiji, y merecen el madrugón."
+    },
+    {
+      "type": "story",
+      "id": "tyo-019",
+      "kicker": "BAÑOS",
+      "title": "El inodoro que te avergüenza de volver a casa",
+      "body": "Asiento caliente, chorro de agua templada con presión ajustable, secador, y un botón que reproduce el sonido de una cisterna para tapar los tuyos. Más del ochenta por ciento de los hogares japoneses tienen uno, y los encontrarás en estaciones, konbinis y templos. El panel de botones asusta; el grande y azul es el que siempre quieres. Nada volverá a ser igual."
+    },
+    {
+      "type": "tip",
+      "id": "tyo-020",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "review": true,
+      "title": "La tarjeta es dinero",
+      "body": "Compra una Suica o una Pasmo en cualquier máquina de la estación y cárgala con efectivo: es tu billete de metro, tren y autobús —pasas al entrar y al salir, y te cobra el trayecto exacto— y además paga en konbinis, máquinas expendedoras y taquillas. Sin ella, cada trayecto es una tabla de tarifas y una cola. Con ella, Tokio es una sola ciudad."
+    },
+    {
+      "type": "story",
+      "id": "tyo-021",
+      "kicker": "SKYTREE",
+      "title": "La torre que mide un nombre",
+      "body": "El Tokyo Skytree mide 634 metros: la torre más alta del mundo, solo por debajo del rascacielos de Dubái. La cifra no es casual. En japonés los números se pueden leer como sílabas, y 6-3-4 se lee «mu-sa-shi»: Musashi, el nombre de la provincia antigua donde está Tokio. Los ingenieros podían haberla hecho más alta. Prefirieron que se llamara como el sitio."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-022",
+      "kicker": "QUIZ",
+      "answer": 2,
+      "question": "¿Y la Torre de Tokio, la naranja que parece la de Eiffel?",
+      "options": [
+        "Es una copia exacta de la parisina",
+        "La construyó una empresa francesa",
+        "Es más alta que la de Eiffel y pesa la mitad"
+      ],
+      "explain": "Mide 333 metros —trece más que la de París— y pesa unas 4.000 toneladas frente a las 7.300 de la original: en 1958 el acero ya era otro. Parte del metal salió de tanques americanos desguazados de la guerra de Corea. Está pintada de naranja y blanco por ley, para los aviones, y sigue emitiendo radio."
+    },
+    {
+      "type": "story",
+      "id": "tyo-023",
+      "kicker": "PALACIO",
+      "title": "El castillo que nadie ve",
+      "body": "En el centro exacto de Tokio hay un hueco verde de más de un kilómetro de lado: el Palacio Imperial, construido sobre el castillo del shogun, rodeado del foso y las murallas de piedra de Edo. Dentro vive el emperador y no se entra, salvo dos días al año. Alrededor, un circuito de cinco kilómetros donde medio Tokio sale a correr al atardecer, siempre en sentido contrario a las agujas del reloj. Es la norma."
+    },
+    {
+      "type": "myth",
+      "id": "tyo-024",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "REALIDAD",
+      "claim": "«El terreno del Palacio Imperial llegó a valer más que toda California»",
+      "body": "Según los cálculos de la época, sí. En el pico de la burbuja japonesa, hacia 1989, el suelo de Tokio se había disparado tanto que el kilómetro cuadrado del palacio valía, sobre el papel, más que todo el estado de California. La burbuja reventó al año siguiente y el país tardó veinte en levantarse. El palacio sigue ahí, sin haberse vendido nunca. Quizá por eso."
+    },
+    {
+      "type": "story",
+      "id": "tyo-025",
+      "kicker": "GOLDEN GAI",
+      "title": "Doscientos bares en seis callejones",
+      "body": "En Shinjuku, a dos minutos de los rascacielos, sobrevive Golden Gai: seis callejones de madera con más de doscientos bares del tamaño de un armario, cinco o seis taburetes cada uno, cada uno con su dueño y su tema. Es lo que queda del mercado negro de la posguerra, y se salvó de las excavadoras por pura terquedad de los vecinos. Algunos no admiten turistas; muchos sí, con un pequeño suplemento por sentarse. Entra en el que tenga la puerta abierta."
+    },
+    {
+      "type": "story",
+      "id": "tyo-026",
+      "kicker": "SAKURA",
+      "title": "El parte meteorológico de las flores",
+      "body": "Cada primavera los informativos dan el «frente de los cerezos»: la línea de floración que sube por el país de sur a norte, con fecha prevista para cada ciudad. En Tokio suele ser a finales de marzo. Durante esos días la ciudad hace «hanami»: sentarse bajo los árboles a comer y beber, con lonas azules reservando sitio desde por la mañana. La flor dura poco a propósito: por eso importa."
+    },
+    {
+      "type": "slider",
+      "id": "tyo-027",
+      "kicker": "ADIVINA",
+      "question": "Desde que un cerezo abre hasta que pierde las flores, ¿cuántos días pasan?",
+      "min": 1,
+      "max": 60,
+      "answer": 8,
+      "tolerance": 3,
+      "explain_correct": "Poco más de una semana, y con un día de viento o lluvia, menos. Toda una cultura alrededor de algo que dura ocho días: esa es la idea.",
+      "explain_wrong": "Poco más de una semana — y un día de lluvia la acorta. Todo el país organizado alrededor de algo que dura ocho días. Esa brevedad es la gracia, no el problema."
+    },
+    {
+      "type": "story",
+      "id": "tyo-028",
+      "kicker": "CINE",
+      "title": "El monstruo que es funcionario",
+      "body": "Godzilla nació en 1954, nueve años después de Hiroshima y meses después de que un pesquero japonés fuera alcanzado por una prueba nuclear americana: era la bomba con patas. Ha destruido Tokio en pantalla más de treinta veces. Y la ciudad se lo ha tomado bien: desde 2015 es embajador oficial de turismo del distrito de Shinjuku, con residencia y todo — su cabeza a tamaño real asoma sobre un edificio de la zona. Ruge a las horas en punto."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-029",
+      "kicker": "ÚLTIMO QUIZ",
+      "answer": 1,
+      "question": "Cierre circular: ¿es Tokio una ciudad?",
+      "options": [
+        "Sí: la mayor del mundo",
+        "No: son 23 distritos, cada uno con su alcalde",
+        "Sí, pero solo desde 1943"
+      ],
+      "explain": "En 1943 la Ciudad de Tokio se disolvió y se fundió con su prefectura en la «Metrópolis de Tokio»: 23 distritos especiales que son ciudades de pleno derecho, con alcalde y ayuntamiento propios, más otras 26 ciudades y un puñado de islas. Lo que llamas Tokio es un acuerdo entre 23 vecinos. Empezaste en un pueblo de pescadores; aterrizas en una ciudad que no existe."
+    },
+    {
+      "type": "story",
+      "id": "tyo-030",
+      "kicker": "LEYENDA",
+      "title": "La ciudad que no se apega a nada",
+      "body": "Tokio ha sido arrasada por el fuego, la tierra y las bombas, y cada vez se levantó sin nostalgia: tira sus casas cada treinta años, no tiene calles con nombre, no es capital por ley ni ciudad por derecho. Llevas 30 cards viendo a una ciudad que convierte el pescado en arte, la puntualidad en religión y un monstruo en funcionario. Bienvenido a la ciudad más grande del mundo, que no existe. Ya aterrizas."
+    },
+    {
+      "type": "final",
+      "id": "tyo-031"
+    }
+  ]
+}
