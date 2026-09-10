@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "par",
+  "packID": "street",
+  "destination": "Paris",
+  "country": "France",
+  "language": "en",
+  "version": 1,
+  "estimated_minutes": 22,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "par-street-00",
+      "kicker": "STREET LEVEL",
+      "title": "Paris",
+      "sub": "10 cards · ~22 min · what the monument guides leave out"
+    },
+    {
+      "type": "tip",
+      "id": "par-street-01",
+      "kicker": "WHEN YOU LAND",
+      "review": true,
+      "title": "Airport to centre without drama",
+      "body": "From Charles de Gaulle, the RER B drops you at Gare du Nord or Châtelet in about 35 minutes; taxis have a flat fare to the centre, around €55 to the Right Bank and €65 to the Left, no surprises. From Orly, since 2024 metro line 14 runs straight into the centre in half an hour. Ignore anyone offering a «taxi» inside the terminal: the real ones wait outside, at the rank."
+    },
+    {
+      "type": "quiz",
+      "id": "par-street-02",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "What changed on the Paris metro in 2025?",
+      "options": [
+        "A ride costs the same wherever you go",
+        "The turnstiles were removed",
+        "Line 1 became free"
+      ],
+      "explain": "The flat fare: since January 2025 a metro or train ticket costs the same at any distance, airports included. The cardboard ticket is on its way out; the norm is a Navigo Easy card from any machine, or your phone."
+    },
+    {
+      "type": "story",
+      "id": "par-street-03",
+      "kicker": "ARRONDISSEMENTS",
+      "title": "The city is a snail",
+      "body": "Paris is split into twenty districts numbered in a spiral from the centre: the 1st is the Louvre, and from there they turn clockwise like a snail's shell out to the 20th, on the eastern edge. The postcode tells you: 75008 is the 8th. With that and the river, any address places itself without a map."
+    },
+    {
+      "type": "slider",
+      "id": "par-street-04",
+      "kicker": "GUESS",
+      "question": "How many stations does the Paris metro have?",
+      "min": 100,
+      "max": 500,
+      "answer": 320,
+      "tolerance": 25,
+      "explain_correct": "More than 300, and rising: the 2024 extensions took it past 320. It's one of the densest networks in the world: in the centre you're never more than five minutes' walk from an entrance.",
+      "explain_wrong": "More than 300, and rising: the 2024 extensions took it past 320. It's one of the densest networks in the world: in the centre you're never more than five minutes' walk from an entrance."
+    },
+    {
+      "type": "story",
+      "id": "par-street-05",
+      "kicker": "THE TWO BANKS",
+      "title": "Rive gauche, rive droite",
+      "body": "The Seine splits the city in two and each half has a reputation of its own. The Right Bank, to the north, was always about commerce and power: the Louvre, the stock exchange, the department stores. The Left had the Sorbonne, the students and the cafés where the people now in the books did their writing. Today the Left is pricier and the Right livelier, but the label sticks: «rive gauche» still describes a way of dressing."
+    },
+    {
+      "type": "myth",
+      "id": "par-street-06",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«Swimming in the Seine has been banned for a century»",
+      "body": "It was: the ban dated from 1923. But in July 2025, after years of works and a clean-up planned for the Games, three supervised bathing spots opened in the middle of Paris, and it's no longer a river you only look at. Jumping off a bridge is still forbidden; that hasn't changed."
+    },
+    {
+      "type": "tip",
+      "id": "par-street-07",
+      "kicker": "WHAT LOCALS KNOW",
+      "review": true,
+      "title": "Green light, free taxi",
+      "body": "Taxis carry a light on the roof: green means free, red means taken. Off means off duty. You can hail them in the street, but in practice a rank or the G7 app, the city's own, works better. Uber-style rides work just as well and often come out a bit cheaper outside rush hour."
+    },
+    {
+      "type": "quiz",
+      "id": "par-street-08",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You're on a metro escalator in no hurry. Where do you stand?",
+      "options": [
+        "On the right, leaving the left clear",
+        "On the left, by the handrail",
+        "In the middle, out of everyone's way"
+      ],
+      "explain": "On the right, always. The left is for people walking up, and whoever blocks it gets a curt «pardon» in the back. It's the most respected unwritten rule of the metro, and the fastest way to show you're not from here."
+    },
+    {
+      "type": "story",
+      "id": "par-street-09",
+      "kicker": "COVERED PASSAGES",
+      "title": "The shopping malls of 1820",
+      "body": "Before department stores, Paris invented the covered passage: glass-roofed arcades for strolling and shopping without stepping in the mud. There were once about a hundred and fifty; some twenty remain, nearly all on the Right Bank. Galerie Vivienne, Passage des Panoramas, Passage Jouffroy. They're free, they're beautiful, and they're the best plan for a rainy day."
+    },
+    {
+      "type": "quiz",
+      "id": "par-street-10",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You leave dinner on a Tuesday at half past one. Is the metro running?",
+      "options": [
+        "No: on weekdays it shuts shortly after one",
+        "Yes, until quarter past two",
+        "Yes, all night"
+      ],
+      "explain": "On weekdays the last trains leave around one; on Fridays, Saturdays and the eve of holidays it runs until quarter past two. After that there are the Noctilien night buses, leaving from Châtelet and the big stations, and taxis."
+    },
+    {
+      "type": "final",
+      "id": "par-street-11"
+    }
+  ]
+}

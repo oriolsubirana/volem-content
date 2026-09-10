@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "par",
+  "packID": "street",
+  "destination": "París",
+  "country": "Francia",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 22,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "par-street-00",
+      "kicker": "A PIE DE CALLE",
+      "title": "París",
+      "sub": "10 cards · ~22 min · lo que no sale en las guías de monumentos"
+    },
+    {
+      "type": "tip",
+      "id": "par-street-01",
+      "kicker": "AL ATERRIZAR",
+      "review": true,
+      "title": "Del aeropuerto al centro sin drama",
+      "body": "Desde Charles de Gaulle, el RER B te deja en Gare du Nord o Châtelet en unos 35 minutos; el taxi tiene tarifa plana al centro, unos 55 € a la orilla derecha y unos 65 € a la izquierda, sin sorpresas. Desde Orly, desde 2024 llega la línea 14 del metro directa al centro en media hora. Ignora a quien te ofrezca «taxi» dentro de la terminal: los de verdad esperan fuera, en la parada."
+    },
+    {
+      "type": "quiz",
+      "id": "par-street-02",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "¿Qué cambió en el metro de París en 2025?",
+      "options": [
+        "Un viaje cuesta lo mismo vayas donde vayas",
+        "Los tornos dejaron de existir",
+        "La línea 1 pasó a ser gratis"
+      ],
+      "explain": "La tarifa única: desde enero de 2025 un billete de metro o tren vale lo mismo a cualquier distancia, aeropuertos incluidos. El billete de cartón está desapareciendo; lo normal es una tarjeta Navigo Easy de cualquier máquina, o el móvil."
+    },
+    {
+      "type": "story",
+      "id": "par-street-03",
+      "kicker": "ARRONDISSEMENTS",
+      "title": "La ciudad es un caracol",
+      "body": "París se divide en veinte distritos numerados en espiral desde el centro: el 1º es el Louvre, y a partir de ahí giran como un caracol en el sentido de las agujas del reloj hasta el 20º, en el borde este. El código postal lo dice: 75008 es el 8º. Con esto y el río, cualquier dirección se sitúa sin mapa."
+    },
+    {
+      "type": "slider",
+      "id": "par-street-04",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántas estaciones tiene el metro de París?",
+      "min": 100,
+      "max": 500,
+      "answer": 320,
+      "tolerance": 25,
+      "explain_correct": "Más de 300, y subiendo: las prolongaciones de 2024 pasaron de las 320. Es una de las redes más densas del mundo: en el centro nunca estás a más de cinco minutos andando de una boca.",
+      "explain_wrong": "Más de 300, y subiendo: las prolongaciones de 2024 pasaron de las 320. Es una de las redes más densas del mundo: en el centro nunca estás a más de cinco minutos andando de una boca."
+    },
+    {
+      "type": "story",
+      "id": "par-street-05",
+      "kicker": "LAS DOS ORILLAS",
+      "title": "Rive gauche, rive droite",
+      "body": "El Sena parte la ciudad en dos y cada mitad tiene fama propia. La orilla derecha, al norte, fue siempre la del comercio y el poder: el Louvre, la Bolsa, los grandes almacenes. La izquierda, la de la Sorbona, los estudiantes y los cafés donde escribían los que hoy salen en los libros. Hoy la izquierda es más cara y la derecha más viva, pero la etiqueta sigue: «rive gauche» todavía se dice de una manera de vestir."
+    },
+    {
+      "type": "myth",
+      "id": "par-street-06",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«Está prohibido bañarse en el Sena desde hace un siglo»",
+      "body": "Lo estuvo: la prohibición era de 1923. Pero en julio de 2025, tras años de obras y una limpieza pensada para los Juegos, se abrieron tres zonas de baño vigiladas en pleno París, y ya no es un río al que solo se mira. Sigue prohibido tirarse desde un puente; eso no ha cambiado."
+    },
+    {
+      "type": "tip",
+      "id": "par-street-07",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "review": true,
+      "title": "Luz verde, taxi libre",
+      "body": "Los taxis llevan un piloto en el techo: verde es libre, rojo es ocupado. Si está apagado, no está de servicio. Se paran en la calle, pero en la práctica es mejor ir a una parada o pedirlo con la app G7, que es la de la ciudad. Los VTC tipo Uber funcionan igual de bien y suelen salir algo más baratos fuera de las horas punta."
+    },
+    {
+      "type": "quiz",
+      "id": "par-street-08",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "En una escalera mecánica del metro no tienes prisa. ¿Dónde te pones?",
+      "options": [
+        "A la derecha, y dejas la izquierda libre",
+        "A la izquierda, pegado al pasamanos",
+        "En medio, para no molestar a nadie"
+      ],
+      "explain": "A la derecha, siempre. La izquierda es para quien sube andando, y quien la bloquea se lleva un «pardon» seco por la espalda. Es la regla no escrita más respetada del metro, y la manera más rápida de que se note que no eres de aquí."
+    },
+    {
+      "type": "story",
+      "id": "par-street-09",
+      "kicker": "PASAJES CUBIERTOS",
+      "title": "Los centros comerciales de 1820",
+      "body": "Antes de los grandes almacenes, París inventó el pasaje cubierto: galerías con techo de cristal para pasear y comprar sin pisar el barro. Llegó a haber unos ciento cincuenta; quedan una veintena, casi todos en la orilla derecha. Galerie Vivienne, Passage des Panoramas, Passage Jouffroy. Son gratis, son preciosos y son el mejor plan de un día de lluvia."
+    },
+    {
+      "type": "quiz",
+      "id": "par-street-10",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Sales de cenar un martes a la una y media. ¿Hay metro?",
+      "options": [
+        "No: entre semana cierra poco después de la una",
+        "Sí, hasta las dos y cuarto",
+        "Sí, funciona toda la noche"
+      ],
+      "explain": "Entre semana los últimos trenes salen hacia la una; los viernes, sábados y vísperas de festivo aguanta hasta las dos y cuarto. Después quedan los Noctilien, autobuses nocturnos que salen de Châtelet y de las grandes estaciones, y los taxis."
+    },
+    {
+      "type": "final",
+      "id": "par-street-11"
+    }
+  ]
+}

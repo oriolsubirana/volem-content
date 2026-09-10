@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T08:19:14Z",
+  "updatedAt": "2026-09-10T07:15:31Z",
   "destinations": [
     {
       "id": "lis",
@@ -116,7 +116,39 @@
       "packSizeBytes": 16390,
       "cardCount": 32,
       "estimatedMinutes": 65,
-      "productID": null
+      "productID": null,
+      "packs": [
+        {
+          "id": "main",
+          "title": "Flight guide",
+          "version": 1,
+          "url": "https://oriolsubirana.github.io/volem-content/par-pack-en-v1.json",
+          "sizeBytes": 16390,
+          "cardCount": 32,
+          "estimatedMinutes": 65,
+          "productID": null
+        },
+        {
+          "id": "food",
+          "title": "Eating in Paris",
+          "version": 1,
+          "url": "https://oriolsubirana.github.io/volem-content/par-food-pack-en-v1.json",
+          "sizeBytes": 6943,
+          "cardCount": 14,
+          "estimatedMinutes": 27,
+          "productID": null
+        },
+        {
+          "id": "street",
+          "title": "Street level",
+          "version": 1,
+          "url": "https://oriolsubirana.github.io/volem-content/par-street-pack-en-v1.json",
+          "sizeBytes": 5927,
+          "cardCount": 12,
+          "estimatedMinutes": 22,
+          "productID": null
+        }
+      ]
     },
     {
       "id": "tyo",

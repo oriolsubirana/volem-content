@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "par",
+  "packID": "food",
+  "destination": "Paris",
+  "country": "France",
+  "language": "en",
+  "version": 1,
+  "estimated_minutes": 27,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "par-food-00",
+      "kicker": "EATING IN PARIS",
+      "title": "Paris",
+      "sub": "12 cards · ~27 min · to order without looking like you just landed"
+    },
+    {
+      "type": "story",
+      "id": "par-food-01",
+      "kicker": "THE BAGUETTE",
+      "title": "A loaf with its own law",
+      "body": "Since 1993 a decree says what may be called a «baguette de tradition»: flour, water, salt and yeast, nothing else, and no freezing the dough. A plain baguette may contain additives; the «tradition» may not. It costs a few cents more and is a different thing. In 2022 UNESCO listed it as intangible heritage: the know-how, not the loaf."
+    },
+    {
+      "type": "tip",
+      "id": "par-food-02",
+      "kicker": "AT THE BOULANGERIE",
+      "review": true,
+      "title": "Ask for «une tradition», and say how you want it",
+      "body": "Walk in, say hello, and ask for «une tradition, s'il vous plaît». They may ask, or you can get in first: «bien cuite» for a dark crust, «pas trop cuite» for a pale one. You pay on the spot, nearly always by card with no minimum. And yes: the end that's missing by the time you get home — «le quignon» — everybody eats on the way."
+    },
+    {
+      "type": "quiz",
+      "id": "par-food-03",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You order «un café» in a Paris bar. What arrives?",
+      "options": [
+        "A short, single espresso",
+        "A milky coffee in a big cup",
+        "A long americano"
+      ],
+      "explain": "An espresso. Plain «café» means that; for milk ask for «un crème», and «une noisette» is an espresso with a drop of milk. «Un allongé» is the long one. At the counter it costs less than at a table, and less again than on the terrace."
+    },
+    {
+      "type": "story",
+      "id": "par-food-04",
+      "kicker": "BISTROT AND BRASSERIE",
+      "title": "Not the same thing, and the hours give it away",
+      "body": "Brasserie means «brewery»: the Alsatians who came to Paris after the war of 1870 brought it, with their choucroute and their beer. It's big, bright, and serves at any hour. The bistrot is the opposite: small, local, with a short chalkboard and a kitchen that opens at lunch and dinner. If you're hungry at five, look for a brasserie."
+    },
+    {
+      "type": "myth",
+      "id": "par-food-05",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«Bistrot comes from the Russian «bystro», quick, shouted by Cossacks in 1814»",
+      "body": "It's the story they tell in the bistrot itself, and there's even a plaque in Montmartre. But the word isn't written down until 1884, seventy years after the Cossacks, and a fashionable word doesn't take that long. Linguists trace it to «bistouille», a coffee laced with spirits from the north. Less epic, more likely."
+    },
+    {
+      "type": "slider",
+      "id": "par-food-06",
+      "kicker": "GUESS",
+      "question": "How many boulangeries are there inside Paris, suburbs not included?",
+      "min": 200,
+      "max": 3000,
+      "answer": 1200,
+      "tolerance": 300,
+      "explain_correct": "About 1,200, roughly one every hundred metres. In some neighbourhoods you can see two from the same corner. Nearly all close one day a week, and not always the same one.",
+      "explain_wrong": "About 1,200: roughly one every hundred metres. In some neighbourhoods you can see two from the same corner. Nearly all close one day a week, and not always the same one."
+    },
+    {
+      "type": "story",
+      "id": "par-food-07",
+      "kicker": "LES HALLES",
+      "title": "The belly of Paris isn't in Paris any more",
+      "body": "For eight centuries the central market stood at Les Halles, right in the middle of town: Zola gave it a novel, «The Belly of Paris». In 1971 it was torn down and moved to Rungis, ten kilometres out, today the largest wholesale fresh-food market in the world. What survives of the original is onion soup, which the bars around it served at dawn to the porters."
+    },
+    {
+      "type": "tip",
+      "id": "par-food-08",
+      "kicker": "TIMING",
+      "review": true,
+      "title": "The kitchen closes, and doesn't warn you",
+      "body": "Lunch is twelve to two and dinner starts around half past seven; by ten, most kitchens have stopped taking tables. Outside those hours only brasseries with «service continu» will save you. Many restaurants close Sunday and Monday. At lunch, look for the «formule» on the board: same cook, half the price."
+    },
+    {
+      "type": "quiz",
+      "id": "par-food-09",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "The board says «Formule 18 €». What is it?",
+      "options": [
+        "A set menu: starter and main, or main and dessert",
+        "One big dish to share between two",
+        "The tip expected per table"
+      ],
+      "explain": "A fixed-price menu, nearly always two courses of your choice: starter and main, or main and dessert. Three courses are usually called a «menu». It's how you eat well and cheaply at lunch in a place that charges double at night."
+    },
+    {
+      "type": "myth",
+      "id": "par-food-10",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«In France, cheese is eaten as dessert, after the sweet»",
+      "body": "The other way round: cheese comes after the main course and before dessert. It's a course of its own, not a finale. If you order the cheese board and it arrives before the tart, they haven't got it wrong: that's the order. And it's eaten with bread, not crackers."
+    },
+    {
+      "type": "story",
+      "id": "par-food-11",
+      "kicker": "MACARON",
+      "title": "The Paris one is a sandwich",
+      "body": "The original macaron is a single almond biscuit, and it still exists in Nancy or Saint-Émilion. The Parisian one — two shells with a filling in between — was made famous by Ladurée around 1930, and it's the one that went round the world. A trick: buy them and wait a day in the fridge. Fresh, they're dry; the next day, just right."
+    },
+    {
+      "type": "quiz",
+      "id": "par-food-12",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You order «un tartare» in a bistrot. What turns up?",
+      "options": [
+        "Raw minced beef with egg yolk and capers",
+        "A very rare steak",
+        "Raw fish cured in citrus"
+      ],
+      "explain": "Hand-chopped raw beef with yolk, capers, onion and mustard, sometimes for you to mix yourself. It's a bistrot classic, served with chips. If what you want is a rare steak, ask for it «saignant»."
+    },
+    {
+      "type": "final",
+      "id": "par-food-13"
+    }
+  ]
+}

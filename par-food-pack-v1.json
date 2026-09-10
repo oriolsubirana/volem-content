@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "par",
+  "packID": "food",
+  "destination": "París",
+  "country": "Francia",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 27,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "par-food-00",
+      "kicker": "COMER EN PARÍS",
+      "title": "París",
+      "sub": "12 cards · ~27 min · para pedir sin que se note que acabas de llegar"
+    },
+    {
+      "type": "story",
+      "id": "par-food-01",
+      "kicker": "LA BAGUETTE",
+      "title": "Un pan con ley propia",
+      "body": "Desde 1993 un decreto dice qué puede llamarse «baguette de tradition»: harina, agua, sal y levadura, nada más, y prohibido congelar la masa. La baguette a secas puede llevar aditivos; la «tradition» no. Cuesta unos céntimos más y es otra cosa. En 2022 la UNESCO la declaró patrimonio inmaterial de la humanidad: el saber hacerla, no el pan."
+    },
+    {
+      "type": "tip",
+      "id": "par-food-02",
+      "kicker": "EN LA BOULANGERIE",
+      "review": true,
+      "title": "Pide «une tradition», y di cómo la quieres",
+      "body": "Entra, saluda, y pide «une tradition, s'il vous plaît». Te preguntarán o puedes adelantarte: «bien cuite» si la quieres muy dorada, «pas trop cuite» si la prefieres clara. Se paga en el momento, casi siempre con tarjeta sin mínimo. Y sí: el trozo que falta al llegar a casa —«le quignon»— se lo come todo el mundo por el camino."
+    },
+    {
+      "type": "quiz",
+      "id": "par-food-03",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Pides «un café» en un bar de París. ¿Qué te traen?",
+      "options": [
+        "Un espresso solo y corto",
+        "Un café con leche en taza grande",
+        "Un café largo americano"
+      ],
+      "explain": "Un espresso. «Café» a secas es eso; si lo quieres con leche pide «un crème», y «une noisette» es un espresso con una gota de leche. «Un allongé» es el largo. En la barra cuesta menos que en la mesa, y menos aún que en la terraza."
+    },
+    {
+      "type": "story",
+      "id": "par-food-04",
+      "kicker": "BISTROT Y BRASSERIE",
+      "title": "No son lo mismo, y se nota en el horario",
+      "body": "La brasserie es «cervecería»: la trajeron los alsacianos que llegaron a París tras la guerra de 1870, con su choucroute y su cerveza. Es grande, luminosa, y sirve a cualquier hora. El bistrot es lo contrario: pequeño, de barrio, con una pizarra corta y una cocina que abre a mediodía y por la noche. Si tienes hambre a las cinco, busca una brasserie."
+    },
+    {
+      "type": "myth",
+      "id": "par-food-05",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«Bistrot viene del ruso «bystro», rápido, que gritaban los cosacos en 1814»",
+      "body": "Es la historia que cuentan en el propio bistrot, y hasta hay una placa en Montmartre. Pero la palabra no aparece escrita hasta 1884, setenta años después de los cosacos, y una palabra de moda no tarda tanto. Los lingüistas la hacen venir de «bistouille», un café con aguardiente del norte. Menos épico, más probable."
+    },
+    {
+      "type": "slider",
+      "id": "par-food-06",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántas boulangeries hay dentro de París, sin contar las afueras?",
+      "min": 200,
+      "max": 3000,
+      "answer": 1200,
+      "tolerance": 300,
+      "explain_correct": "Unas 1.200, más o menos una cada cien metros. Hay barrios en los que se ven dos desde la misma esquina. Casi todas cierran un día a la semana, y no siempre el mismo.",
+      "explain_wrong": "Unas 1.200: más o menos una cada cien metros. Hay barrios en los que se ven dos desde la misma esquina. Casi todas cierran un día a la semana, y no siempre el mismo."
+    },
+    {
+      "type": "story",
+      "id": "par-food-07",
+      "kicker": "LES HALLES",
+      "title": "El vientre de París ya no está en París",
+      "body": "Durante ocho siglos el mercado central estuvo en Les Halles, en pleno centro: Zola le dedicó una novela, «El vientre de París». En 1971 lo derribaron y lo mudaron a Rungis, a diez kilómetros, donde hoy está el mayor mercado mayorista de productos frescos del mundo. Del original queda la sopa de cebolla, que los bares del barrio servían de madrugada a los cargadores."
+    },
+    {
+      "type": "tip",
+      "id": "par-food-08",
+      "kicker": "HORARIOS",
+      "review": true,
+      "title": "La cocina cierra, y no avisa",
+      "body": "Se come de doce a dos y se cena a partir de las siete y media; hacia las diez, la mayoría de cocinas ya no cogen mesas. Fuera de esas horas solo salvan las brasseries con «service continu». Mucho restaurante cierra domingo y lunes. Al mediodía busca la «formule» en la pizarra: es el mismo cocinero a mitad de precio."
+    },
+    {
+      "type": "quiz",
+      "id": "par-food-09",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "En la pizarra pone «Formule 18 €». ¿Qué es?",
+      "options": [
+        "Un menú cerrado: entrada y plato, o plato y postre",
+        "Un plato grande para compartir entre dos",
+        "La propina que se espera por mesa"
+      ],
+      "explain": "Un menú a precio fijo, casi siempre de dos pasos a elegir: entrada y plato o plato y postre. Los tres pasos suelen llamarse «menu». Es la manera de comer bien barato al mediodía en un sitio que por la noche cobra el doble."
+    },
+    {
+      "type": "myth",
+      "id": "par-food-10",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«En Francia el queso se come de postre, después del dulce»",
+      "body": "Al revés: el queso va después del plato principal y antes del postre. Es un paso propio de la comida, no un remate. Si pides tabla de quesos y te la traen antes de la tarta, no se han equivocado: es el orden. Y se come con pan, no con galletas."
+    },
+    {
+      "type": "story",
+      "id": "par-food-11",
+      "kicker": "MACARON",
+      "title": "El de París es un sándwich",
+      "body": "El macaron original es una sola galleta de almendra, y sigue existiendo en Nancy o Saint-Émilion. El parisino —dos conchas con una crema en medio— lo popularizó Ladurée hacia 1930, y es el que ha dado la vuelta al mundo. Un truco: se compra y se espera un día en la nevera. Recién hecho está seco; al día siguiente, en su punto."
+    },
+    {
+      "type": "quiz",
+      "id": "par-food-12",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Pides «un tartare» en un bistrot. ¿Qué te llega?",
+      "options": [
+        "Carne de vaca cruda, picada, con yema y alcaparras",
+        "Un filete muy poco hecho",
+        "Pescado crudo marinado en cítricos"
+      ],
+      "explain": "Carne cruda picada a cuchillo, con yema, alcaparras, cebolla y mostaza, a veces para mezclar tú mismo. Es plato de bistrot de toda la vida, con patatas fritas. Si lo que quieres es un filete poco hecho, pide «saignant»."
+    },
+    {
+      "type": "final",
+      "id": "par-food-13"
+    }
+  ]
+}
