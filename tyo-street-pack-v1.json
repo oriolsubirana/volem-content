@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "tyo",
+  "packID": "street",
+  "destination": "Tokio",
+  "country": "Japón",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 22,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "tyo-street-00",
+      "kicker": "A PIE DE CALLE",
+      "title": "Tokio",
+      "sub": "10 cards · ~22 min · lo que no sale en las guías de templos"
+    },
+    {
+      "type": "tip",
+      "id": "tyo-street-01",
+      "kicker": "AL ATERRIZAR",
+      "review": true,
+      "title": "Dos aeropuertos, dos mundos",
+      "body": "Haneda está dentro de la ciudad: monorraíl o línea Keikyū y en veinte minutos estás en el centro. Narita está a sesenta kilómetros: el Narita Express te deja en la estación de Tokio en una hora, y el Skyliner en Ueno en cuarenta minutos, ambos por unos 3.000 yenes. El taxi desde Narita cuesta más de 20.000: ni se te ocurra. Si puedes elegir vuelo, elige Haneda."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-street-02",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "En una escalera mecánica de Tokio no tienes prisa. ¿A qué lado te pones?",
+      "options": [
+        "A la izquierda",
+        "A la derecha",
+        "Da igual: nadie sube andando"
+      ],
+      "explain": "A la izquierda, y la derecha queda libre para quien sube. En Osaka es justo al revés, y los de cada ciudad se reconocen por eso. Las estaciones llevan años pidiendo con carteles que nadie ande por la escalera, y nadie les hace caso."
+    },
+    {
+      "type": "story",
+      "id": "tyo-street-03",
+      "kicker": "METRO",
+      "title": "Trece líneas de dos empresas distintas",
+      "body": "El metro de Tokio son dos compañías: Tokyo Metro, con nueve líneas, y Toei, con cuatro. Cambiar de una a otra cuesta un poco más, aunque el trasbordo sea en la misma estación. Y por encima va JR, con la Yamanote y los trenes de cercanías. Con la tarjeta de transporte no hay que pensar: se pasa por el torno y descuenta lo que toque. Sin ella, la máquina de billetes es un examen."
+    },
+    {
+      "type": "slider",
+      "id": "tyo-street-04",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántos kilómetros mide la Yamanote, la línea circular que rodea el centro?",
+      "min": 10,
+      "max": 100,
+      "answer": 35,
+      "tolerance": 8,
+      "explain_correct": "Treinta y cinco kilómetros, treinta estaciones y una hora justa para dar la vuelta entera. Casi todo lo que quieres ver está en su anillo o pegado a él: Shinjuku, Shibuya, Harajuku, Ueno, Tokio, Akihabara.",
+      "explain_wrong": "Treinta y cinco kilómetros, treinta estaciones y una hora justa para dar la vuelta entera. Casi todo lo que quieres ver está en su anillo o pegado a él: Shinjuku, Shibuya, Harajuku, Ueno, Tokio, Akihabara."
+    },
+    {
+      "type": "story",
+      "id": "tyo-street-05",
+      "kicker": "EL ÚLTIMO TREN",
+      "title": "La ciudad que se va a la cama a las doce",
+      "body": "Los trenes paran entre las doce y la una, y no hay búhos. A esa hora las estaciones se llenan de gente corriendo: es el «shūden», el último tren, y perderlo cuesta un taxi carísimo o una noche fuera. Por eso existen los hoteles cápsula, los karaokes abiertos hasta las cinco y los cafés de manga con ducha. No es una escena de película: es un martes cualquiera."
+    },
+    {
+      "type": "myth",
+      "id": "tyo-street-06",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "REALIDAD",
+      "claim": "«En Tokio no hay papeleras por la calle»",
+      "body": "Es verdad, y la razón no es la limpieza: se retiraron casi todas después del atentado con gas sarín en el metro de 1995, y nunca volvieron. La ciudad está impecable porque cada uno se lleva su basura a casa o a la papelera del konbini. Haz lo mismo: una bolsa en el bolsillo y no comas andando, que además está mal visto."
+    },
+    {
+      "type": "tip",
+      "id": "tyo-street-07",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "review": true,
+      "title": "En el tren se va en silencio",
+      "body": "El móvil en modo silencio y nada de llamadas: la gente lee, duerme o mira la pantalla sin sonido. No se come ni se bebe en los trenes de cercanías, aunque sí en el shinkansen. Los asientos de colores son prioritarios y se dejan libres. En hora punta de la mañana algunos vagones son solo para mujeres: hay carteles rosas en el andén."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-street-08",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Un taxi para delante de ti. ¿Qué haces con la puerta?",
+      "options": [
+        "Nada: se abre y se cierra sola",
+        "Abrirla tú y cerrarla al entrar",
+        "Esperar a que el conductor salga a abrirla"
+      ],
+      "explain": "La puerta trasera izquierda la abre y la cierra el conductor con una palanca desde su asiento. Tocarla es lo que más delata al recién llegado. Los taxis son caros, pero limpios y honrados; de noche, sin trenes, son lo único que hay."
+    },
+    {
+      "type": "story",
+      "id": "tyo-street-09",
+      "kicker": "TERREMOTOS",
+      "title": "El aviso que suena antes que el suelo",
+      "body": "En Japón la tierra tiembla varias veces por semana, y la mayoría no las notas. Cuando una es grande, el móvil suena con una alarma estridente segundos antes de que llegue: es el sistema de aviso temprano, y funciona con cualquier teléfono. Los edificios están hechos para balancearse, así que si todo se mueve, es que están haciendo su trabajo. Lo que hay que hacer es simple: agacharse, proteger la cabeza y no salir corriendo."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-street-10",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "En la puerta de una tienda hay un gato de cerámica con la pata levantada. ¿Qué hace?",
+      "options": [
+        "Llama a los clientes para que entren",
+        "Avisa de que dentro hay un gato de verdad",
+        "Espanta a los ladrones"
+      ],
+      "explain": "Es el «maneki-neko», el gato que invita: el gesto es el de llamar con la mano a la japonesa, con la palma hacia abajo. La pata izquierda atrae clientes; la derecha, dinero. Lleva siglos en las puertas de Japón y hoy en media Asia."
+    },
+    {
+      "type": "final",
+      "id": "tyo-street-11"
+    }
+  ]
+}

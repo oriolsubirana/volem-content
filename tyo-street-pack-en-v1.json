@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "tyo",
+  "packID": "street",
+  "destination": "Tokyo",
+  "country": "Japan",
+  "language": "en",
+  "version": 1,
+  "estimated_minutes": 22,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "tyo-street-00",
+      "kicker": "STREET LEVEL",
+      "title": "Tokyo",
+      "sub": "10 cards · ~22 min · what the temple guides leave out"
+    },
+    {
+      "type": "tip",
+      "id": "tyo-street-01",
+      "kicker": "WHEN YOU LAND",
+      "review": true,
+      "title": "Two airports, two worlds",
+      "body": "Haneda is inside the city: monorail or the Keikyū line and you're in the centre in twenty minutes. Narita is sixty kilometres out: the Narita Express gets you to Tokyo Station in an hour, the Skyliner to Ueno in forty minutes, both for around 3,000 yen. A taxi from Narita costs over 20,000: don't even think about it. If you can choose your flight, choose Haneda."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-street-02",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You're on a Tokyo escalator in no hurry. Which side do you stand on?",
+      "options": [
+        "The left",
+        "The right",
+        "Doesn't matter: nobody walks up"
+      ],
+      "explain": "The left, leaving the right for people walking up. In Osaka it's the exact opposite, and that's how each city spots the other. Stations have spent years asking with signs that nobody walk on the escalator, and nobody listens."
+    },
+    {
+      "type": "story",
+      "id": "tyo-street-03",
+      "kicker": "METRO",
+      "title": "Thirteen lines from two different companies",
+      "body": "The Tokyo subway is two companies: Tokyo Metro, with nine lines, and Toei, with four. Switching between them costs a bit more, even when the transfer is inside the same station. And above them runs JR, with the Yamanote and the commuter trains. With a transport card there's nothing to think about: tap through the gate and it deducts whatever applies. Without one, the ticket machine is an exam."
+    },
+    {
+      "type": "slider",
+      "id": "tyo-street-04",
+      "kicker": "GUESS",
+      "question": "How many kilometres long is the Yamanote, the loop line around the centre?",
+      "min": 10,
+      "max": 100,
+      "answer": 35,
+      "tolerance": 8,
+      "explain_correct": "Thirty-five kilometres, thirty stations and exactly an hour to go all the way round. Almost everything you want to see is on its ring or right next to it: Shinjuku, Shibuya, Harajuku, Ueno, Tokyo, Akihabara.",
+      "explain_wrong": "Thirty-five kilometres, thirty stations and exactly an hour to go all the way round. Almost everything you want to see is on its ring or right next to it: Shinjuku, Shibuya, Harajuku, Ueno, Tokyo, Akihabara."
+    },
+    {
+      "type": "story",
+      "id": "tyo-street-05",
+      "kicker": "THE LAST TRAIN",
+      "title": "The city that goes to bed at midnight",
+      "body": "Trains stop between midnight and one, and there are no night services. At that hour the stations fill with people running: it's the «shūden», the last train, and missing it means a very expensive taxi or a night out. That's why capsule hotels exist, and karaoke rooms open until five, and manga cafés with showers. It's not a film scene: it's any given Tuesday."
+    },
+    {
+      "type": "myth",
+      "id": "tyo-street-06",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "REALIDAD",
+      "claim": "«There are no rubbish bins on the streets of Tokyo»",
+      "body": "True, and the reason isn't cleanliness: nearly all of them were removed after the sarin gas attack on the subway in 1995, and they never came back. The city is spotless because everyone carries their rubbish home or to the konbini bin. Do the same: a bag in your pocket, and don't eat while walking, which is frowned upon anyway."
+    },
+    {
+      "type": "tip",
+      "id": "tyo-street-07",
+      "kicker": "WHAT LOCALS KNOW",
+      "review": true,
+      "title": "On the train, you ride in silence",
+      "body": "Phone on silent and no calls: people read, sleep or look at their screen with the sound off. No eating or drinking on commuter trains, though the shinkansen is fine. The coloured seats are priority seats and are left free. In the morning rush some carriages are women-only: there are pink signs on the platform."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-street-08",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "A taxi pulls up in front of you. What do you do with the door?",
+      "options": [
+        "Nothing: it opens and closes by itself",
+        "Open it yourself and close it as you get in",
+        "Wait for the driver to get out and open it"
+      ],
+      "explain": "The rear left door is opened and closed by the driver with a lever from his seat. Touching it is what gives the newcomer away most. Taxis are pricey, but clean and honest; at night, when the trains stop, they're all there is."
+    },
+    {
+      "type": "story",
+      "id": "tyo-street-09",
+      "kicker": "EARTHQUAKES",
+      "title": "The alarm that sounds before the ground does",
+      "body": "In Japan the earth shakes several times a week, and most of it you won't feel. When one is big, your phone goes off with a piercing alarm seconds before it arrives: that's the early warning system, and it works on any phone. Buildings are built to sway, so if everything moves, they're doing their job. What to do is simple: get down, cover your head, and don't run outside."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-street-10",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "A ceramic cat with one paw raised sits by a shop door. What's it doing?",
+      "options": [
+        "Beckoning customers in",
+        "Warning that there's a real cat inside",
+        "Scaring off thieves"
+      ],
+      "explain": "It's the «maneki-neko», the beckoning cat: the gesture is the Japanese way of waving someone over, palm down. The left paw draws customers; the right, money. It's been at Japan's doorways for centuries and today across half of Asia."
+    },
+    {
+      "type": "final",
+      "id": "tyo-street-11"
+    }
+  ]
+}

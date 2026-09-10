@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "tyo",
+  "packID": "food",
+  "destination": "Tokio",
+  "country": "Japón",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 27,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "tyo-food-00",
+      "kicker": "COMER EN TOKIO",
+      "title": "Tokio",
+      "sub": "12 cards · ~27 min · para pedir sin señalar la carta con el dedo"
+    },
+    {
+      "type": "story",
+      "id": "tyo-food-01",
+      "kicker": "RAMEN",
+      "title": "El plato japonés que es chino",
+      "body": "El ramen llegó de China a finales del siglo XIX y durante décadas se llamó «shina soba», fideos chinos. Se hizo nacional después de la guerra, cuando el trigo americano era más barato que el arroz y los puestos de fideos alimentaban a una ciudad en ruinas. El de Tokio es el de caldo de soja, claro y con fideos rizados. Cada barrio tiene el suyo y cada cocinero, su secreto."
+    },
+    {
+      "type": "tip",
+      "id": "tyo-food-02",
+      "kicker": "EN EL RAMEN",
+      "review": true,
+      "title": "Primero la máquina, luego la barra",
+      "body": "En la puerta hay una máquina con botones: eliges el plato, metes el dinero, sale un ticket. Se lo das al cocinero, te sientas en la barra y en cinco minutos tienes el cuenco. Se come rápido y se sorbe con ruido: no es mala educación, es lo esperado. Terminas, dejas el sitio y no te quedas de sobremesa. Es un ritual de quince minutos, y así está pensado."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-food-03",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "En un ramen sorbes los fideos con ruido. ¿Qué piensan de ti?",
+      "options": [
+        "Nada: es lo normal, y hasta se agradece",
+        "Que eres un maleducado",
+        "Que es cosa de niños"
+      ],
+      "explain": "Es lo normal. Sorber enfría los fideos, que salen hirviendo, y se entiende como señal de que te gusta. Lo raro es comerlos en silencio. El único sitio donde no se hace es con la pasta occidental, que aquí se come con tenedor y sin ruido."
+    },
+    {
+      "type": "story",
+      "id": "tyo-food-04",
+      "kicker": "IZAKAYA",
+      "title": "El plato que no has pedido y vas a pagar",
+      "body": "Te sientas en una izakaya y, antes de pedir nada, llega un platito: unas verduras, un poco de pescado, algo de tofu. Es el «otōshi», y cuesta entre trescientos y quinientos yenes. No es un error ni una trampa: es el precio del asiento, y sustituye a la entrada o al cubierto. Rechazarlo no funciona. Cómetelo, que suele estar bueno, y pide después."
+    },
+    {
+      "type": "myth",
+      "id": "tyo-food-05",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«El wasabi que te ponen en el sushi es wasabi»",
+      "body": "Casi nunca. La pasta verde de la mayoría de restaurantes, también en Japón, es rábano picante, mostaza y colorante. El wasabi de verdad es una raíz cara que se ralla al momento sobre piel de tiburón y pierde el picor en minutos. Lo reconocerás porque sabe más a planta que a fuego. Si un sitio lo ralla delante de ti, es que se lo toma en serio."
+    },
+    {
+      "type": "slider",
+      "id": "tyo-food-06",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántos restaurantes con estrella Michelin hay en Tokio?",
+      "min": 20,
+      "max": 400,
+      "answer": 180,
+      "tolerance": 40,
+      "explain_correct": "Unos 170, más que en ninguna otra ciudad del mundo, y con varios donde una cena cuesta menos que un café en París. Muchos tienen ocho asientos y un solo cocinero. La reserva es la parte difícil.",
+      "explain_wrong": "Unos 170: más que en ninguna otra ciudad del mundo, y con varios donde una cena cuesta menos que un café en París. Muchos tienen ocho asientos y un solo cocinero. La reserva es la parte difícil."
+    },
+    {
+      "type": "story",
+      "id": "tyo-food-07",
+      "kicker": "DEPACHIKA",
+      "title": "El mejor mercado está en un sótano",
+      "body": "«Depachika» viene de «depāto» y «chika», sótano: el subterráneo de los grandes almacenes, y es el sitio donde comer mejor por menos. Decenas de puestos de bento, tempura, pasteles y fruta de regalo a precios absurdos. El truco es la última hora: media hora antes de cerrar salen las pegatinas de descuento y lo que costaba mil yenes cuesta quinientos."
+    },
+    {
+      "type": "tip",
+      "id": "tyo-food-08",
+      "kicker": "AL PAGAR",
+      "review": true,
+      "title": "El dinero va en la bandeja",
+      "body": "Junto a la caja hay siempre una bandejita. El dinero o la tarjeta se dejan ahí, no en la mano del cajero, y el cambio vuelve por el mismo camino. Se paga en la caja al salir, no en la mesa, y no se pide la cuenta: la llevas tú. En sitios pequeños puede que solo acepten efectivo, así que ten yenes encima."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-food-09",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Junto al sushi te ponen unas láminas rosas. ¿Qué es el «gari»?",
+      "options": [
+        "Jengibre encurtido, para limpiar el paladar entre piezas",
+        "Rábano rallado, para poner encima del pescado",
+        "Alga marinada, para acompañar el arroz"
+      ],
+      "explain": "Jengibre encurtido. Se come un trocito entre pieza y pieza para que el sabor de una no se mezcle con la siguiente, no encima del sushi. Lo mismo vale para la soja: se moja el pescado, no el arroz, que se deshace y lo chupa todo."
+    },
+    {
+      "type": "myth",
+      "id": "tyo-food-10",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«El sake se toma caliente»",
+      "body": "Se puede, pero el bueno casi nunca. Calentar el sake era la forma de disimular los baratos, y muchos de los mejores se sirven fríos o a temperatura ambiente para que se les note el aroma. Si la carta lo permite, pide «reishu», frío, y prueba uno «junmai». Y la copa no se llena uno mismo: se sirve al de al lado y él te sirve a ti."
+    },
+    {
+      "type": "story",
+      "id": "tyo-food-11",
+      "kicker": "DESAYUNO",
+      "title": "Lo que aquí se desayuna es una cena",
+      "body": "El desayuno japonés tradicional es arroz, sopa de miso, pescado a la brasa, encurtidos y, para los valientes, «nattō», soja fermentada que se pega y huele. Es una comida completa a las siete de la mañana, y muchos hoteles la ofrecen junto a la tostada. Vale la pena probarlo una vez: es la manera más rápida de entender cómo come de verdad esta ciudad."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-food-12",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Terminas de comer en un sitio pequeño. ¿Qué dices al salir?",
+      "options": [
+        "«Gochisōsama deshita»: gracias por la comida",
+        "«Itadakimasu»: a comer",
+        "«Sumimasen»: perdón"
+      ],
+      "explain": "«Gochisōsama deshita» es el gracias de después de comer, y decírselo al cocinero al salir es lo que más se aprecia de alguien de fuera. «Itadakimasu» va antes de empezar. «Sumimasen» sirve para casi todo lo demás."
+    },
+    {
+      "type": "final",
+      "id": "tyo-food-13"
+    }
+  ]
+}

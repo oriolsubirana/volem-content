@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "tyo",
+  "packID": "food",
+  "destination": "Tokyo",
+  "country": "Japan",
+  "language": "en",
+  "version": 1,
+  "estimated_minutes": 27,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "tyo-food-00",
+      "kicker": "EATING IN TOKYO",
+      "title": "Tokyo",
+      "sub": "12 cards · ~27 min · to order without pointing at the menu"
+    },
+    {
+      "type": "story",
+      "id": "tyo-food-01",
+      "kicker": "RAMEN",
+      "title": "The Japanese dish that is Chinese",
+      "body": "Ramen came from China in the late nineteenth century and for decades was called «shina soba», Chinese noodles. It went national after the war, when American wheat was cheaper than rice and noodle stalls fed a city in ruins. Tokyo's is the soy-broth kind, clear, with curly noodles. Every neighbourhood has its own, and every cook his secret."
+    },
+    {
+      "type": "tip",
+      "id": "tyo-food-02",
+      "kicker": "AT THE RAMEN SHOP",
+      "review": true,
+      "title": "Machine first, then the counter",
+      "body": "By the door there's a machine with buttons: pick the dish, put in the money, out comes a ticket. Hand it to the cook, sit at the counter, and in five minutes the bowl is in front of you. You eat fast and slurp loudly: it's not rude, it's expected. You finish, free the seat and don't linger. It's a fifteen-minute ritual, and it's designed that way."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-food-03",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You slurp your ramen noodles loudly. What do they think of you?",
+      "options": [
+        "Nothing: it's normal, even appreciated",
+        "That you're rude",
+        "That it's something children do"
+      ],
+      "explain": "It's normal. Slurping cools the noodles, which arrive boiling, and reads as a sign you're enjoying it. Eating them in silence is the odd thing. The one place it isn't done is with Western pasta, eaten here with a fork and quietly."
+    },
+    {
+      "type": "story",
+      "id": "tyo-food-04",
+      "kicker": "IZAKAYA",
+      "title": "The dish you didn't order and will pay for",
+      "body": "You sit down in an izakaya and, before you've ordered anything, a small plate arrives: some vegetables, a bit of fish, some tofu. It's the «otōshi», and it costs three to five hundred yen. Not a mistake, not a trap: it's the price of the seat, standing in for a cover charge. Refusing it doesn't work. Eat it, it's usually good, and order afterwards."
+    },
+    {
+      "type": "myth",
+      "id": "tyo-food-05",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«The wasabi they put with your sushi is wasabi»",
+      "body": "Hardly ever. The green paste in most restaurants, in Japan too, is horseradish, mustard and colouring. Real wasabi is an expensive root grated to order on sharkskin, and it loses its heat within minutes. You'll know it because it tastes more of plant than of fire. If a place grates it in front of you, they take it seriously."
+    },
+    {
+      "type": "slider",
+      "id": "tyo-food-06",
+      "kicker": "GUESS",
+      "question": "How many Michelin-starred restaurants are there in Tokyo?",
+      "min": 20,
+      "max": 400,
+      "answer": 180,
+      "tolerance": 40,
+      "explain_correct": "About 170, more than any other city in the world, and several where dinner costs less than a coffee in Paris. Many have eight seats and one cook. The booking is the hard part.",
+      "explain_wrong": "About 170: more than any other city in the world, and several where dinner costs less than a coffee in Paris. Many have eight seats and one cook. The booking is the hard part."
+    },
+    {
+      "type": "story",
+      "id": "tyo-food-07",
+      "kicker": "DEPACHIKA",
+      "title": "The best market is in a basement",
+      "body": "«Depachika» comes from «depāto» and «chika», basement: the underground floor of the department stores, and the place to eat best for least. Dozens of stalls of bento, tempura, pastries and gift fruit at absurd prices. The trick is the last hour: half an hour before closing the discount stickers come out and what cost a thousand yen costs five hundred."
+    },
+    {
+      "type": "tip",
+      "id": "tyo-food-08",
+      "kicker": "PAYING",
+      "review": true,
+      "title": "The money goes on the tray",
+      "body": "Next to the till there's always a little tray. Cash or card goes there, not into the cashier's hand, and the change comes back the same way. You pay at the till on the way out, not at the table, and you don't ask for the bill: you carry it up yourself. Small places may take cash only, so keep some yen on you."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-food-09",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Pink slices come with your sushi. What is «gari»?",
+      "options": [
+        "Pickled ginger, to clear the palate between pieces",
+        "Grated radish, to put on top of the fish",
+        "Marinated seaweed, to go with the rice"
+      ],
+      "explain": "Pickled ginger. You eat a bit between pieces so one flavour doesn't bleed into the next, not on top of the sushi. Same goes for the soy: dip the fish, not the rice, which falls apart and soaks it all up."
+    },
+    {
+      "type": "myth",
+      "id": "tyo-food-10",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«Sake is drunk hot»",
+      "body": "It can be, but the good stuff almost never is. Heating sake was the way to hide the cheap ones, and many of the best are served chilled or at room temperature so the aroma shows. If the menu allows, ask for «reishu», cold, and try a «junmai». And you don't fill your own cup: you pour for the person next to you and they pour for you."
+    },
+    {
+      "type": "story",
+      "id": "tyo-food-11",
+      "kicker": "BREAKFAST",
+      "title": "What they eat for breakfast here is a dinner",
+      "body": "The traditional Japanese breakfast is rice, miso soup, grilled fish, pickles and, for the brave, «nattō», fermented soybeans that are sticky and smell. It's a full meal at seven in the morning, and many hotels offer it alongside the toast. Worth trying once: it's the quickest way to understand how this city really eats."
+    },
+    {
+      "type": "quiz",
+      "id": "tyo-food-12",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You finish eating somewhere small. What do you say on the way out?",
+      "options": [
+        "«Gochisōsama deshita»: thanks for the meal",
+        "«Itadakimasu»: let's eat",
+        "«Sumimasen»: excuse me"
+      ],
+      "explain": "«Gochisōsama deshita» is the thanks for after a meal, and saying it to the cook on the way out is the most appreciated thing an outsider can do. «Itadakimasu» comes before you start. «Sumimasen» covers nearly everything else."
+    },
+    {
+      "type": "final",
+      "id": "tyo-food-13"
+    }
+  ]
+}
