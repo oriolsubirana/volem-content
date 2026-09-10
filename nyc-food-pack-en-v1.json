@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "nyc",
+  "packID": "food",
+  "destination": "New York",
+  "country": "United States",
+  "language": "en",
+  "version": 1,
+  "estimated_minutes": 27,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "nyc-food-00",
+      "kicker": "EATING IN NEW YORK",
+      "title": "New York",
+      "sub": "12 cards · ~27 min · to order in one sentence and be understood"
+    },
+    {
+      "type": "story",
+      "id": "nyc-food-01",
+      "kicker": "BAGEL",
+      "title": "The bread that's boiled before it's baked",
+      "body": "Polish Jews brought it in the late nineteenth century, and the secret isn't the water, whatever people say: it's that the dough is boiled for a minute before going into the oven. That's what gives the shiny crust and the dense inside. The classic is with «lox», cured salmon — «laks» in Yiddish — cream cheese and onion. A good bagel has weight in the hand; if it's light and fluffy, it's a bread roll with a hole."
+    },
+    {
+      "type": "tip",
+      "id": "nyc-food-02",
+      "kicker": "AT THE DELI",
+      "review": true,
+      "title": "You order in a single sentence",
+      "body": "The line moves fast and the person behind the counter has no patience: when it's your turn, say it all in one go. «Everything bagel, cream cheese, toasted». For the definitive New York breakfast, «bacon, egg and cheese on a roll», which here is ordered as «a BEC». Work it out before you reach the counter, not in front of it."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-food-03",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You ask for «a slice» at a pizzeria. What do you get?",
+      "options": [
+        "A thin triangle of pizza to eat standing up",
+        "A portion of cheesecake",
+        "A sandwich cut in two"
+      ],
+      "explain": "A big triangle of thin pizza, folded in half and eaten walking or standing at the counter. It's the city's fast food, and for decades it cost the same as a subway ride: when one went up, so did the other. They call it «the pizza principle»."
+    },
+    {
+      "type": "story",
+      "id": "nyc-food-04",
+      "kicker": "PASTRAMI",
+      "title": "The ticket you can't lose",
+      "body": "Pastrami is brined beef, smoked and then steamed, a recipe Romanian Jews brought over. Katz's, on the Lower East Side, has served it since 1888: you walk in, they hand you a ticket, the cutter makes it in front of you and writes the price on the ticket. You pay on the way out. Lose it and you pay a fine of tens of dollars, and they mean it."
+    },
+    {
+      "type": "myth",
+      "id": "nyc-food-05",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "REALIDAD",
+      "claim": "«New York cheesecake really is from New York»",
+      "body": "The style, yes. Cheesecake goes back to ancient Greece, but the New York one is made with cream cheese, and that cheese was invented by a dairyman in New York State in 1872 while trying to copy a French one. Broadway restaurants made it famous in the thirties: dense, tall, no fruit on top. Everything else is a variation."
+    },
+    {
+      "type": "slider",
+      "id": "nyc-food-06",
+      "kicker": "GUESS",
+      "question": "How many restaurants are there in New York City?",
+      "min": 2000,
+      "max": 60000,
+      "answer": 25000,
+      "tolerance": 6000,
+      "explain_correct": "About 25,000, from every cuisine on the planet. You could eat dinner in a different one every night for nearly seventy years without repeating. And every week dozens close and open.",
+      "explain_wrong": "About 25,000, from every cuisine on the planet. You could eat dinner in a different one every night for nearly seventy years without repeating. And every week dozens close and open."
+    },
+    {
+      "type": "story",
+      "id": "nyc-food-07",
+      "kicker": "HALAL CARTS",
+      "title": "Chicken over rice with white sauce",
+      "body": "On almost every Midtown corner there's a cart with a griddle serving «chicken over rice»: spiced chicken on yellow rice, salad, and a white sauce plus a red one that's genuinely hot. They started in the nineties feeding Muslim cab drivers who couldn't find halal food, and today they have a queue at lunchtime. For under ten dollars it's the best meal in the area."
+    },
+    {
+      "type": "tip",
+      "id": "nyc-food-08",
+      "kicker": "THE BILL",
+      "review": true,
+      "title": "What the menu says isn't what you pay",
+      "body": "Prices are shown before tax: nearly 9% gets added to the bill, and the tip on top of that. A twenty-dollar dish ends up at twenty-six. Dinner is early, between six and eight, and on weekdays many kitchens close at ten. Weekend brunch is an institution with a queue: with no booking, you give your name and wait outside."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-food-09",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You order «a regular coffee» at a deli. What do you get?",
+      "options": [
+        "Coffee with milk and sugar",
+        "Black coffee, nothing in it",
+        "A decaf"
+      ],
+      "explain": "With milk and sugar, and plenty of both. In New York «regular» doesn't mean plain, it means that, and it's a classic trap for the newcomer. If you want it black, say «black». And it comes in the blue-and-white deli cup, an icon of the city."
+    },
+    {
+      "type": "myth",
+      "id": "nyc-food-10",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«Pizza and bagels taste like this because of New York tap water»",
+      "body": "It's what every pizza maker in town says, and the water is good, from the Catskills reservoirs. But in blind tastings nobody can tell a dough made with New York water from any other; what matters is technique, a decades-old oven and volume: a place that makes a thousand pizzas a day makes them well. The water is the legend; the craft is the explanation."
+    },
+    {
+      "type": "story",
+      "id": "nyc-food-11",
+      "kicker": "EGG CREAM",
+      "title": "No egg, no cream",
+      "body": "The «egg cream» is the most New York drink there is and contains neither thing in its name: milk, seltzer and chocolate syrup, whipped until it foams. It was born in Brooklyn in the early twentieth century, at the soda fountains of the Jewish neighbourhoods, and a few old delis still serve it. Drink it straight away: in a minute the foam is dead."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-food-12",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Someone suggests lunch at «a diner». What awaits you?",
+      "options": [
+        "A restaurant with a huge menu, open nearly all hours",
+        "A small wine bar",
+        "A street-food stall"
+      ],
+      "explain": "A neighbourhood restaurant with a twelve-page menu, vinyl booths, coffee refilled without asking and near round-the-clock hours. Breakfast, lunch and dinner all at once. It's where the TV shows eat, and where the city really eats."
+    },
+    {
+      "type": "final",
+      "id": "nyc-food-13"
+    }
+  ]
+}

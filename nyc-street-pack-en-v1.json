@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "nyc",
+  "packID": "street",
+  "destination": "New York",
+  "country": "United States",
+  "language": "en",
+  "version": 1,
+  "estimated_minutes": 22,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "nyc-street-00",
+      "kicker": "STREET LEVEL",
+      "title": "New York",
+      "sub": "10 cards · ~22 min · what the skyscraper guides leave out"
+    },
+    {
+      "type": "tip",
+      "id": "nyc-street-01",
+      "kicker": "WHEN YOU LAND",
+      "review": true,
+      "title": "Three airports and none with a direct train",
+      "body": "From JFK, the AirTrain takes you to Jamaica, where you catch the commuter train to Penn Station in twenty minutes, or the subway, cheaper and slower. A yellow cab to Manhattan has a flat fare, around 70 dollars plus tolls and tip; Uber has none, and to Brooklyn it easily runs to 95. From Newark, the NJ Transit train to Penn Station in half an hour. From LaGuardia there's no train: a free bus drops you at the subway. In rush hour, no taxi beats the train."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-street-02",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You reach the subway turnstile. What do you do?",
+      "options": [
+        "Tap your bank card or phone on the reader",
+        "Buy a token at the booth",
+        "Feed a dollar bill into the slot"
+      ],
+      "explain": "Tap any contactless card or your phone on the OMNY reader at the turnstile, nothing to buy first. And it's capped: from the twelfth ride in a week, the rest on the same card are free. Every ride costs the same."
+    },
+    {
+      "type": "story",
+      "id": "nyc-street-03",
+      "kicker": "FINDING YOUR WAY",
+      "title": "Uptown, downtown, and Fifth in the middle",
+      "body": "In Manhattan nobody says north or south: it's «uptown» and «downtown». And east and west are split by Fifth Avenue: East 50th Street and West 50th Street are the same street on either side of it. Blocks between avenues are long, blocks between streets are short: crossing three avenues tires you like crossing ten streets. With that you can already argue with a cab driver."
+    },
+    {
+      "type": "slider",
+      "id": "nyc-street-04",
+      "kicker": "GUESS",
+      "question": "How many stations does the New York subway have?",
+      "min": 100,
+      "max": 800,
+      "answer": 472,
+      "tolerance": 50,
+      "explain_correct": "Four hundred and seventy-two, more than any other network in the world. Many date from 1904 and it shows: stairs, summer heat and rats with names. But it goes everywhere and never stops.",
+      "explain_wrong": "Four hundred and seventy-two: more than any other network in the world. Many date from 1904 and it shows: stairs, summer heat and rats with names. But it goes everywhere and never stops."
+    },
+    {
+      "type": "story",
+      "id": "nyc-street-05",
+      "kicker": "ROOFTOPS",
+      "title": "The wooden barrels in the sky",
+      "body": "Look up on any street and you'll see wooden barrels on legs on the rooftops. They're water tanks: the city's pressure doesn't reach above the sixth floor, so since the 1880s every tall building pumps water up to a tank and lets it fall. Two family firms still build them, in wood, with no nails or glue, as they did a century ago. They last thirty years and are the city's most ignored postcard."
+    },
+    {
+      "type": "myth",
+      "id": "nyc-street-06",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«Crossing against the light is illegal and you can be fined»",
+      "body": "It was for nearly a century, even though everyone did it: «jaywalking» was an offence. Since 2025 it isn't: the city legalised it after finding the fines fell almost always on the same neighbourhoods. It's still on you to look, because the car does have right of way. New Yorkers cross when nothing's coming, not when the little man says so."
+    },
+    {
+      "type": "tip",
+      "id": "nyc-street-07",
+      "kicker": "WHAT LOCALS KNOW",
+      "review": true,
+      "title": "Walking is a team sport",
+      "body": "The sidewalk has rules: walk on the right, don't stop dead in the middle to check your phone, and if you want a photo, step over to the wall. On the subway, let people off before you get on and don't block the door. On escalators, stand right. An «excuse me» opens any gap. The one person the city truly won't forgive is the one walking slowly down the middle of the sidewalk."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-street-08",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Someone from Brooklyn says they're going «to the city». Where are they going?",
+      "options": [
+        "To Manhattan",
+        "To downtown Brooklyn",
+        "To the central station"
+      ],
+      "explain": "To Manhattan. For people in Brooklyn, Queens or the Bronx, «the city» is the island, even though they're New York too. And within the island, «the Village», «Midtown» and «Uptown» are directions, not neighbourhoods with a sign."
+    },
+    {
+      "type": "story",
+      "id": "nyc-street-09",
+      "kicker": "STATEN ISLAND FERRY",
+      "title": "The free twenty-five-minute cruise",
+      "body": "From the southern tip of Manhattan an orange ferry leaves for Staten Island every half hour, day and night. It's been free since 1997, takes twenty-five minutes and passes right by the Statue of Liberty, with the whole skyline behind you. It's the same trip the tour boats sell for forty dollars. Get off, walk round the terminal and come back on the next one."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-street-10",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You're invited for a drink «on the stoop». Where will you be sitting?",
+      "options": [
+        "On the front steps of the house",
+        "At a bar counter",
+        "In a basement"
+      ],
+      "explain": "On the front steps of a «brownstone», the reddish stone houses of Brooklyn and Harlem. The word comes from the Dutch «stoep», from the first settlers. It's the city's summer living room: the block sits out and life goes by."
+    },
+    {
+      "type": "final",
+      "id": "nyc-street-11"
+    }
+  ]
+}

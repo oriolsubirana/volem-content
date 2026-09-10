@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "nyc",
+  "packID": "food",
+  "destination": "Nueva York",
+  "country": "Estados Unidos",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 27,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "nyc-food-00",
+      "kicker": "COMER EN NUEVA YORK",
+      "title": "Nueva York",
+      "sub": "12 cards · ~27 min · para pedir en una frase y que te entiendan"
+    },
+    {
+      "type": "story",
+      "id": "nyc-food-01",
+      "kicker": "BAGEL",
+      "title": "El pan que se hierve antes de hornearse",
+      "body": "Lo trajeron los judíos de Polonia a finales del siglo XIX y el secreto no es el agua, por mucho que se diga: es que la masa se hierve un minuto antes de entrar al horno. Eso le da la corteza brillante y el interior denso. El clásico es con «lox», salmón curado —«laks» en yiddish—, queso crema y cebolla. Un bagel bueno pesa en la mano; si es ligero y esponjoso, es un panecillo con agujero."
+    },
+    {
+      "type": "tip",
+      "id": "nyc-food-02",
+      "kicker": "EN EL DELI",
+      "review": true,
+      "title": "Se pide en una sola frase",
+      "body": "La cola avanza rápido y el que está detrás del mostrador no tiene paciencia: cuando te toque, dilo todo seguido. «Everything bagel, cream cheese, toasted». Para el desayuno neoyorquino por antonomasia, «bacon, egg and cheese on a roll», que aquí se pide como «a BEC». Piénsalo antes de llegar al mostrador, no delante de él."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-food-03",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Pides «a slice» en una pizzería. ¿Qué te dan?",
+      "options": [
+        "Un triángulo de pizza fina para comer de pie",
+        "Una porción de tarta de queso",
+        "Un sándwich cortado en dos"
+      ],
+      "explain": "Un triángulo de pizza fina, para doblar por la mitad y comer de pie o andando. Es la comida rápida de la ciudad, y durante décadas costó lo mismo que un viaje de metro: cuando subía uno, subía el otro. «El principio de la pizza»."
+    },
+    {
+      "type": "story",
+      "id": "nyc-food-04",
+      "kicker": "PASTRAMI",
+      "title": "El ticket que no puedes perder",
+      "body": "El pastrami es carne de vaca en salmuera, ahumada y luego cocida al vapor, receta que trajeron los judíos rumanos. Katz's, en el Lower East Side, lo sirve desde 1888: entras, te dan un ticket, el cortador te lo prepara delante y te apunta el precio en el ticket. Lo pagas al salir. Si lo pierdes, pagas una multa de decenas de dólares, y lo dicen en serio."
+    },
+    {
+      "type": "myth",
+      "id": "nyc-food-05",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "REALIDAD",
+      "claim": "«La tarta de queso «New York» es de verdad de Nueva York»",
+      "body": "El estilo, sí. La tarta de queso existe desde la Grecia antigua, pero la de Nueva York se hace con queso crema, y ese queso lo inventó un lechero del estado de Nueva York en 1872 intentando copiar uno francés. Los restaurantes de Broadway la hicieron famosa en los años treinta: densa, alta, sin frutas encima. Todo lo demás son variaciones."
+    },
+    {
+      "type": "slider",
+      "id": "nyc-food-06",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántos restaurantes hay en la ciudad de Nueva York?",
+      "min": 2000,
+      "max": 60000,
+      "answer": 25000,
+      "tolerance": 6000,
+      "explain_correct": "Unos 25.000, de todas las cocinas del planeta. Podrías cenar en uno distinto cada noche durante casi setenta años sin repetir. Y cada semana cierran y abren decenas.",
+      "explain_wrong": "Unos 25.000, de todas las cocinas del planeta. Podrías cenar en uno distinto cada noche durante casi setenta años sin repetir. Y cada semana cierran y abren decenas."
+    },
+    {
+      "type": "story",
+      "id": "nyc-food-07",
+      "kicker": "CARRITOS HALAL",
+      "title": "Pollo con arroz y salsa blanca",
+      "body": "En casi cada esquina de Midtown hay un carrito con plancha que sirve «chicken over rice»: pollo especiado sobre arroz amarillo, ensalada, y una salsa blanca y otra roja que pica de verdad. Empezaron en los años noventa dando de comer a los taxistas musulmanes que no encontraban comida halal, y hoy tienen cola a mediodía. Por menos de diez dólares es la mejor comida de la zona."
+    },
+    {
+      "type": "tip",
+      "id": "nyc-food-08",
+      "kicker": "LA CUENTA",
+      "review": true,
+      "title": "Lo que pone en la carta no es lo que pagas",
+      "body": "Los precios van sin impuestos: a la cuenta se le suma casi un 9 % de tax, y encima la propina. Un plato de 20 dólares acaba en 26. Se cena pronto, entre las seis y las ocho, y entre semana muchas cocinas cierran a las diez. El brunch del fin de semana es una institución con cola: si no hay reserva, das tu nombre y esperas fuera."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-food-09",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Pides «a regular coffee» en un deli. ¿Qué te sirven?",
+      "options": [
+        "Café con leche y azúcar",
+        "Café solo, sin nada",
+        "Un descafeinado"
+      ],
+      "explain": "Con leche y azúcar, y bastante de las dos. En Nueva York «regular» no significa normal sino así, y es una trampa clásica del recién llegado. Si lo quieres solo, pide «black». Llega en el vaso azul y blanco de los delis."
+    },
+    {
+      "type": "myth",
+      "id": "nyc-food-10",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«La pizza y el bagel saben así por el agua del grifo de Nueva York»",
+      "body": "Es lo que dice todo pizzero de la ciudad, y el agua es buena, de los embalses de las Catskills. Pero en catas a ciegas nadie distingue una masa hecha con agua de Nueva York de otra; lo que importa es la técnica, el horno de décadas y el volumen: un sitio que hace mil pizzas al día las hace bien. El agua es la leyenda; el oficio, la explicación."
+    },
+    {
+      "type": "story",
+      "id": "nyc-food-11",
+      "kicker": "EGG CREAM",
+      "title": "Ni huevo ni nata",
+      "body": "El «egg cream» es la bebida más neoyorquina que existe y no lleva ninguna de las dos cosas de su nombre: leche, sifón y sirope de chocolate, batido hasta que hace espuma. Nació en Brooklyn a principios del siglo XX, en las fuentes de soda de los barrios judíos, y aún se sirve en algunos delis viejos. Hay que bebérselo al momento: en un minuto la espuma se muere."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-food-12",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Te citan a comer en «a diner». ¿Qué te espera?",
+      "options": [
+        "Un restaurante con carta enorme, abierto casi a todas horas",
+        "Un bar de vinos pequeño",
+        "Un puesto de comida en la calle"
+      ],
+      "explain": "Un restaurante de barrio con una carta de doce páginas, bancos de escay, café que se rellena sin pedirlo y horario casi ininterrumpido. Se desayuna, se come y se cena lo mismo. Es donde comen las series, y donde come de verdad la ciudad."
+    },
+    {
+      "type": "final",
+      "id": "nyc-food-13"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "nyc",
+  "packID": "street",
+  "destination": "Nueva York",
+  "country": "Estados Unidos",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 22,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "nyc-street-00",
+      "kicker": "A PIE DE CALLE",
+      "title": "Nueva York",
+      "sub": "10 cards · ~22 min · lo que no sale en las guías de rascacielos"
+    },
+    {
+      "type": "tip",
+      "id": "nyc-street-01",
+      "kicker": "AL ATERRIZAR",
+      "review": true,
+      "title": "Tres aeropuertos y ninguno con metro directo",
+      "body": "Desde JFK, el AirTrain te lleva a Jamaica y allí coges el tren de cercanías a Penn Station en veinte minutos, o el metro, más barato y más lento. El taxi amarillo a Manhattan tiene tarifa plana, unos 70 dólares más peajes y propina; Uber no la tiene y a Brooklyn se va tranquilamente a los 95. Desde Newark, el tren de NJ Transit a Penn Station en media hora. Desde LaGuardia no hay tren: un autobús gratuito te deja en el metro. En hora punta, ningún taxi gana al tren."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-street-02",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Llegas al torno del metro. ¿Qué haces?",
+      "options": [
+        "Acercas la tarjeta bancaria o el móvil al lector",
+        "Compras una ficha en la taquilla",
+        "Metes un billete de dólar en la ranura"
+      ],
+      "explain": "Acercas cualquier tarjeta contactless o el móvil al lector OMNY del torno, sin comprar nada antes. Y tiene tope: a partir del duodécimo viaje en una semana, los siguientes con la misma tarjeta salen gratis. Todos los viajes valen lo mismo."
+    },
+    {
+      "type": "story",
+      "id": "nyc-street-03",
+      "kicker": "ORIENTARSE",
+      "title": "Uptown, downtown, y la Quinta en medio",
+      "body": "En Manhattan nadie dice norte o sur: se dice «uptown» y «downtown». Y el este y el oeste los parte la Quinta Avenida: la calle 50 Este y la calle 50 Oeste son la misma calle a cada lado de ella. Las manzanas entre avenidas son largas, las que hay entre calles son cortas: cruzar tres avenidas cansa como cruzar diez calles. Con esto ya puedes discutir con un taxista."
+    },
+    {
+      "type": "slider",
+      "id": "nyc-street-04",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántas estaciones tiene el metro de Nueva York?",
+      "min": 100,
+      "max": 800,
+      "answer": 472,
+      "tolerance": 50,
+      "explain_correct": "Cuatrocientas setenta y dos, más que ninguna otra red del mundo. Muchas son de 1904 y se nota: escaleras, calor en verano y ratas con nombre propio. Pero llega a todas partes y no para nunca.",
+      "explain_wrong": "Cuatrocientas setenta y dos: más que ninguna otra red del mundo. Muchas son de 1904 y se nota: escaleras, calor en verano y ratas con nombre propio. Pero llega a todas partes y no para nunca."
+    },
+    {
+      "type": "story",
+      "id": "nyc-street-05",
+      "kicker": "AZOTEAS",
+      "title": "Los barriles de madera del cielo",
+      "body": "Mira hacia arriba en cualquier calle y verás barriles de madera sobre patas en las azoteas. Son depósitos de agua: la presión de la ciudad no sube de la sexta planta, así que desde 1880 cada edificio alto bombea el agua a un tanque y la deja caer. Los siguen haciendo dos empresas familiares, de madera, sin clavos ni pegamento, como hace un siglo. Duran treinta años y es la postal más ignorada de la ciudad."
+    },
+    {
+      "type": "myth",
+      "id": "nyc-street-06",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«Cruzar la calle en rojo está prohibido y te pueden multar»",
+      "body": "Lo estuvo durante casi un siglo, aunque todo el mundo lo hiciera: el «jaywalking» era una infracción. Desde 2025 ya no: la ciudad lo legalizó después de comprobar que las multas caían casi siempre sobre los mismos barrios. Sigue siendo tu responsabilidad mirar, porque el coche sí tiene preferencia. Los neoyorquinos cruzan cuando no viene nadie, no cuando lo dice el muñeco."
+    },
+    {
+      "type": "tip",
+      "id": "nyc-street-07",
+      "kicker": "LO QUE SABEN LOS LOCALES",
+      "review": true,
+      "title": "Andar es un deporte de equipo",
+      "body": "La acera tiene reglas: se camina por la derecha, no se para en seco en medio para mirar el móvil, y quien quiera hacer una foto se aparta a la pared. En el metro se deja salir antes de entrar y no se bloquea la puerta. En la escalera mecánica, a la derecha. Un «excuse me» abre cualquier paso. El que va despacio por el centro de la acera es el único al que la ciudad de verdad no perdona."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-street-08",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Alguien de Brooklyn te dice que se va «to the city». ¿Adónde va?",
+      "options": [
+        "A Manhattan",
+        "Al centro de Brooklyn",
+        "A la estación central"
+      ],
+      "explain": "A Manhattan. Para quien vive en Brooklyn, Queens o el Bronx, «la ciudad» es la isla, aunque ellos también sean Nueva York. Y dentro de la isla, «the Village», «Midtown» y «Uptown» son direcciones, no barrios con cartel."
+    },
+    {
+      "type": "story",
+      "id": "nyc-street-09",
+      "kicker": "STATEN ISLAND FERRY",
+      "title": "El crucero gratis de veinticinco minutos",
+      "body": "Desde la punta sur de Manhattan sale cada media hora, día y noche, un ferry naranja a Staten Island. Es gratis desde 1997, tarda veinticinco minutos y pasa junto a la Estatua de la Libertad, con el skyline entero a la espalda. Es el mismo trayecto que venden a cuarenta dólares los barcos turísticos. Bájate, da la vuelta a la terminal y vuelve en el siguiente."
+    },
+    {
+      "type": "quiz",
+      "id": "nyc-street-10",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Te invitan a tomar algo «on the stoop». ¿Dónde vas a sentarte?",
+      "options": [
+        "En la escalera de entrada de la casa",
+        "En la barra de un bar",
+        "En un sótano"
+      ],
+      "explain": "En la escalinata de entrada de un «brownstone», las casas de piedra rojiza de Brooklyn y Harlem. La palabra viene del holandés «stoep», de los primeros colonos. Es el salón de verano de la ciudad: se sienta el barrio y se ve pasar la vida."
+    },
+    {
+      "type": "final",
+      "id": "nyc-street-11"
+    }
+  ]
+}

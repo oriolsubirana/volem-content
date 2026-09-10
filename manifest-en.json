@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T07:20:07Z",
+  "updatedAt": "2026-09-10T07:31:49Z",
   "destinations": [
     {
       "id": "lis",
@@ -217,7 +217,39 @@
       "packSizeBytes": 17209,
       "cardCount": 32,
       "estimatedMinutes": 65,
-      "productID": null
+      "productID": null,
+      "packs": [
+        {
+          "id": "main",
+          "title": "Flight guide",
+          "version": 1,
+          "url": "https://oriolsubirana.github.io/volem-content/nyc-pack-en-v1.json",
+          "sizeBytes": 17209,
+          "cardCount": 32,
+          "estimatedMinutes": 65,
+          "productID": null
+        },
+        {
+          "id": "food",
+          "title": "Eating in New York",
+          "version": 1,
+          "url": "https://oriolsubirana.github.io/volem-content/nyc-food-pack-en-v1.json",
+          "sizeBytes": 7122,
+          "cardCount": 14,
+          "estimatedMinutes": 27,
+          "productID": null
+        },
+        {
+          "id": "street",
+          "title": "Street level",
+          "version": 1,
+          "url": "https://oriolsubirana.github.io/volem-content/nyc-street-pack-en-v1.json",
+          "sizeBytes": 6279,
+          "cardCount": 12,
+          "estimatedMinutes": 22,
+          "productID": null
+        }
+      ]
     }
   ]
 }
