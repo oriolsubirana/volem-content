@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "lon",
+  "destination": "London",
+  "country": "United Kingdom",
+  "language": "en",
+  "version": 1,
+  "estimated_minutes": 65,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "lon-000",
+      "kicker": "FLIGHT GUIDE",
+      "title": "London",
+      "sub": "30 cards · ~65 min · to land knowing where you are"
+    },
+    {
+      "type": "story",
+      "id": "lon-001",
+      "kicker": "THE ORIGIN",
+      "title": "The city that began at a bridge",
+      "body": "The Romans founded Londinium around AD 50 at the first point on the Thames where a bridge could be built and seagoing ships could still reach. That square mile is today the City, the financial district, and it still has its own police, its own mayor and its own laws. Everything else, Westminster included, grew up around it. London isn't a city that expanded: it's a city that got surrounded."
+    },
+    {
+      "type": "story",
+      "id": "lon-002",
+      "kicker": "BIG BEN",
+      "title": "The name you've given the tower",
+      "body": "Big Ben isn't the tower or the clock: it's the great bell inside, fourteen tonnes of bronze cast in 1858. The tower was the Clock Tower for a century and a half and has been the Elizabeth Tower since 2012. Nobody calls it that. The bell strikes the hour on an E you can hear for miles, and it has had a crack since 1859 that gives it the slightly off note everyone recognises."
+    },
+    {
+      "type": "quiz",
+      "id": "lon-003",
+      "kicker": "QUIZ",
+      "answer": 1,
+      "question": "So what exactly is Big Ben?",
+      "options": [
+        "The clock tower",
+        "The great bell inside",
+        "The four-faced clock"
+      ],
+      "explain": "The bell, fourteen tonnes of it. The tower has been the Elizabeth Tower since 2012, and the clock is the Great Clock. It doesn't matter: everyone, Londoners included, points at the tower and says Big Ben, and nobody will correct you."
+    },
+    {
+      "type": "myth",
+      "id": "lon-004",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«London is one of the rainiest cities in Europe»",
+      "body": "About 600 millimetres fall a year: less than in Rome, a lot less than in New York, and half what falls in Santiago de Compostela. What London has is grey sky and fine drizzle on many days, not real rain. Bring a waterproof jacket, not an umbrella: the wind wrecks it, and Londoners on foot hardly ever carry one."
+    },
+    {
+      "type": "story",
+      "id": "lon-005",
+      "kicker": "THE TUBE",
+      "title": "The oldest underground in the world",
+      "body": "On 10 January 1863 the world's first underground train left Paddington: steam-powered, carriages full of smoke and delighted passengers. Today it's eleven lines and 272 stations, and the deep tunnels are so narrow, built to fit the trains of 1900, that in summer the air doesn't fit. The «Mind the gap» you hear on the platforms was recorded in 1968 and hasn't changed since."
+    },
+    {
+      "type": "slider",
+      "id": "lon-006",
+      "kicker": "GUESS",
+      "question": "What year did that first stretch of Underground open?",
+      "min": 1800,
+      "max": 1950,
+      "answer": 1863,
+      "tolerance": 12,
+      "explain_correct": "In 1863, with steam trains and forty thousand passengers on day one. Paris took thirty-seven more years; New York, forty-one. When it opened, the light bulb hadn't been invented yet.",
+      "explain_wrong": "In 1863, with steam trains and forty thousand passengers on day one. Paris took thirty-seven more years; New York, forty-one. When it opened, the light bulb hadn't been invented yet."
+    },
+    {
+      "type": "tip",
+      "id": "lon-007",
+      "kicker": "ON THE TUBE",
+      "review": true,
+      "title": "Tap in and tap out",
+      "body": "Any contactless card or your phone works at the gate: nothing to buy. But on the Tube and trains you have to tap out too, or you're charged the maximum fare. On buses, only on boarding. There's a daily cap: past a certain spend, the rest of the day is free. And on escalators, stand on the right; the left is for walking, and here that's observed like religion."
+    },
+    {
+      "type": "story",
+      "id": "lon-008",
+      "kicker": "BLACK CABS",
+      "title": "The exam that changes your brain",
+      "body": "To drive a black cab you have to pass «The Knowledge»: memorise some 25,000 streets and thousands of landmarks within six miles, no map, no GPS. It takes three to four years on average, and many give up. A study in 2000 scanned cab drivers' brains and found the hippocampus, the seat of spatial memory, had grown. They're the only taxi drivers in the world with that part of the brain enlarged."
+    },
+    {
+      "type": "quiz",
+      "id": "lon-009",
+      "kicker": "QUIZ",
+      "answer": 2,
+      "question": "A cabbie tells you he passed «The Knowledge». What did he do?",
+      "options": [
+        "A defensive driving course",
+        "An English test for foreigners",
+        "Memorised 25,000 streets without GPS"
+      ],
+      "explain": "Memorised the whole city, street by street, and proved it in oral exams where he's asked the route between any two points. Three to four years on average. That's why a black cab never asks where you're going twice."
+    },
+    {
+      "type": "story",
+      "id": "lon-010",
+      "kicker": "THE TOWER",
+      "title": "The ravens that hold up the kingdom",
+      "body": "At the Tower of London live at least six ravens with names, a salary in raw meat and an official keeper, the Ravenmaster. Legend says that if they leave, the Tower will fall and the kingdom with it, so the feathers on one wing are trimmed to stop them flying far. It's a seventeenth-century superstition taken so seriously that during the Second World War, when only one was left, more were brought in as a matter of urgency."
+    },
+    {
+      "type": "myth",
+      "id": "lon-011",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«The famous bridge with the two towers is London Bridge»",
+      "body": "That's Tower Bridge. London Bridge is the next one upstream, and it's the dullest of the lot: a concrete slab from 1973. The previous one, from 1831, was sold in 1968 to an American businessman who took it apart stone by stone and rebuilt it in the Arizona desert, where it still stands. The story goes he thought he was buying Tower Bridge. He always denied it."
+    },
+    {
+      "type": "story",
+      "id": "lon-012",
+      "kicker": "THE THAMES",
+      "title": "The river they declared dead",
+      "body": "In 1957 the Natural History Museum declared the Thames biologically dead: not a fish between London and the sea. Today it has 125 species, seals that swim up to the centre and even the odd seahorse. It's still a tidal river: the water rises and falls seven metres twice a day, and a steel barrier built in 1982 closes when the sea threatens to come into the city. It does so several times a year."
+    },
+    {
+      "type": "slider",
+      "id": "lon-013",
+      "kicker": "GUESS",
+      "question": "How many stations does the London Underground have?",
+      "min": 100,
+      "max": 500,
+      "answer": 272,
+      "tolerance": 25,
+      "explain_correct": "272, and some so close together that walking is faster: Leicester Square to Covent Garden is 260 metres and plenty of people take the Tube. It's the shortest hop on the network and the most pointless.",
+      "explain_wrong": "272, and some so close together that walking is faster: Leicester Square to Covent Garden is 260 metres and plenty of people take the Tube. It's the shortest hop on the network and the most pointless."
+    },
+    {
+      "type": "story",
+      "id": "lon-014",
+      "kicker": "THE PUB",
+      "title": "The public house",
+      "body": "Pub is short for «public house»: a neighbourhood's living room, open to anyone. The names — The Red Lion, The King's Head — date from when hardly anyone could read and the painted sign was the address. About 3,500 remain in London, some on the same spot for centuries. You go after work, you stand, and at eleven a bell warns there are ten minutes left to order the last one."
+    },
+    {
+      "type": "tip",
+      "id": "lon-015",
+      "kicker": "IN THE PUB",
+      "review": true,
+      "title": "Order at the bar and pay as you go",
+      "body": "Don't sit down and wait: nobody's coming. Go to the bar, order, pay, and take your drink. There's no tipping; if you want to buy the bartender one, you say «and one for yourself» and they charge themselves a drink. In a group, rounds are the rule: each person buys one for everyone, and skipping yours gets noticed. Children are allowed until a certain hour; dogs, nearly always."
+    },
+    {
+      "type": "quiz",
+      "id": "lon-016",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "You order «a pint». How much beer is that?",
+      "options": [
+        "568 ml, more than half a litre",
+        "500 ml, like in Germany",
+        "330 ml, like a bottle"
+      ],
+      "explain": "An imperial pint is 568 millilitres, and by law the glass carries a crown mark. Half of that is «a half». And you don't ask for «a beer»: you name the brand or the type. «A pint of lager» or «a pint of bitter», that's all."
+    },
+    {
+      "type": "story",
+      "id": "lon-017",
+      "kicker": "GREENWICH",
+      "title": "The line the world is counted from",
+      "body": "In 1884 the world agreed that the prime meridian would run through the Royal Observatory at Greenwich, and ever since the planet's time has been measured from a hill in south-east London. There's a brass line on the ground for the photo with a foot in each hemisphere. One detail: your phone's GPS will say you're a hundred metres west of zero. The line was drawn with telescopes in 1851 and the satellites corrected it a century later."
+    },
+    {
+      "type": "myth",
+      "id": "lon-018",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«The palace guards can't move or speak, whatever happens»",
+      "body": "They're serving soldiers, not statues. They march every few minutes, and if someone gets in their way they shout «Make way for the King's Guard» and, if need be, shove them aside. There are plenty of videos. What they are forbidden to do is smile and chat, which is why they look like wax. The bearskin cap weighs half a kilo, stands forty-five centimetres tall, and in summer is torture."
+    },
+    {
+      "type": "story",
+      "id": "lon-019",
+      "kicker": "RED PHONE BOXES",
+      "title": "Designed by the man who built a cathedral",
+      "body": "The red phone box was drawn in 1924 by Giles Gilbert Scott, architect of Liverpool Cathedral and Battersea Power Station. The red was so it could be seen from afar. About 2,000 remain in London, protected as monuments, and almost none has a phone: inside there are defibrillators, book-swap libraries, coffee stands. The city keeps them because they are London, not because they're useful."
+    },
+    {
+      "type": "story",
+      "id": "lon-020",
+      "kicker": "THE BUS",
+      "title": "Red to stand out from the competition",
+      "body": "In 1907 the London General Omnibus Company painted its whole fleet red to set it apart from dozens of rival firms. It won, and the colour stayed. Today there are more than 8,000 buses and they're the best way to see the city: upstairs, front row. Any route through the centre is a free tour for the price of a ticket, and the number 11 passes Westminster, Trafalgar Square, the City and St Paul's."
+    },
+    {
+      "type": "slider",
+      "id": "lon-021",
+      "kicker": "GUESS",
+      "question": "How many million people live in Greater London?",
+      "min": 2,
+      "max": 20,
+      "answer": 9,
+      "tolerance": 1,
+      "explain_correct": "Nearly nine million, the most populous city in western Europe, and more than three hundred languages are spoken. More than a third of its residents were born outside the United Kingdom.",
+      "explain_wrong": "Nearly nine million: the most populous city in western Europe, and more than three hundred languages are spoken. More than a third of its residents were born outside the United Kingdom."
+    },
+    {
+      "type": "tip",
+      "id": "lon-022",
+      "kicker": "MONEY",
+      "review": true,
+      "title": "Pounds, cards and a tip that's already on the bill",
+      "body": "No euros here: it's the pound, and nearly everything is paid by card or phone; some places no longer take cash. In restaurants check the bill: many add a 12.5% «service charge», and if it's there, you leave nothing more. If it isn't, 10% is normal. In pubs and cafés you don't tip, and in a taxi you round up. None of this is discussed; you just do it."
+    },
+    {
+      "type": "story",
+      "id": "lon-023",
+      "kicker": "MUSEUMS",
+      "title": "The best museums in the world, for free",
+      "body": "The British Museum, the National Gallery, the Tate, the Natural History Museum, the Science Museum and the V&A charge no admission. Ever. It's been state policy since 2001, and before that the British Museum had already been opening free since 1759, when it became the world's first national public museum. You pay only for temporary exhibitions. You can pop in for half an hour to see one thing and come back tomorrow."
+    },
+    {
+      "type": "quiz",
+      "id": "lon-024",
+      "kicker": "QUIZ",
+      "answer": 2,
+      "question": "How much does it cost to get into the British Museum?",
+      "options": [
+        "About £25, like the Louvre",
+        "£10, the reduced rate",
+        "Nothing: it's been free since 1759"
+      ],
+      "explain": "Free, like all the city's great national museums. The Rosetta Stone, the Parthenon marbles and the mummies, no ticket desk. You need a free timed slot in high season, and at the door they ask for a donation you can ignore."
+    },
+    {
+      "type": "story",
+      "id": "lon-025",
+      "kicker": "1666",
+      "title": "The fire that started in a bakery",
+      "body": "On 2 September 1666 a baker's oven in Pudding Lane caught fire and in four days the whole medieval city burned: 13,000 houses, 87 churches and St Paul's Cathedral. Officially six people died. Christopher Wren raised the present St Paul's on the ashes, and by the bridge stands a column, the Monument, 61 metres tall: exactly the distance to the oven where it all began."
+    },
+    {
+      "type": "myth",
+      "id": "lon-026",
+      "kicker": "MYTH OR REALITY",
+      "verdict": "MITO",
+      "claim": "«The Great Fire wiped out the plague that was ravaging London»",
+      "body": "It's what they tell you at school, but the plague of 1665 was already fading before the fire, as it faded everywhere without any need for fires. And the areas where it had killed most, the poor suburbs, didn't burn. What the fire did do was force rebuilding in brick and stone instead of timber, and that did change the city for good."
+    },
+    {
+      "type": "story",
+      "id": "lon-027",
+      "kicker": "POSTCODES",
+      "title": "The map that runs alphabetically",
+      "body": "London's postcodes are a compass: N, E, SE, SW, W, NW, and in the middle EC and WC, east and west central. The 1 is always the heart of each area: W1 is Mayfair, SW1 Westminster. But from there the numbers don't follow the map, they follow the alphabet: in 1917 the sorting offices were numbered in alphabetical order, so W3 is Acton, W4 Chiswick and W5 Ealing. That's why a W12 can be closer to the centre than a W5."
+    },
+    {
+      "type": "story",
+      "id": "lon-028",
+      "kicker": "ABBEY ROAD",
+      "title": "The zebra crossing protected by law",
+      "body": "On 8 August 1969 four men crossed a pedestrian crossing outside a recording studio and a photographer up a stepladder took six shots in ten minutes. Since 2010 that zebra crossing has been a listed monument, the only one in the country. There's a webcam streaming it around the clock, and the local drivers wait with a patience that doesn't exist on any other street in London."
+    },
+    {
+      "type": "quiz",
+      "id": "lon-029",
+      "kicker": "QUIZ",
+      "answer": 1,
+      "question": "Full circle: why does the City have its own police and its own mayor?",
+      "options": [
+        "Because that's where the King lives",
+        "Because it's the original Roman city, with privileges since 1067",
+        "Because it's a territory independent of the United Kingdom"
+      ],
+      "explain": "It's the square mile from the first card. William the Conqueror confirmed its rights in 1067 and no king since has dared take them away. It's had a Lord Mayor since 1189, its own police, and 8,000 residents for half a million workers."
+    },
+    {
+      "type": "story",
+      "id": "lon-030",
+      "kicker": "LANDING",
+      "title": "Two cities and thirty-two villages",
+      "body": "London isn't a city. Legally it's two, the City and Westminster, plus thirty-two boroughs around them, each with its own council and its own centre. That's why Camden is nothing like Chelsea and Brixton nothing like Greenwich: they were villages with fields in between until the railway and the Tube stitched them together. You started in a Roman square mile; you're landing in a whole country dressed up as a city."
+    },
+    {
+      "type": "final",
+      "id": "lon-031"
+    }
+  ]
+}

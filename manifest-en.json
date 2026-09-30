@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T07:31:49Z",
+  "updatedAt": "2026-09-30T08:20:27Z",
   "destinations": [
     {
       "id": "lis",
@@ -250,6 +250,27 @@
           "productID": null
         }
       ]
+    },
+    {
+      "id": "lon",
+      "name": "London",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "iataCodes": [
+        "LHR",
+        "LGW",
+        "STN",
+        "LTN",
+        "LCY"
+      ],
+      "packVersion": 1,
+      "packURL": "https://oriolsubirana.github.io/volem-content/lon-pack-en-v1.json",
+      "packSizeBytes": 17505,
+      "cardCount": 32,
+      "estimatedMinutes": 65,
+      "productID": null
     }
   ]
 }

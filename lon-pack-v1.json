@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 2,
+  "destinationID": "lon",
+  "destination": "Londres",
+  "country": "Reino Unido",
+  "language": "es",
+  "version": 1,
+  "estimated_minutes": 65,
+  "cards": [
+    {
+      "type": "cover",
+      "id": "lon-000",
+      "kicker": "GUÍA DE VUELO",
+      "title": "Londres",
+      "sub": "30 cards · ~65 min · para aterrizar sabiendo dónde estás"
+    },
+    {
+      "type": "story",
+      "id": "lon-001",
+      "kicker": "EL ORIGEN",
+      "title": "La ciudad que empezó en un puente",
+      "body": "Los romanos fundaron Londinium hacia el año 50 en el primer punto del Támesis donde se podía tender un puente y donde aún llegaban los barcos de mar. Esa milla cuadrada es hoy la City, el distrito financiero, y sigue teniendo su propia policía, su propio alcalde y sus propias leyes. Todo lo demás, Westminster incluido, fue creciendo alrededor. Londres no es una ciudad que se expandió: es una ciudad que se rodeó."
+    },
+    {
+      "type": "story",
+      "id": "lon-002",
+      "kicker": "BIG BEN",
+      "title": "El nombre que le has puesto a la torre",
+      "body": "Big Ben no es la torre ni el reloj: es la campana grande de dentro, catorce toneladas de bronce fundidas en 1858. La torre se llamó Clock Tower durante siglo y medio y desde 2012 es la Elizabeth Tower. Nadie la llama así. La campana suena cada hora con un mi que se oye a kilómetros, y tiene una grieta desde 1859 que le da ese timbre ligeramente desafinado que todo el mundo reconoce."
+    },
+    {
+      "type": "quiz",
+      "id": "lon-003",
+      "kicker": "QUIZ",
+      "answer": 1,
+      "question": "Entonces, ¿qué es exactamente Big Ben?",
+      "options": [
+        "La torre del reloj",
+        "La campana grande de dentro",
+        "El reloj de cuatro caras"
+      ],
+      "explain": "La campana, de catorce toneladas. La torre es la Elizabeth Tower desde 2012, y el reloj es el Great Clock. Da igual: todo el mundo, londinenses incluidos, señala la torre y dice Big Ben, y nadie te va a corregir."
+    },
+    {
+      "type": "myth",
+      "id": "lon-004",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«Londres es una de las ciudades más lluviosas de Europa»",
+      "body": "Caen unos 600 milímetros al año: menos que en Roma, bastante menos que en Nueva York, y la mitad que en Santiago de Compostela. Lo que tiene Londres es cielo gris y llovizna fina muchos días, no lluvia de verdad. Trae chaqueta impermeable, no paraguas: el viento lo destroza y el londinense de a pie casi nunca lo lleva."
+    },
+    {
+      "type": "story",
+      "id": "lon-005",
+      "kicker": "THE TUBE",
+      "title": "El metro más viejo del mundo",
+      "body": "El 10 de enero de 1863 salió de Paddington el primer tren subterráneo del mundo: de vapor, con los vagones llenos de humo y gente encantada. Hoy son once líneas y 272 estaciones, y los túneles profundos son tan estrechos, hechos a la medida de los trenes de 1900, que en verano el aire no cabe. El «Mind the gap» que oyes en los andenes se grabó en 1968 y no ha cambiado desde entonces."
+    },
+    {
+      "type": "slider",
+      "id": "lon-006",
+      "kicker": "ADIVINA",
+      "question": "¿En qué año se abrió ese primer tramo de metro?",
+      "min": 1800,
+      "max": 1950,
+      "answer": 1863,
+      "tolerance": 12,
+      "explain_correct": "En 1863, con trenes de vapor y cuarenta mil pasajeros el primer día. París tardó treinta y siete años más; Nueva York, cuarenta y uno. Cuando se abrió, todavía no se había inventado la bombilla.",
+      "explain_wrong": "En 1863, con trenes de vapor y cuarenta mil pasajeros el primer día. París tardó treinta y siete años más; Nueva York, cuarenta y uno. Cuando se abrió, todavía no se había inventado la bombilla."
+    },
+    {
+      "type": "tip",
+      "id": "lon-007",
+      "kicker": "EN EL METRO",
+      "review": true,
+      "title": "Toca al entrar y toca al salir",
+      "body": "Cualquier tarjeta contactless o el móvil sirven en el torno: no hay que comprar nada. Pero en el metro y los trenes hay que tocar también al salir, o te cobran el trayecto máximo. En el autobús solo al subir. Hay un tope diario: a partir de cierto gasto, el resto del día es gratis. Y en las escaleras mecánicas, a la derecha; la izquierda es para andar, y aquí eso se respeta con religión."
+    },
+    {
+      "type": "story",
+      "id": "lon-008",
+      "kicker": "BLACK CABS",
+      "title": "El examen que cambia el cerebro",
+      "body": "Para conducir un taxi negro hay que aprobar «The Knowledge»: memorizar unas 25.000 calles y miles de puntos de interés en un radio de diez kilómetros, sin mapa ni GPS. Se tarda tres o cuatro años de media, y muchos abandonan. Un estudio de 2000 midió el cerebro de los taxistas y encontró que el hipocampo, la zona de la memoria espacial, les había crecido. Son los únicos taxistas del mundo con esa parte del cerebro más grande."
+    },
+    {
+      "type": "quiz",
+      "id": "lon-009",
+      "kicker": "QUIZ",
+      "answer": 2,
+      "question": "Un taxista te dice que aprobó «The Knowledge». ¿Qué hizo?",
+      "options": [
+        "Un curso de conducción defensiva",
+        "Un examen de inglés para extranjeros",
+        "Memorizar 25.000 calles sin GPS"
+      ],
+      "explain": "Memorizar la ciudad entera, calle a calle, y demostrarlo en exámenes orales donde le piden la ruta entre dos puntos cualesquiera. De media, entre tres y cuatro años. Por eso un taxi negro no pregunta a dónde vas dos veces."
+    },
+    {
+      "type": "story",
+      "id": "lon-010",
+      "kicker": "LA TORRE",
+      "title": "Los cuervos que sostienen el reino",
+      "body": "En la Torre de Londres viven al menos seis cuervos con nombre, un sueldo en carne cruda y un cuidador oficial, el Ravenmaster. La leyenda dice que si se van, la Torre caerá y con ella el reino, así que se les recortan las plumas de un ala para que no puedan volar lejos. Es una superstición del siglo XVII tomada tan en serio que durante la Segunda Guerra Mundial, cuando solo quedó uno, se trajeron más de urgencia."
+    },
+    {
+      "type": "myth",
+      "id": "lon-011",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«El puente famoso con las dos torres es London Bridge»",
+      "body": "Ese es Tower Bridge. London Bridge es el siguiente río arriba, y es el más soso de todos: una losa de hormigón de 1973. El anterior, de 1831, se vendió en 1968 a un empresario americano que lo desmontó piedra a piedra y lo volvió a montar en el desierto de Arizona, donde sigue. Cuentan que creía haber comprado Tower Bridge. Él siempre lo negó."
+    },
+    {
+      "type": "story",
+      "id": "lon-012",
+      "kicker": "EL TÁMESIS",
+      "title": "El río que declararon muerto",
+      "body": "En 1957 el Museo de Historia Natural declaró el Támesis biológicamente muerto: ni un pez entre Londres y el mar. Hoy tiene 125 especies, focas que suben hasta el centro y hasta algún caballito de mar. Sigue siendo un río de marea: el agua sube y baja siete metros dos veces al día, y una barrera de acero de 1982 se cierra cuando el mar amenaza con entrar en la ciudad. Lo hace varias veces al año."
+    },
+    {
+      "type": "slider",
+      "id": "lon-013",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántas estaciones tiene el metro de Londres?",
+      "min": 100,
+      "max": 500,
+      "answer": 272,
+      "tolerance": 25,
+      "explain_correct": "272, y algunas tan cerca entre sí que andar es más rápido: de Leicester Square a Covent Garden hay 260 metros y mucha gente coge el metro. Es el trayecto más corto de la red y el más inútil.",
+      "explain_wrong": "272, y algunas tan cerca entre sí que andar es más rápido: de Leicester Square a Covent Garden hay 260 metros y mucha gente coge el metro. Es el trayecto más corto de la red y el más inútil."
+    },
+    {
+      "type": "story",
+      "id": "lon-014",
+      "kicker": "EL PUB",
+      "title": "La casa pública",
+      "body": "Pub es «public house»: la sala de estar de un barrio, abierta a cualquiera. Los nombres —The Red Lion, The King's Head— vienen de cuando casi nadie sabía leer y el cartel pintado era la dirección. Quedan unos 3.500 en Londres, y algunos llevan siglos en el mismo sitio. Se va después del trabajo, se está de pie, y a las once una campana avisa de que quedan diez minutos para pedir la última."
+    },
+    {
+      "type": "tip",
+      "id": "lon-015",
+      "kicker": "EN EL PUB",
+      "review": true,
+      "title": "Se pide en la barra y se paga al momento",
+      "body": "No te sientes a esperar: nadie va a venir. Vas a la barra, pides, pagas, y te llevas tu copa. No hay propina; si quieres invitar al camarero, se dice «and one for yourself» y él se cobra una. Si vas en grupo, funcionan las rondas: cada uno paga una para todos, y saltarse la tuya se nota. Los niños entran hasta cierta hora; los perros, casi siempre."
+    },
+    {
+      "type": "quiz",
+      "id": "lon-016",
+      "kicker": "QUIZ",
+      "answer": 0,
+      "question": "Pides «a pint». ¿Cuánta cerveza es?",
+      "options": [
+        "568 ml, más que medio litro",
+        "500 ml, como en Alemania",
+        "330 ml, como un botellín"
+      ],
+      "explain": "La pinta imperial son 568 mililitros, y por ley el vaso lleva una marca con la corona. La mitad es «a half». Y no se dice «una cerveza»: se dice la marca o el tipo. «A pint of lager» o «a pint of bitter», sin más."
+    },
+    {
+      "type": "story",
+      "id": "lon-017",
+      "kicker": "GREENWICH",
+      "title": "La línea desde la que se cuenta el mundo",
+      "body": "En 1884 el mundo acordó que el meridiano cero pasara por el Observatorio de Greenwich, y desde entonces la hora del planeta se mide desde una colina del sureste de Londres. Hay una línea de latón en el suelo para hacerse la foto con un pie en cada hemisferio. Un detalle: el GPS del móvil dirá que estás cien metros al oeste del cero. La línea se trazó con telescopios en 1851 y los satélites la corrigieron un siglo después."
+    },
+    {
+      "type": "myth",
+      "id": "lon-018",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«Los guardias del palacio no pueden moverse ni hablar pase lo que pase»",
+      "body": "Son soldados en servicio, no estatuas. Marchan cada pocos minutos, y si alguien se les pone delante gritan «Make way for the King's Guard» y, si hace falta, lo apartan. Hay vídeos de sobra. Lo que sí tienen prohibido es sonreír y charlar, y por eso parecen de cera. El gorro de piel de oso mide medio kilo y cuarenta y cinco centímetros, y en verano es un suplicio."
+    },
+    {
+      "type": "story",
+      "id": "lon-019",
+      "kicker": "CABINAS ROJAS",
+      "title": "Diseñadas por el mismo que hizo una catedral",
+      "body": "La cabina roja la dibujó en 1924 Giles Gilbert Scott, el arquitecto de la catedral de Liverpool y de la central eléctrica de Battersea. El rojo era para que se viera de lejos. Quedan unas 2.000 en Londres, protegidas como monumentos, y casi ninguna tiene teléfono: dentro hay desfibriladores, bibliotecas de intercambio, puestos de café. La ciudad las mantiene porque son Londres, no porque sirvan."
+    },
+    {
+      "type": "story",
+      "id": "lon-020",
+      "kicker": "EL AUTOBÚS",
+      "title": "Rojos para que se vieran entre la competencia",
+      "body": "En 1907 la London General Omnibus Company pintó toda su flota de rojo para distinguirse de las decenas de compañías rivales. Ganó, y el color se quedó. Hoy son más de 8.000 autobuses y la mejor manera de ver la ciudad: el piso de arriba, primera fila. Cualquier ruta que cruce el centro es un tour gratis con el precio de un billete, y el número 11 pasa por Westminster, Trafalgar, la City y San Pablo."
+    },
+    {
+      "type": "slider",
+      "id": "lon-021",
+      "kicker": "ADIVINA",
+      "question": "¿Cuántos millones de personas viven en el Gran Londres?",
+      "min": 2,
+      "max": 20,
+      "answer": 9,
+      "tolerance": 1,
+      "explain_correct": "Casi nueve millones, la ciudad más poblada de Europa occidental, y se hablan más de trescientas lenguas. Más de un tercio de sus habitantes nació fuera del Reino Unido.",
+      "explain_wrong": "Casi nueve millones: la ciudad más poblada de Europa occidental, y se hablan más de trescientas lenguas. Más de un tercio de sus habitantes nació fuera del Reino Unido."
+    },
+    {
+      "type": "tip",
+      "id": "lon-022",
+      "kicker": "EL DINERO",
+      "review": true,
+      "title": "Libras, tarjeta y una propina que ya viene puesta",
+      "body": "Aquí no hay euros: es la libra, y casi todo se paga con tarjeta o móvil; hay sitios que ya no aceptan efectivo. En restaurantes mira la cuenta: muchos añaden un «service charge» del 12,5 %, y si está, no se deja nada más. Si no está, un 10 % es lo normal. En pubs y cafés no se deja propina, y en el taxi se redondea. Nada de esto se discute; se hace y ya."
+    },
+    {
+      "type": "story",
+      "id": "lon-023",
+      "kicker": "MUSEOS",
+      "title": "Los mejores museos del mundo, gratis",
+      "body": "El British Museum, la National Gallery, la Tate, el Museo de Historia Natural, el de Ciencias y el Victoria and Albert no cobran entrada. Nunca. Es una decisión del Estado desde 2001, y antes de eso el British Museum ya llevaba abriendo gratis desde 1759, cuando fue el primer museo público nacional del mundo. Se paga solo por las exposiciones temporales. Puedes entrar media hora a ver una sola cosa y volver mañana."
+    },
+    {
+      "type": "quiz",
+      "id": "lon-024",
+      "kicker": "QUIZ",
+      "answer": 2,
+      "question": "¿Cuánto cuesta entrar en el British Museum?",
+      "options": [
+        "Unas 25 libras, como el Louvre",
+        "10 libras, la tarifa reducida",
+        "Nada: es gratis desde 1759"
+      ],
+      "explain": "Gratis, como todos los grandes museos nacionales de la ciudad. La piedra de Rosetta, los mármoles del Partenón y las momias, sin taquilla. En temporada alta se reserva hora, gratis, y a la entrada piden una donación que puedes ignorar."
+    },
+    {
+      "type": "story",
+      "id": "lon-025",
+      "kicker": "1666",
+      "title": "El incendio que empezó en una panadería",
+      "body": "El 2 de septiembre de 1666 se prendió el horno de un panadero de Pudding Lane y en cuatro días ardió la ciudad medieval entera: 13.000 casas, 87 iglesias y la catedral de San Pablo. Oficialmente murieron seis personas. Christopher Wren levantó la San Pablo actual sobre las cenizas, y junto al puente hay una columna, el Monument, de 61 metros: exactamente la distancia hasta el horno donde empezó todo."
+    },
+    {
+      "type": "myth",
+      "id": "lon-026",
+      "kicker": "MITO O REALIDAD",
+      "verdict": "MITO",
+      "claim": "«El Gran Incendio acabó con la peste que asolaba Londres»",
+      "body": "Es lo que se cuenta en el colegio, pero la peste de 1665 ya estaba remitiendo antes del fuego, como remitía en todas partes sin necesidad de incendios. Y las zonas donde más había matado, los barrios pobres de las afueras, no ardieron. Lo que sí hizo el fuego fue obligar a reconstruir en ladrillo y piedra en vez de madera, y eso sí cambió la ciudad para siempre."
+    },
+    {
+      "type": "story",
+      "id": "lon-027",
+      "kicker": "CÓDIGOS POSTALES",
+      "title": "El mapa que va por orden alfabético",
+      "body": "Los códigos de Londres son una brújula: N, E, SE, SW, W, NW, y en el centro EC y WC, este y oeste central. El 1 es siempre el corazón de cada zona: W1 es Mayfair, SW1 Westminster. Pero a partir de ahí los números no siguen el mapa, siguen el alfabeto: en 1917 se numeraron las oficinas de correos por orden alfabético, así que W3 es Acton, W4 Chiswick y W5 Ealing. Por eso un W12 puede estar más cerca del centro que un W5."
+    },
+    {
+      "type": "story",
+      "id": "lon-028",
+      "kicker": "ABBEY ROAD",
+      "title": "El paso de cebra protegido por ley",
+      "body": "El 8 de agosto de 1969 cuatro tipos cruzaron un paso de peatones delante de un estudio de grabación y un fotógrafo subido a una escalera hizo seis fotos en diez minutos. Desde 2010 ese paso de cebra es monumento protegido, el único del país. Hay una cámara web que lo emite las veinticuatro horas, y los conductores del barrio esperan con una paciencia que en cualquier otra calle de Londres no existe."
+    },
+    {
+      "type": "quiz",
+      "id": "lon-029",
+      "kicker": "QUIZ",
+      "answer": 1,
+      "question": "Cierre circular: ¿por qué la City tiene su propia policía y su propio alcalde?",
+      "options": [
+        "Porque es donde vive el rey",
+        "Porque es la ciudad romana original, con privilegios desde 1067",
+        "Porque es un territorio independiente del Reino Unido"
+      ],
+      "explain": "Es la milla cuadrada de la primera card. Guillermo el Conquistador le confirmó sus fueros en 1067 y ningún rey se atrevió a quitárselos. Tiene Lord Mayor desde 1189, policía propia y 8.000 vecinos para medio millón de trabajadores."
+    },
+    {
+      "type": "story",
+      "id": "lon-030",
+      "kicker": "ATERRIZANDO",
+      "title": "Dos ciudades y treinta y dos pueblos",
+      "body": "Londres no es una ciudad. Legalmente son dos, la City y Westminster, y treinta y dos municipios alrededor, cada uno con su ayuntamiento y su centro. Por eso Camden no se parece a Chelsea ni Brixton a Greenwich: eran pueblos con campo en medio hasta que el tren y el metro los cosieron. Empezaste en una milla cuadrada romana; aterrizas en un país entero disfrazado de ciudad."
+    },
+    {
+      "type": "final",
+      "id": "lon-031"
+    }
+  ]
+}
